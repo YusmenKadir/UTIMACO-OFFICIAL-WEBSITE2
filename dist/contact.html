@@ -285,16 +285,47 @@
 
       <!-- Utimaco Offices and Maps container -->
       <div class="offices">
-        <div class="map" id="map"></div>
-        <div class="offices-locations">
+        <div class="offices-heading">
           <h1 class="heading-primary">Our Offices</h1>
           <div class="bottom-line"></div>
-          <div class="offices-locations-box">
-           
+        </div>
+        <div class="offices-flex">
+           <div class="box-location">
+            <h1 class="heading-primary-smaller"><i class="fas fa-map-marker-alt"></i></h1>
+             <h1 class="heading-primary-smaller">EMEA</h1>
+             <p class="body-text-font">Utimaco IS GmbH</p>
+             <p class="body-text-font">Germanusstraße 4</p>
+             <p class="body-text-font">52080 Aachen</p>
+             <p class="body-text-font">Germany</p>
+             <a href="tel:00492411696200" class="body-text-font">Phone: + 00492411696200</a>
+           </div>
+
+           <div class="box-location">
+            <h1 class="heading-primary-smaller"><i class="fas fa-map-marker-alt"></i></h1>
+            <h1 class="heading-primary-smaller">AMERICAS</h1>
+            <p class="body-text-font">Utimaco Inc.</p>
+            <p class="body-text-font">900 E Hamilton Ave., Suite 400</p>
+            <p class="body-text-font">Campbell, CA 95008</p>
+            <p class="body-text-font">USA</p>
+            <a href="tel:0018448846226" class="body-text-font">Phone: + 0018448846226</a>
           </div>
+
+          <div class="box-location">
+            <h1 class="heading-primary-smaller"><i class="fas fa-map-marker-alt"></i></h1>
+            <h1 class="heading-primary-smaller">APAC</h1>
+            <p class="body-text-font">Utimaco IS Pte Limited</p>
+            <p class="body-text-font">80 Raffles Place,</p>
+            <p class="body-text-font">#32-01, UOB Plaza</p>
+            <p class="body-text-font">Singapore 048624</p>
+            <a href="tel:006566225347" class="body-text-font">Phone: + 006566225347</a>
+          </div>
+          
         </div>
 
       </div>
+
+      <!-- Map Section -->
+      <div class="map" id="map"></div>
       
       <!-- Newsletter section  -->
       <div
@@ -414,6 +445,10 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="swiper.js"></script>
     <script src="app.js"></script>
+    <script async defer
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBKc7oiddFq9UJa6JmvKIrcQt2st-zFY5A
+      &callback=initMap">
+    </script>
   </body>
 </html>
 

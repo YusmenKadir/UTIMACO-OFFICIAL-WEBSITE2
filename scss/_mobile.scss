@@ -1,0 +1,200 @@
+@import "utilities";
+@import "config";
+
+//SMALL DEVICES
+@media only screen and(max-width:450px) {
+  main {
+    &.home {
+      .swiper-container {
+        justify-content: center;
+        align-items: center;
+        .swiper-button-next,
+        .swiper-button-prev {
+          display: none;
+        }
+        .swiper-slide {
+          .modal {
+            width: 90%;
+            margin: 0 auto;
+            height: auto;
+            justify-content: center;
+            padding: 0;
+            text-align: center;
+            h1 {
+              font-size: 24px;
+              text-align: center;
+            }
+            .home-contact-btn {
+              margin: 5px 0;
+              font-size: 18px;
+              width: auto;
+            }
+          }
+        }
+      }
+      //NEWS SECTION
+      .news {
+        height: auto;
+        h1 {
+          font-size: 24px;
+        }
+        .bottom-line {
+          width: 4rem;
+        }
+        .news-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      //CUSTOMER STORIES SECTION
+      .customer-stories {
+        height: auto;
+        h1 {
+          font-size: 24px;
+        }
+        .bottom-line {
+          width: 4rem;
+        }
+
+        .customer-stories-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      //BLOGS SECTION
+      .blogs {
+        height: auto;
+        margin: 20px 0;
+        h1 {
+          font-size: 24px;
+        }
+        .bottom-line {
+          width: 4rem;
+        }
+
+        .btn-all-blogs {
+        }
+
+        &-grid {
+          grid-template-columns: 1fr;
+          .box {
+            margin-bottom: 20px;
+          }
+        }
+      }
+
+      //NEWSLETTER SECTION
+      .newsletter {
+        h1 {
+          font-size: 24px;
+        }
+
+        .btn-home-subscribe {
+          width: 40%;
+        }
+        .bottom-line {
+          width: 4rem;
+        }
+
+        &:after {
+          position: absolute;
+          content: "";
+          width: 100%;
+          height: 100%;
+          background: rgba($black-color, 0.4);
+        }
+      }
+
+      //PARTNERS SECTION
+      .partners {
+        h1 {
+          font-size: 24px;
+        }
+
+        .find-partner {
+          width: 40%;
+        }
+        .bottom-line {
+          width: 4rem;
+        }
+        .swiper-container {
+          .swiper-slide {
+            justify-content: space-between;
+            img {
+              width: 100px;
+            }
+          }
+        }
+      }
+    }
+    //CONTACT PAGE
+    &.contact {
+      .container-contact {
+        h1 {
+          font-size: 24px;
+        }
+      }
+      .form-container {
+        h1 {
+          font-size: 24px;
+        }
+        .bottom-line {
+          width: 4rem;
+        }
+
+        &-form {
+          form {
+            .text-fields {
+              grid-template-areas: "firstName" "lastName" "company" "email" "message";
+            }
+          }
+        }
+      }
+
+      .utimaco-portal {
+        &-contact {
+          width: 90%;
+          h1 {
+            font-size: 24px;
+          }
+        }
+      }
+
+      .offices {
+        height: auto;
+        h1 {
+          font-size: 24px;
+        }
+
+        .bottom-line {
+          width: 4rem;
+        }
+        &-flex{
+          .box-location{
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  //MAIN FOOTER
+  .main-footer {
+    height: auto;
+    &-container {
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-privacy-links {
+        .privacy-boxes {
+          width: 100%;
+          flex-wrap: wrap;
+          .box {
+            border: 0;
+          }
+        }
+      }
+    }
+  }
+}

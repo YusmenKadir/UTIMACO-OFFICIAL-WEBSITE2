@@ -62,6 +62,10 @@ main {
             cursor: pointer;
             text-decoration: none;
             text-align: center;
+            transition: background-color 0.3s ease-in;
+            &:hover {
+              background-color: $golden-color;
+            }
           }
         }
 
@@ -187,6 +191,10 @@ main {
         background-color: $orange-color;
         border-radius: 10px;
         cursor: pointer;
+        transition: background-color 0.3s ease-in;
+        &:hover {
+          background-color: $golden-color;
+        }
       }
 
       &-grid {
@@ -249,6 +257,10 @@ main {
         background-color: $orange-color;
         border-radius: 10px;
         cursor: pointer;
+        transition: background-color 0.3s ease-in;
+        &:hover {
+          background-color: $golden-color;
+        }
       }
 
       &-grid {
@@ -309,6 +321,7 @@ main {
       justify-content: center;
       text-align: center;
       flex-direction: column;
+      position: relative;
       //   background-color: rgba(0, 0, 0, 0.8);
 
       h1 {
@@ -489,7 +502,7 @@ main {
             transition: background-color 0.3s ease-in;
             margin: 10px 0;
 
-            :hover {
+            &:hover {
               background-color: $golden-color;
             }
           }
@@ -543,42 +556,80 @@ main {
     }
 
     .offices {
-      display: flex;
       width: 100%;
-      height: 80vh;
+      height: 60vh;
+
+      &-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+        .box-location {
+          margin-top: 15px;
+          border: 1px solid rgba($black-color, 0.2);
+          width: 300px;
+          padding: 5px;
+
+          .fas {
+            color: $orange-color;
+          }
+
+          p {
+            font-size: 18px;
+            margin: 5px 0px;
+          }
+          a {
+            text-decoration: none;
+            color: $black-color;
+          }
+        }
+      }
+    }
+
+    //GOOGLE MAP SECTION
+
+    .map {
+      width: 100%;
+      height: 60vh;
     }
   }
-  
 
   // Kebridge-poy page
-  &.kebridge-poy{
-    .container-poy{
+  &.kebridge-poy {
+    .container-poy {
       height: 60vh;
       border: 1px solid black;
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: center center; 
+      background-position: center center;
     }
   }
-
-
-  
 }
 
 //CONTACT A SPECIALIST BUTTON
-
-.contact-specialist-btn {
-  text-decoration: none;
-  padding: 10px;
-  color: $white-color;
-  background: $orange-color;
-  font-size: 18px;
-  border-radius: 10px;
-  position: fixed;
-  // bottom: 330px;
-  // right: 50px;
-  bottom: 50px;
-  right: 50px;
+.contact-specialist {
+  .contact-specialist-btn {
+    text-decoration: none;
+    // padding: 10px;
+    color: $white-color;
+    background: $orange-color;
+    font-size: 18px;
+    border-radius: 30%;
+    position: fixed;
+    // bottom: 330px;
+    // right: 50px;
+    bottom: 50px;
+    right: 50px;
+    width: 5%;
+    height: 5%;
+    transition: background-color 0.3s ease-in;
+    display: none;
+    &:hover {
+      background-color: $golden-color;
+    }
+  }
 }
 
 //MAIN FOOTER
@@ -588,6 +639,7 @@ main {
   height: 55vh;
   color: $black-color;
   background: $footer-color;
+  font-size: 14px;
   // border: 1px solid black;
 
   &-container {
@@ -605,21 +657,24 @@ main {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       justify-items: center;
-
       margin-top: 20px;
 
       .footer-box {
         display: flex;
         flex-direction: column;
         align-items: center;
-
         line-height: 1.5;
+        font-size: 14px;
         a {
           color: $footer-text-color;
           text-decoration: none;
           font-size: 18px;
           font-weight: 300;
           text-transform: uppercase;
+
+          .span-img {
+            margin-right: 5px;
+          }
         }
       }
     }
@@ -630,6 +685,7 @@ main {
       flex-direction: column;
       justify-content: center;
       width: 100%;
+      font-size: 14px;
 
       .privacy-boxes {
         display: flex;
@@ -668,10 +724,14 @@ main {
         margin-top: 20px;
         p {
           color: $footer-text-color;
-          font-size: 16px;
+          font-size: 14px;
           font-weight: 300;
         }
       }
     }
   }
 }
+
+//MEDIA QUERIES
+
+@import "mobile";

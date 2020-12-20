@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .nav-wrapper {
   position: sticky;
   top: 0;
@@ -882,6 +883,233 @@ main {
       width: 100%;
       height: 100%;
       font-size: 22px; }
+  main.management .container-management {
+    width: 100%;
+    height: 50vh;
+    color: #ffffff;
+    background-image: url("../img/UTIMACO MANAGEMENT/showcase.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative; }
+    main.management .container-management-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 13, 13, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #ffffff;
+      z-index: 20; }
+      main.management .container-management-overlay h3 {
+        margin: 10px 0; }
+  main.management .container-ceos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    background-color: #eeeeee; }
+    main.management .container-ceos-stefan {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      width: 100%;
+      height: auto; }
+      main.management .container-ceos-stefan-img img {
+        width: 400px;
+        transition: transform 0.3s ease-in; }
+        main.management .container-ceos-stefan-img img:hover {
+          transform: scale(1.1);
+          cursor: pointer; }
+      main.management .container-ceos-stefan-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: left;
+        width: 60%; }
+        main.management .container-ceos-stefan-info h1 {
+          margin-bottom: 10px; }
+        main.management .container-ceos-stefan-info p {
+          text-align: left; }
+  main.management .container-ceos2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    background-color: #ffffff; }
+    main.management .container-ceos2-malte {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      width: 100%;
+      height: auto; }
+      main.management .container-ceos2-malte-img img {
+        width: 400px;
+        transition: transform 0.3s ease-in; }
+        main.management .container-ceos2-malte-img img:hover {
+          transform: scale(1.1);
+          cursor: pointer; }
+      main.management .container-ceos2-malte-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: left;
+        width: 60%; }
+        main.management .container-ceos2-malte-info h1 {
+          margin-bottom: 10px; }
+        main.management .container-ceos2-malte-info p {
+          text-align: left; }
+  main.management .container-ceos3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    background-color: #eeeeee; }
+    main.management .container-ceos3-martin {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      width: 100%;
+      height: auto; }
+      main.management .container-ceos3-martin-img img {
+        width: 400px;
+        transition: transform 0.3s ease-in; }
+        main.management .container-ceos3-martin-img img:hover {
+          transform: scale(1.1);
+          cursor: pointer; }
+      main.management .container-ceos3-martin-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: left;
+        width: 60%; }
+        main.management .container-ceos3-martin-info h1 {
+          margin-bottom: 10px; }
+        main.management .container-ceos3-martin-info p {
+          text-align: left; }
+  main.management .container-ceos4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    background-color: #ffffff; }
+    main.management .container-ceos4-ansgar {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      width: 100%;
+      height: auto; }
+      main.management .container-ceos4-ansgar-img img {
+        width: 400px;
+        transition: transform 0.3s ease-in; }
+        main.management .container-ceos4-ansgar-img img:hover {
+          transform: scale(1.1);
+          cursor: pointer; }
+      main.management .container-ceos4-ansgar-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: left;
+        width: 60%; }
+        main.management .container-ceos4-ansgar-info h1 {
+          margin-bottom: 10px; }
+        main.management .container-ceos4-ansgar-info p {
+          text-align: left; }
+  main.management .container-ceos5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    background-color: #eeeeee; }
+    main.management .container-ceos5-stefan2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      width: 100%;
+      height: auto; }
+      main.management .container-ceos5-stefan2-img img {
+        width: 400px;
+        transition: transform 0.3s ease-in; }
+        main.management .container-ceos5-stefan2-img img:hover {
+          transform: scale(1.1);
+          cursor: pointer; }
+      main.management .container-ceos5-stefan2-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: left;
+        width: 60%; }
+        main.management .container-ceos5-stefan2-info h1 {
+          margin-bottom: 10px; }
+        main.management .container-ceos5-stefan2-info p {
+          text-align: left; }
+  main.business-ethics .container-ethics {
+    width: 100%;
+    height: 50vh;
+    color: #ffffff;
+    background-image: url("../img/BUSINESS ETICS/showcase.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative; }
+    main.business-ethics .container-ethics-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 13, 13, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #ffffff;
+      z-index: 20; }
+  main.business-ethics .ethics-principles {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    margin: 50px auto; }
+    main.business-ethics .ethics-principles-info h1 {
+      margin-bottom: 10px; }
+    main.business-ethics .ethics-principles-info p {
+      width: 100%; }
+  main.business-ethics .ethics-downloads {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    justify-items: center;
+    margin: 20px 0; }
+    main.business-ethics .ethics-downloads-box {
+      text-align: center;
+      width: 100%;
+      height: 150px;
+      padding: 2px; }
+      main.business-ethics .ethics-downloads-box h4 {
+        font-size: 18px; }
+        main.business-ethics .ethics-downloads-box h4:before {
+          content: "•";
+          color: #eb5b3f;
+          position: relative;
+          margin-left: -1em;
+          display: inline-block;
+          width: 1em; }
+      main.business-ethics .ethics-downloads-box a {
+        color: #000000; }
   main.kebridge-poy .container-poy {
     height: 60vh;
     border: 1px solid black;

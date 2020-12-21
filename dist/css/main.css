@@ -1110,6 +1110,121 @@ main {
           width: 1em; }
       main.business-ethics .ethics-downloads-box a {
         color: #000000; }
+  main.investors .container-investors {
+    width: 100%;
+    height: 50vh;
+    color: #ffffff;
+    background-image: url("../img/BUSINESS ETICS/showcase.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative; }
+    main.investors .container-investors-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 13, 13, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #ffffff;
+      z-index: 20; }
+    main.investors .container-investors-groups {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 60vh;
+      background-color: #ffffff; }
+      main.investors .container-investors-groups-pinova {
+        background-color: #eeeeee; }
+      main.investors .container-investors-groups-eqt, main.investors .container-investors-groups-bip, main.investors .container-investors-groups-pinova {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        width: 100%;
+        height: auto;
+        padding: 20px 0; }
+        main.investors .container-investors-groups-eqt-img img, main.investors .container-investors-groups-bip-img img, main.investors .container-investors-groups-pinova-img img {
+          width: 400px;
+          transition: transform 0.3s ease-in; }
+          main.investors .container-investors-groups-eqt-img img:hover, main.investors .container-investors-groups-bip-img img:hover, main.investors .container-investors-groups-pinova-img img:hover {
+            transform: scale(1.1);
+            cursor: pointer; }
+        main.investors .container-investors-groups-eqt-info, main.investors .container-investors-groups-bip-info, main.investors .container-investors-groups-pinova-info {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          text-align: left;
+          width: 60%; }
+          main.investors .container-investors-groups-eqt-info a, main.investors .container-investors-groups-bip-info a, main.investors .container-investors-groups-pinova-info a {
+            text-decoration: none; }
+          main.investors .container-investors-groups-eqt-info h1, main.investors .container-investors-groups-bip-info h1, main.investors .container-investors-groups-pinova-info h1 {
+            margin-bottom: 10px; }
+          main.investors .container-investors-groups-eqt-info p, main.investors .container-investors-groups-bip-info p, main.investors .container-investors-groups-pinova-info p {
+            text-align: left; }
+  main.memberships .container-memberships {
+    width: 100%;
+    height: 50vh;
+    color: #ffffff;
+    background-image: url("../img/memberships-showcase.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative; }
+    main.memberships .container-memberships-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 13, 13, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #ffffff;
+      z-index: 20; }
+    main.memberships .container-memberships-items {
+      text-align: center;
+      margin: 50px 0; }
+  main.engagement .container-engagement {
+    width: 100%;
+    height: 50vh;
+    color: #ffffff;
+    background-image: url("../img/engagement-showcase.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative; }
+    main.engagement .container-engagement-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 13, 13, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #ffffff;
+      z-index: 20; }
+  main.engagement .engagement-research {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 75%;
+    margin: 50px auto; }
+    main.engagement .engagement-research-img img {
+      width: 400px; }
+    main.engagement .engagement-research-info {
+      margin-left: 100px; }
+      main.engagement .engagement-research-info h1 {
+        margin-bottom: 10px; }
+      main.engagement .engagement-research-info p {
+        width: 100%;
+        margin: 10px 0; }
   main.kebridge-poy .container-poy {
     height: 60vh;
     border: 1px solid black;

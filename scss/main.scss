@@ -1101,10 +1101,14 @@ main {
             content: "•";
             color: #eb5b3f;
             position: relative;
-            margin-left: -1em;
+            // margin-left: -1em;
             display: inline-block;
             width: 1em;
           }
+        }
+
+        .fas {
+          // color: $orange-color;
         }
         a {
           color: $black-color;
@@ -1277,6 +1281,173 @@ main {
         p {
           width: 100%;
           margin: 10px 0;
+        }
+      }
+    }
+  }
+
+  //Legal page
+
+  &.legal {
+    .container-legal {
+      width: 100%;
+      height: 50vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      background-image: url("../img/csm_utimaco-firmengebaeude-b_6d8cca89c4.jpg");
+
+      &-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(lighten($color: $black-color, $amount: 5), 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $white-color;
+      }
+    }
+
+    .container-legal-grid {
+      width: 100%;
+      height: auto;
+      display: grid;
+      // grid-template-columns: auto auto auto auto;
+      grid-template-columns: 1fr 2fr 1fr;
+      justify-items: center;
+      grid-gap: 16px;
+      // background: $cool-grey-color;
+      margin: 50px 0;
+      padding: 16px;
+
+      &-box {
+        border: 1px solid rgba($black-color, 0.2);
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: rgba(lighten($cool-grey-color, 5), 0.9);
+        h1 {
+          text-align: center;
+          margin-top: 5px;
+        }
+
+        p {
+          margin: 5px 0;
+          line-height: 1.2;
+        }
+      }
+    }
+  }
+  //Cookie policy page
+  &.cookies {
+  }
+
+  //Terms & Conditions page
+
+  &.terms {
+    .container-terms {
+      width: 100%;
+      height: 50vh;
+      color: $white-color;
+      background-image: url("../img/csm_utimaco-firmengebaeude-b_6d8cca89c4.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      position: relative;
+
+      &-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(lighten($color: $black-color, $amount: 5), 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: $white-color;
+        z-index: 20;
+      }
+    }
+
+    .terms-heading {
+      width: 75%;
+      margin: 50px auto;
+      // line-height: 1.4;
+      h1 {
+        text-align: center;
+        margin: 5px 0;
+      }
+
+      &-2 {
+        width: 75%;
+        margin: 50px auto;
+        // line-height: 1.4;
+        h1 {
+          text-align: center;
+          margin: 5px 0;
+        }
+
+        &-box {
+          text-align: center;
+          // border: 1px solid rgba($black-color, 0.2);
+          width: 100%;
+          height: 150px;
+          padding: 2px;
+          a {
+            color: $black-color;
+          }
+          h4 {
+            font-size: 18px;
+            &:before {
+              content: "•";
+              color: #eb5b3f;
+              position: relative;
+              // margin-left: -1em;
+              display: inline-block;
+              width: 1em;
+            }
+          }
+        }
+      }
+    }
+
+    .terms-downloads {
+      width: 100%;
+      height: auto;
+      display: grid;
+      grid-template-columns: repeat(3, 2fr);
+      justify-items: center;
+      margin: 20px 0;
+
+      &-box {
+        text-align: center;
+        // border: 1px solid rgba($black-color, 0.2);
+        width: 100%;
+        height: 150px;
+        padding: 2px;
+        h4 {
+          font-size: 18px;
+          &:before {
+            content: "•";
+            color: #eb5b3f;
+            position: relative;
+            // margin-left: -1em;
+            display: inline-block;
+            width: 1em;
+          }
+        }
+
+        .fas {
+          // color: $orange-color;
+        }
+        a {
+          color: $black-color;
         }
       }
     }

@@ -1339,6 +1339,46 @@ main {
           width: 1em; }
       main.terms .terms-downloads-box a {
         color: #000000; }
+  main.privacy .container-privacy {
+    width: 100%;
+    height: 50vh;
+    color: #ffffff;
+    background-image: url("../img/0 privacy.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative; }
+    main.privacy .container-privacy-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 13, 13, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #ffffff;
+      z-index: 20; }
+  main.privacy .privacy-heading {
+    width: 75%;
+    margin: 50px auto; }
+    main.privacy .privacy-heading h1 {
+      text-align: center;
+      margin: 5px 0; }
+  main.privacy .privacy-notes {
+    width: 75%;
+    height: auto;
+    margin: 50px auto; }
+    main.privacy .privacy-notes-box {
+      width: 75%;
+      height: auto; }
+      main.privacy .privacy-notes-box h4 {
+        margin: 5px 0; }
+      main.privacy .privacy-notes-box p {
+        margin: 10px 0; }
+      main.privacy .privacy-notes-box a {
+        text-decoration: none;
+        color: #000000; }
   main.kebridge-poy .container-poy {
     height: 60vh;
     border: 1px solid black;

@@ -1270,6 +1270,32 @@ main {
       main.legal .container-legal-grid-box p {
         margin: 5px 0;
         line-height: 1.2; }
+  main.cookie-policy .cookie-policy-heading {
+    width: 75%;
+    margin: 50px auto; }
+    main.cookie-policy .cookie-policy-heading h1 {
+      text-align: center;
+      margin: 5px 0; }
+  main.cookie-policy .cookie-policy-notes {
+    width: 75%;
+    height: auto;
+    margin: 50px auto; }
+    main.cookie-policy .cookie-policy-notes-box {
+      width: 75%;
+      height: auto; }
+      main.cookie-policy .cookie-policy-notes-box h4 {
+        margin: 5px 0; }
+      main.cookie-policy .cookie-policy-notes-box p {
+        margin: 10px 0; }
+      main.cookie-policy .cookie-policy-notes-box a {
+        text-decoration: none;
+        color: #000000; }
+      main.cookie-policy .cookie-policy-notes-box .p-list:before {
+        content: "•";
+        color: #eb5b3f;
+        position: relative;
+        display: inline-block;
+        width: 1em; }
   main.terms .container-terms {
     width: 100%;
     height: 50vh;
@@ -1339,7 +1365,7 @@ main {
           width: 1em; }
       main.terms .terms-downloads-box a {
         color: #000000; }
-  main.privacy .container-privacy {
+  main.privacy .container-privacy, main.cookie-policy .container-privacy {
     width: 100%;
     height: 50vh;
     color: #ffffff;
@@ -1348,7 +1374,7 @@ main {
     background-position: center center;
     background-repeat: no-repeat;
     position: relative; }
-    main.privacy .container-privacy-overlay {
+    main.privacy .container-privacy-overlay, main.cookie-policy .container-privacy-overlay {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -1359,24 +1385,24 @@ main {
       flex-direction: column;
       color: #ffffff;
       z-index: 20; }
-  main.privacy .privacy-heading {
+  main.privacy .privacy-heading, main.cookie-policy .privacy-heading {
     width: 75%;
     margin: 50px auto; }
-    main.privacy .privacy-heading h1 {
+    main.privacy .privacy-heading h1, main.cookie-policy .privacy-heading h1 {
       text-align: center;
       margin: 5px 0; }
-  main.privacy .privacy-notes {
+  main.privacy .privacy-notes, main.cookie-policy .privacy-notes {
     width: 75%;
     height: auto;
     margin: 50px auto; }
-    main.privacy .privacy-notes-box {
+    main.privacy .privacy-notes-box, main.cookie-policy .privacy-notes-box {
       width: 75%;
       height: auto; }
-      main.privacy .privacy-notes-box h4 {
+      main.privacy .privacy-notes-box h4, main.cookie-policy .privacy-notes-box h4 {
         margin: 5px 0; }
-      main.privacy .privacy-notes-box p {
+      main.privacy .privacy-notes-box p, main.cookie-policy .privacy-notes-box p {
         margin: 10px 0; }
-      main.privacy .privacy-notes-box a {
+      main.privacy .privacy-notes-box a, main.cookie-policy .privacy-notes-box a {
         text-decoration: none;
         color: #000000; }
   main.kebridge-poy .container-poy {

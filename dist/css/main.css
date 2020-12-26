@@ -1228,6 +1228,67 @@ main {
       main.engagement .engagement-research-info p {
         width: 100%;
         margin: 10px 0; }
+  main.careers .container-careers {
+    width: 100%;
+    height: 50vh;
+    color: #ffffff;
+    background-image: url("../img/csm_career_at_utimaco_aae1c5c11d.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative; }
+    main.careers .container-careers-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 13, 13, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #ffffff;
+      z-index: 20; }
+      main.careers .container-careers-overlay h3 {
+        margin: 10px 0; }
+  main.careers #app {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 50px 0; }
+    main.careers #app .careers-dropdowns {
+      width: 100%;
+      margin: 50px auto;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      text-align: center; }
+      main.careers #app .careers-dropdowns-box {
+        border: none;
+        display: flex;
+        flex-direction: column; }
+        main.careers #app .careers-dropdowns-box select {
+          outline: none;
+          padding: 5px;
+          font-size: 18px;
+          border: 1px solid rgba(0, 0, 0, 0.2); }
+    main.careers #app .app .dropdown-table {
+      display: flex;
+      justify-content: space-evenly;
+      text-align: center;
+      width: 95%;
+      margin: 0 auto;
+      background-color: #eeeeee; }
+      main.careers #app .app .dropdown-table .div {
+        margin: 10px auto;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #ffffff;
+        width: 100%;
+        height: 70px; }
   main.events .container-events {
     width: 100%;
     height: 50vh;

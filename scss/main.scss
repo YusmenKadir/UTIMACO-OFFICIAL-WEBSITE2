@@ -855,6 +855,7 @@ main {
           }
           p {
             text-align: left;
+            font-size: 18px;
           }
         }
       }
@@ -898,6 +899,7 @@ main {
           }
           p {
             text-align: left;
+            font-size: 18px;
           }
         }
       }
@@ -941,6 +943,7 @@ main {
           }
           p {
             text-align: left;
+            font-size: 18px;
           }
         }
       }
@@ -984,6 +987,7 @@ main {
           }
           p {
             text-align: left;
+            font-size: 18px;
           }
         }
       }
@@ -1027,6 +1031,7 @@ main {
           }
           p {
             text-align: left;
+            font-size: 18px;
           }
         }
       }
@@ -1077,6 +1082,7 @@ main {
         }
         p {
           width: 100%;
+          font-size: 18px;
         }
       }
     }
@@ -1150,6 +1156,7 @@ main {
         width: 100%;
         height: 60vh;
         background-color: $white-color;
+        margin: 50px 0;
 
         &-pinova {
           background-color: $cool-grey-color;
@@ -1187,10 +1194,11 @@ main {
               text-decoration: none;
             }
             h1 {
-              margin-bottom: 10px;
+              margin-bottom: 20px;
             }
             p {
               text-align: left;
+              font-size: 18px;
             }
           }
         }
@@ -1281,6 +1289,7 @@ main {
         p {
           width: 100%;
           margin: 10px 0;
+          font-size: 18px;
         }
       }
     }
@@ -1365,6 +1374,104 @@ main {
             background-color: $white-color;
             width: 100%;
             height: 70px;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+
+  //News page
+
+  &.news {
+    .container-news {
+      width: 100%;
+      height: 50vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      background-image: url("../img//1.3\ news\ +\ 1.3.1\ news\ single.jpg");
+
+      &-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(lighten($color: $black-color, $amount: 5), 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $white-color;
+      }
+
+      &-search {
+        text-align: center;
+        margin: 50px 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        // align-items: center;
+
+        input {
+          padding: 10px;
+          width: 30%;
+          outline: none;
+          font-size: 18px;
+          background: lighten($cool-grey-color, 10);
+          border: 1px solid rgba($black-color, 0.2);
+          margin: 10px auto;
+        }
+
+        h2{
+          display: none;
+          &.show{
+            display: block;
+          }
+        }
+
+        &-grid {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          justify-items: center;
+          row-gap: 50px;
+          margin-top: 50px;
+          .news-box {
+            width: 280px;
+            height: 355px;
+            border: 1px solid rgba($black-color, 0.2);
+            padding: 5px;
+            background-color: lighten($cool-grey-color, 8);
+            // position: relative;
+            h5 {
+              margin: 5px 0;
+            }
+
+            h3 {
+              margin: 5px 0;
+            }
+
+            p {
+              font-size: 18px;
+              margin-top: 5px;
+              margin-bottom: 20px;
+            }
+
+            a {
+              text-decoration: none;
+              padding: 10px;
+              outline: none;
+              border: none;
+              background: $orange-color;
+              color: $white-color;
+              font-size: 18px;
+              border-radius: 10px;
+              cursor: pointer;
+              transition: background-color 0.3s ease-in;
+
+              &:hover {
+                background-color: $golden-color;
+              }
+            }
           }
         }
       }
@@ -1409,6 +1516,7 @@ main {
             h1,
             p {
               margin: 5px 0;
+              font-size: 18px;
             }
           }
         }

@@ -938,7 +938,8 @@ main {
         main.management .container-ceos-stefan-info h1 {
           margin-bottom: 10px; }
         main.management .container-ceos-stefan-info p {
-          text-align: left; }
+          text-align: left;
+          font-size: 18px; }
   main.management .container-ceos2 {
     display: flex;
     align-items: center;
@@ -968,7 +969,8 @@ main {
         main.management .container-ceos2-malte-info h1 {
           margin-bottom: 10px; }
         main.management .container-ceos2-malte-info p {
-          text-align: left; }
+          text-align: left;
+          font-size: 18px; }
   main.management .container-ceos3 {
     display: flex;
     align-items: center;
@@ -998,7 +1000,8 @@ main {
         main.management .container-ceos3-martin-info h1 {
           margin-bottom: 10px; }
         main.management .container-ceos3-martin-info p {
-          text-align: left; }
+          text-align: left;
+          font-size: 18px; }
   main.management .container-ceos4 {
     display: flex;
     align-items: center;
@@ -1028,7 +1031,8 @@ main {
         main.management .container-ceos4-ansgar-info h1 {
           margin-bottom: 10px; }
         main.management .container-ceos4-ansgar-info p {
-          text-align: left; }
+          text-align: left;
+          font-size: 18px; }
   main.management .container-ceos5 {
     display: flex;
     align-items: center;
@@ -1058,7 +1062,8 @@ main {
         main.management .container-ceos5-stefan2-info h1 {
           margin-bottom: 10px; }
         main.management .container-ceos5-stefan2-info p {
-          text-align: left; }
+          text-align: left;
+          font-size: 18px; }
   main.business-ethics .container-ethics {
     width: 100%;
     height: 50vh;
@@ -1090,7 +1095,8 @@ main {
     main.business-ethics .ethics-principles-info h1 {
       margin-bottom: 10px; }
     main.business-ethics .ethics-principles-info p {
-      width: 100%; }
+      width: 100%;
+      font-size: 18px; }
   main.business-ethics .ethics-downloads {
     width: 100%;
     height: auto;
@@ -1139,7 +1145,8 @@ main {
       justify-content: center;
       width: 100%;
       height: 60vh;
-      background-color: #ffffff; }
+      background-color: #ffffff;
+      margin: 50px 0; }
       main.investors .container-investors-groups-pinova {
         background-color: #eeeeee; }
       main.investors .container-investors-groups-eqt, main.investors .container-investors-groups-bip, main.investors .container-investors-groups-pinova {
@@ -1165,9 +1172,10 @@ main {
           main.investors .container-investors-groups-eqt-info a, main.investors .container-investors-groups-bip-info a, main.investors .container-investors-groups-pinova-info a {
             text-decoration: none; }
           main.investors .container-investors-groups-eqt-info h1, main.investors .container-investors-groups-bip-info h1, main.investors .container-investors-groups-pinova-info h1 {
-            margin-bottom: 10px; }
+            margin-bottom: 20px; }
           main.investors .container-investors-groups-eqt-info p, main.investors .container-investors-groups-bip-info p, main.investors .container-investors-groups-pinova-info p {
-            text-align: left; }
+            text-align: left;
+            font-size: 18px; }
   main.memberships .container-memberships {
     width: 100%;
     height: 50vh;
@@ -1227,7 +1235,8 @@ main {
         margin-bottom: 10px; }
       main.engagement .engagement-research-info p {
         width: 100%;
-        margin: 10px 0; }
+        margin: 10px 0;
+        font-size: 18px; }
   main.careers .container-careers {
     width: 100%;
     height: 50vh;
@@ -1288,7 +1297,76 @@ main {
         justify-content: space-around;
         background-color: #ffffff;
         width: 100%;
-        height: 70px; }
+        height: 70px;
+        font-size: 18px; }
+  main.news .container-news {
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: url("../img//1.3 news + 1.3.1 news single.jpg"); }
+    main.news .container-news-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 13, 13, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff; }
+    main.news .container-news-search {
+      text-align: center;
+      margin: 50px 0;
+      display: flex;
+      flex-direction: column;
+      width: 100%; }
+      main.news .container-news-search input {
+        padding: 10px;
+        width: 30%;
+        outline: none;
+        font-size: 18px;
+        background: white;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        margin: 10px auto; }
+      main.news .container-news-search h2 {
+        display: none; }
+        main.news .container-news-search h2.show {
+          display: block; }
+      main.news .container-news-search-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        row-gap: 50px;
+        margin-top: 50px; }
+        main.news .container-news-search-grid .news-box {
+          width: 280px;
+          height: 355px;
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          padding: 5px;
+          background-color: white; }
+          main.news .container-news-search-grid .news-box h5 {
+            margin: 5px 0; }
+          main.news .container-news-search-grid .news-box h3 {
+            margin: 5px 0; }
+          main.news .container-news-search-grid .news-box p {
+            font-size: 18px;
+            margin-top: 5px;
+            margin-bottom: 20px; }
+          main.news .container-news-search-grid .news-box a {
+            text-decoration: none;
+            padding: 10px;
+            outline: none;
+            border: none;
+            background: #eb5b3f;
+            color: #ffffff;
+            font-size: 18px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in; }
+            main.news .container-news-search-grid .news-box a:hover {
+              background-color: #ffb710; }
   main.events .container-events {
     width: 100%;
     height: 50vh;
@@ -1320,7 +1398,8 @@ main {
           text-align: center; }
           main.events .container-events-grid-box .content h1,
           main.events .container-events-grid-box .content p {
-            margin: 5px 0; }
+            margin: 5px 0;
+            font-size: 18px; }
   main.legal .container-legal {
     width: 100%;
     height: 50vh;

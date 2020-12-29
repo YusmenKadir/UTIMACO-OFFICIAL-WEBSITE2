@@ -1577,6 +1577,97 @@ main {
       main.privacy .privacy-notes-box a, main.cookie-policy .privacy-notes-box a {
         text-decoration: none;
         color: #000000; }
+  main.brochures .container-brochures {
+    width: 100%;
+    height: 50vh;
+    color: #ffffff;
+    background-image: url("../img/UTIMACO BROCHURES/showcase.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative; }
+    main.brochures .container-brochures-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 13, 13, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #ffffff;
+      z-index: 20; }
+    main.brochures .container-brochures-heading {
+      text-align: center;
+      margin: 50px 0; }
+    main.brochures .container-brochures-downloads {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      row-gap: 50px;
+      width: 100%;
+      margin: 50px 0;
+      text-align: center; }
+      main.brochures .container-brochures-downloads h1 {
+        margin: 10px 0; }
+      main.brochures .container-brochures-downloads img {
+        width: 400px;
+        height: 100%; }
+  main.pqc .container-pqc {
+    width: 100%;
+    height: 60vh;
+    color: #ffffff;
+    background-image: url("../img/pqc-showcase.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative; }
+    main.pqc .container-pqc#hsm {
+      background-image: url("../img/5.6 HSM for Dummies eBook.jpg"); }
+    main.pqc .container-pqc-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 13, 13, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #ffffff;
+      z-index: 20; }
+    main.pqc .container-pqc-heading {
+      text-align: center;
+      margin: 50px 0; }
+    main.pqc .container-pqc-downloads {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      row-gap: 50px;
+      width: 100%;
+      margin: 50px 0;
+      padding: 16px; }
+      main.pqc .container-pqc-downloads .text {
+        padding: 5px;
+        width: 100%; }
+        main.pqc .container-pqc-downloads .text h4:before {
+          content: "•";
+          color: #eb5b3f;
+          position: relative;
+          display: inline-block;
+          width: 1em; }
+        main.pqc .container-pqc-downloads .text p {
+          font-size: 18px;
+          margin: 5px 0; }
+      main.pqc .container-pqc-downloads .link {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; }
+        main.pqc .container-pqc-downloads .link i {
+          color: #000000;
+          margin: 10px 0; }
   main.kebridge-poy .container-poy {
     height: 60vh;
     border: 1px solid black;
@@ -1792,6 +1883,160 @@ main {
     height: auto; }
     .main-footer-container .footer-grid {
       grid-template-columns: 1fr; }
+    .main-footer-container .footer-privacy-links .privacy-boxes {
+      width: 100%;
+      flex-wrap: wrap; }
+      .main-footer-container .footer-privacy-links .privacy-boxes .box {
+        border: 0; } }
+
+@media (min-device-width: 450px) and (max-device-width: 769px) {
+  main.home .swiper-container {
+    justify-content: center;
+    align-items: center; }
+    main.home .swiper-container .swiper-slide .modal {
+      width: 90%;
+      margin: 0 auto;
+      height: auto;
+      justify-content: center;
+      padding: 5px;
+      text-align: center; }
+      main.home .swiper-container .swiper-slide .modal h1 {
+        font-size: 30px;
+        text-align: center; }
+      main.home .swiper-container .swiper-slide .modal .home-contact-btn {
+        margin: 5px 0;
+        font-size: 18px;
+        width: auto; }
+  main.home .news {
+    height: auto; }
+    main.home .news h1 {
+      font-size: 30px; }
+    main.home .news .bottom-line {
+      width: 4rem; }
+    main.home .news .news-grid {
+      grid-template-columns: 1fr; }
+  main.home .customer-stories {
+    height: auto; }
+    main.home .customer-stories h1 {
+      font-size: 30px; }
+    main.home .customer-stories .bottom-line {
+      width: 4rem; }
+    main.home .customer-stories .customer-stories-grid {
+      grid-template-columns: 1fr; }
+  main.home .blogs {
+    height: auto;
+    margin: 20px 0; }
+    main.home .blogs h1 {
+      font-size: 30px; }
+    main.home .blogs .bottom-line {
+      width: 4rem; }
+    main.home .blogs-grid {
+      grid-template-columns: 1fr; }
+      main.home .blogs-grid .box {
+        margin-bottom: 20px; }
+  main.home .newsletter h1 {
+    font-size: 30px; }
+  main.home .newsletter .btn-home-subscribe {
+    width: 40%; }
+  main.home .newsletter .bottom-line {
+    width: 4rem; }
+  main.home .newsletter:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); }
+  main.home .partners h1 {
+    font-size: 30px; }
+  main.home .partners .find-partner {
+    width: 40%; }
+  main.home .partners .bottom-line {
+    width: 4rem; }
+  main.home .partners .swiper-container .swiper-slide {
+    justify-content: space-between; }
+    main.home .partners .swiper-container .swiper-slide img {
+      width: 100px; }
+  .main-footer {
+    height: auto; }
+    .main-footer-container .footer-grid {
+      grid-template-columns: 1fr; }
+    .main-footer-container .footer-privacy-links .privacy-boxes {
+      width: 100%;
+      flex-wrap: wrap; }
+      .main-footer-container .footer-privacy-links .privacy-boxes .box {
+        border: 0; } }
+
+@media (min-device-width: 770px) and (max-device-width: 1200px) {
+  main.home .swiper-container {
+    justify-content: center;
+    align-items: center; }
+    main.home .swiper-container .swiper-slide .modal {
+      width: 90%;
+      margin: 0 auto;
+      height: auto;
+      justify-content: center;
+      padding: 5px;
+      text-align: center; }
+      main.home .swiper-container .swiper-slide .modal h1 {
+        font-size: 35px;
+        text-align: center; }
+      main.home .swiper-container .swiper-slide .modal .home-contact-btn {
+        margin: 5px 0;
+        font-size: 18px;
+        width: auto; }
+  main.home .news {
+    height: auto; }
+    main.home .news h1 {
+      font-size: 35px; }
+    main.home .news .bottom-line {
+      width: 5rem; }
+    main.home .news .news-grid {
+      grid-template-columns: repeat(2, 1fr); }
+  main.home .customer-stories {
+    height: auto; }
+    main.home .customer-stories h1 {
+      font-size: 35px; }
+    main.home .customer-stories .bottom-line {
+      width: 5rem; }
+    main.home .customer-stories .customer-stories-grid {
+      grid-template-columns: repeat(2, 1fr); }
+  main.home .blogs {
+    height: auto;
+    margin: 20px 0; }
+    main.home .blogs h1 {
+      font-size: 35px; }
+    main.home .blogs .bottom-line {
+      width: 5rem; }
+    main.home .blogs-grid {
+      grid-template-columns: repeat(2, 1fr); }
+      main.home .blogs-grid .box {
+        margin-bottom: 20px; }
+  main.home .newsletter h1 {
+    font-size: 35px; }
+  main.home .newsletter .btn-home-subscribe {
+    width: 40%; }
+  main.home .newsletter .bottom-line {
+    width: 5rem; }
+  main.home .newsletter:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); }
+  main.home .partners h1 {
+    font-size: 35px; }
+  main.home .partners .find-partner {
+    width: 40%; }
+  main.home .partners .bottom-line {
+    width: 5rem; }
+  main.home .partners .swiper-container .swiper-slide {
+    justify-content: space-between; }
+    main.home .partners .swiper-container .swiper-slide img {
+      width: 100px; }
+  .main-footer {
+    height: auto; }
+    .main-footer-container .footer-grid {
+      grid-template-columns: repeat(4, 1fr); }
     .main-footer-container .footer-privacy-links .privacy-boxes {
       width: 100%;
       flex-wrap: wrap; }

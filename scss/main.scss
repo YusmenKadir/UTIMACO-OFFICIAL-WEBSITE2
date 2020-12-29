@@ -1422,9 +1422,9 @@ main {
           margin: 10px auto;
         }
 
-        h2{
+        h2 {
           display: none;
-          &.show{
+          &.show {
             display: block;
           }
         }
@@ -1787,6 +1787,133 @@ main {
         a {
           text-decoration: none;
           color: $black-color;
+        }
+      }
+    }
+  }
+
+  //Brochures page
+  &.brochures {
+    .container-brochures {
+      width: 100%;
+      height: 50vh;
+      color: $white-color;
+      background-image: url("../img/UTIMACO\ BROCHURES/showcase.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      position: relative;
+
+      &-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(lighten($color: $black-color, $amount: 5), 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: $white-color;
+        z-index: 20;
+      }
+
+      &-heading {
+        text-align: center;
+        margin: 50px 0;
+      }
+
+      &-downloads {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        row-gap: 50px;
+        width: 100%;
+        margin: 50px 0;
+        text-align: center;
+        h1 {
+          margin: 10px 0;
+        }
+        img {
+          width: 400px;
+          height: 100%;
+        }
+      }
+    }
+  }
+
+  //PQC FOR DUMMIES BOOK PAGE
+
+  &.pqc {
+    .container-pqc {
+      width: 100%;
+      height: 60vh;
+      color: $white-color;
+      background-image: url("../img/pqc-showcase.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      position: relative;
+      &#hsm{
+        background-image: url("../img/5.6\ HSM\ for\ Dummies\ eBook.jpg");
+      }
+
+      &-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(lighten($color: $black-color, $amount: 5), 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: $white-color;
+        z-index: 20;
+      }
+
+      &-heading {
+        text-align: center;
+        margin: 50px 0;
+      }
+
+      &-downloads {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        row-gap: 50px;
+        width: 100%;
+        margin: 50px 0;
+        padding: 16px;
+
+        .text {
+          padding: 5px;
+          width: 100%;
+          h4 {
+            &:before {
+              content: "•";
+              color: #eb5b3f;
+              position: relative;
+              // margin-left: -1em;
+              display: inline-block;
+              width: 1em;
+            }
+          }
+          p {
+            font-size: 18px;
+            margin: 5px 0;
+          }
+        }
+
+        .link {
+          text-align: center;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          i {
+            color: $black-color;
+            margin: 10px 0;
+          }
         }
       }
     }

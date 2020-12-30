@@ -1792,6 +1792,109 @@ main {
     }
   }
 
+  //Webinars page
+
+  &.webinars {
+    background-color: $cool-grey-color;
+    .container-webinars {
+      width: 100%;
+      height: 50vh;
+      color: $white-color;
+      background-image: url("../img/WEBINARS/showcase.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      position: relative;
+
+      &-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(lighten($color: $black-color, $amount: 5), 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: $white-color;
+        z-index: 20;
+      }
+
+      &-heading {
+        text-align: center;
+        margin: 50px 0;
+      }
+
+      &-downloads {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        row-gap: 50px;
+        width: 100%;
+        margin: 50px 0;
+        text-align: center;
+        background-color: $cool-grey-color;
+        .sheets-box {
+        }
+        h1 {
+          margin: 10px 0;
+        }
+        img {
+          width: 200px;
+          height: 70%;
+        }
+      }
+    }
+  }
+  //Data sheets page
+
+  &.sheets {
+    .container-sheets {
+      width: 100%;
+      height: 50vh;
+      color: $white-color;
+      background-image: url("../img/DATA\ SHEETS/showcase.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      position: relative;
+
+      &-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(lighten($color: $black-color, $amount: 5), 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: $white-color;
+        z-index: 20;
+      }
+
+      &-heading {
+        text-align: center;
+        margin: 50px 0;
+      }
+
+      &-downloads {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        row-gap: 50px;
+        width: 100%;
+        margin: 50px 0;
+        text-align: center;
+        h1 {
+          margin: 10px 0;
+        }
+        img {
+          width: 200px;
+          height: 80%;
+        }
+      }
+    }
+  }
+
   //Brochures page
   &.brochures {
     .container-brochures {
@@ -1834,8 +1937,10 @@ main {
           margin: 10px 0;
         }
         img {
-          width: 400px;
-          height: 100%;
+          // width: 400px;
+          // height: 100%;
+          width: 200px;
+          height: 80%;
         }
       }
     }
@@ -1853,7 +1958,7 @@ main {
       background-position: center center;
       background-repeat: no-repeat;
       position: relative;
-      &#hsm{
+      &#hsm {
         background-image: url("../img/5.6\ HSM\ for\ Dummies\ eBook.jpg");
       }
 
@@ -1932,25 +2037,24 @@ main {
 }
 
 //CONTACT A SPECIALIST BUTTON
- 
-  .contact-specialist-btn {
-    text-decoration: none;
-    color: $white-color;
-    position: fixed;
-    border: 2px solid rgba($white-color, 0.9);
-    background-color: rgba($orange-color,0.9);
-    padding: 10px;
-    border-radius: 50%;
-    bottom: 60px;
-    right: 20px;
-    transition: background-color 0.3s ease-in;
-    // z-index: 300;
-    // display: none;
-    &:hover {
-      background-color: $golden-color;
-    }
-  }
 
+.contact-specialist-btn {
+  text-decoration: none;
+  color: $white-color;
+  position: fixed;
+  border: 2px solid rgba($white-color, 0.9);
+  background-color: rgba($orange-color, 0.9);
+  padding: 10px;
+  border-radius: 50%;
+  bottom: 60px;
+  right: 20px;
+  transition: background-color 0.3s ease-in;
+  // z-index: 300;
+  // display: none;
+  &:hover {
+    background-color: $golden-color;
+  }
+}
 
 //MAIN FOOTER
 

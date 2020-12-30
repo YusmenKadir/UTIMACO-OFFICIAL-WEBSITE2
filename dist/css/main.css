@@ -1577,6 +1577,81 @@ main {
       main.privacy .privacy-notes-box a, main.cookie-policy .privacy-notes-box a {
         text-decoration: none;
         color: #000000; }
+  main.webinars {
+    background-color: #eeeeee; }
+    main.webinars .container-webinars {
+      width: 100%;
+      height: 50vh;
+      color: #ffffff;
+      background-image: url("../img/WEBINARS/showcase.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      position: relative; }
+      main.webinars .container-webinars-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(13, 13, 13, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #ffffff;
+        z-index: 20; }
+      main.webinars .container-webinars-heading {
+        text-align: center;
+        margin: 50px 0; }
+      main.webinars .container-webinars-downloads {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        row-gap: 50px;
+        width: 100%;
+        margin: 50px 0;
+        text-align: center;
+        background-color: #eeeeee; }
+        main.webinars .container-webinars-downloads h1 {
+          margin: 10px 0; }
+        main.webinars .container-webinars-downloads img {
+          width: 200px;
+          height: 70%; }
+  main.sheets .container-sheets {
+    width: 100%;
+    height: 50vh;
+    color: #ffffff;
+    background-image: url("../img/DATA SHEETS/showcase.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative; }
+    main.sheets .container-sheets-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 13, 13, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: #ffffff;
+      z-index: 20; }
+    main.sheets .container-sheets-heading {
+      text-align: center;
+      margin: 50px 0; }
+    main.sheets .container-sheets-downloads {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-items: center;
+      row-gap: 50px;
+      width: 100%;
+      margin: 50px 0;
+      text-align: center; }
+      main.sheets .container-sheets-downloads h1 {
+        margin: 10px 0; }
+      main.sheets .container-sheets-downloads img {
+        width: 200px;
+        height: 80%; }
   main.brochures .container-brochures {
     width: 100%;
     height: 50vh;
@@ -1611,8 +1686,8 @@ main {
       main.brochures .container-brochures-downloads h1 {
         margin: 10px 0; }
       main.brochures .container-brochures-downloads img {
-        width: 400px;
-        height: 100%; }
+        width: 200px;
+        height: 80%; }
   main.pqc .container-pqc {
     width: 100%;
     height: 60vh;

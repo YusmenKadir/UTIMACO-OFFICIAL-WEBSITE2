@@ -1675,20 +1675,18 @@ main {
     background-size: cover;
     background-position: center center; }
 
-.contact-specialist .contact-specialist-btn {
+.contact-specialist-btn {
   text-decoration: none;
   color: #ffffff;
-  background: #eb5b3f;
-  font-size: 18px;
-  border-radius: 30%;
   position: fixed;
-  bottom: 50px;
-  right: 50px;
-  width: 5%;
-  height: 5%;
-  transition: background-color 0.3s ease-in;
-  display: none; }
-  .contact-specialist .contact-specialist-btn:hover {
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  background-color: rgba(235, 91, 63, 0.9);
+  padding: 10px;
+  border-radius: 50%;
+  bottom: 60px;
+  right: 20px;
+  transition: background-color 0.3s ease-in; }
+  .contact-specialist-btn:hover {
     background-color: #ffb710; }
 
 .main-footer {

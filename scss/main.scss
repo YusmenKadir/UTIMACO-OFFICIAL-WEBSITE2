@@ -1932,28 +1932,25 @@ main {
 }
 
 //CONTACT A SPECIALIST BUTTON
-.contact-specialist {
+ 
   .contact-specialist-btn {
     text-decoration: none;
-    // padding: 10px;
     color: $white-color;
-    background: $orange-color;
-    font-size: 18px;
-    border-radius: 30%;
     position: fixed;
-    // bottom: 330px;
-    // right: 50px;
-    bottom: 50px;
-    right: 50px;
-    width: 5%;
-    height: 5%;
+    border: 2px solid rgba($white-color, 0.9);
+    background-color: rgba($orange-color,0.9);
+    padding: 10px;
+    border-radius: 50%;
+    bottom: 60px;
+    right: 20px;
     transition: background-color 0.3s ease-in;
-    display: none;
+    // z-index: 300;
+    // display: none;
     &:hover {
       background-color: $golden-color;
     }
   }
-}
+
 
 //MAIN FOOTER
 

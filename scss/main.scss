@@ -1792,6 +1792,61 @@ main {
     }
   }
 
+  //Case studies page
+
+  &.studies{
+    background-color: $cool-grey-color;
+    .container-studies {
+      width: 100%;
+      height: 50vh;
+      color: $white-color;
+      background-image: url("../img/UTIMACO\ CASE\ STUDIES/showcase.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      position: relative;
+
+      &-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(lighten($color: $black-color, $amount: 5), 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: $white-color;
+        z-index: 20;
+      }
+
+      &-heading {
+        text-align: center;
+        margin: 50px 0;
+      }
+
+      &-downloads {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        row-gap: 50px;
+        grid-gap: 10px;
+        width: 100%;
+        margin: 50px 0;
+        text-align: center;
+        background-color: $cool-grey-color;
+        .sheets-box {
+        }
+        h1 {
+          margin: 10px 0;
+        }
+        img {
+          width: 200px;
+          height: 70%;
+        }
+      }
+    }
+  }
+
   //Webinars page
 
   &.webinars {

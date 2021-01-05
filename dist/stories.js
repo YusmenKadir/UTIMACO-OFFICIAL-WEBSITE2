@@ -6,7 +6,7 @@ const app = new Vue({
         title: "Irdeto",
         image: "./img/UTIMACO CASE STUDIES/irdeto_logo.png",
         category: "Media",
-        href:"",
+        href:"./irdeto.html",
         content:
           "With Utimaco we have a partnership that fulfils our requirements both from a technological and operational standpoint. The solution is robust and but we also benefit from the logistical and...",
       },
@@ -16,6 +16,7 @@ const app = new Vue({
         image:
           "./img/UTIMACO CASE STUDIES/HashiCorp_PrimaryLogo_Black.png_h_250",
         category: "Automation Software",
+        href:"./hashicorp.html",
         content:
           "HashiCorp and Utimaco have partnered to provide an integrated solution for customers for a comprehensive security solution to centralize secrets management with regulatory compliance in-mind.",
       },
@@ -23,6 +24,7 @@ const app = new Vue({
       {
         title: "Nask",
         image: "./img/UTIMACO CASE STUDIES/NASK_kolor_(4).png",
+        href:"./nask.html",
         category: "Security",
         content:
           "The implementation of cryptographic hardware solutions in highly individual systems often requires individual support from the vendor: “Basically, we decided to go for Utimaco because they wanted to..",
@@ -32,6 +34,7 @@ const app = new Vue({
         title: "Axfood",
         image: "./img/UTIMACO CASE STUDIES/Axfood_logo.png",
         category: "Retail",
+        href:"./axfood.html",
         content:
           "With its multiple brands and store locations, Axfood manages unprecedented amounts of data, but was able to successfully alter their infrastructure and complete the deployment of Utimaco’s HSM...",
       },
@@ -194,3 +197,14 @@ const app = new Vue({
     this.arr2 = this.arr;
   },
 });
+
+
+
+// const app2 = new Vue({
+//   el:'#app-more-stories',
+//   data:{
+
+//   },
+
+
+// }); 

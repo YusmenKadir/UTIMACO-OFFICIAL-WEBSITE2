@@ -1382,6 +1382,139 @@ main {
     }
   }
 
+  //NASK PAGE
+
+  &.nask {
+    .container-nask {
+      width: 100%;
+      height: 50vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      background-image: url("../img/4.2\ support.jpg");
+
+      &-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(lighten($color: $black-color, $amount: 5), 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $white-color;
+      }
+
+      &-grid {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 50px 0;
+        width: 100%;
+
+        .logo {
+          width: 280px;
+          height: 280px;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .info {
+          background: rgba(lighten($cool-grey-color, 5), 0.9);
+          width: 80%;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          padding: 10px;
+          h3 {
+            margin: 5px 0;
+          }
+          p {
+            font-size: 18px;
+            margin: 5px 0;
+            text-align: left;
+          }
+
+          a {
+            // text-decoration: none;
+            color: $black-color;
+          }
+        }
+      }
+
+      &-more{
+        text-align: center;
+        margin: 50px 0;
+        width: 100%;
+      }
+
+      &-button {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+        height: 10vh;
+        text-align: center;
+        background-color: $cool-grey-color;
+
+        a {
+          text-decoration: none;
+          padding: 10px;
+          outline: none;
+          border: none;
+          background: $orange-color;
+          color: $white-color;
+          font-size: 18px;
+          border-radius: 10px;
+          cursor: pointer;
+          transition: background-color 0.3s ease-in;
+          // margin: 10px 0;
+          margin: 20px auto;
+
+          &:hover {
+            background-color: $golden-color;
+          }
+        }
+      }
+
+      &-explanation {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 25px;
+        width: 100%;
+        padding: 16px;
+        background-color: $cool-grey-color;
+        // border: 1px solid black;
+        img {
+          width: 100%;
+          height: 200px;
+        }
+
+        p {
+          font-size: 18px;
+          margin-top: 10px;
+          text-align: left;
+        }
+
+        .challenge,
+        .solution,
+        .benefit {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          text-align: center;
+          width: 100%;
+          .bottom-line {
+            width: 3rem;
+          }
+        }
+      }
+    }
+  }
+
   //Customer stories page
 
   &.stories {

@@ -2692,6 +2692,163 @@ main {
       background-position: center center;
     }
   }
+
+  //LIMS-HUB PAGE
+
+  &.communications {
+    .container-communications {
+      width: 100%;
+      height: 50vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      background-image: url("../img/2.1.10\ telecommunications.jpg");
+
+      &-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(lighten($color: $black-color, $amount: 5), 0.7);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $white-color;
+      }
+
+      &-heading {
+        width: 50%;
+        margin: 50px auto;
+      }
+
+      &-grid2 {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        a {
+          text-decoration: none;
+          padding: 10px;
+          outline: none;
+          border: none;
+          background: $cool-grey-color;
+          color: rgba($black-color, 0.9);
+          font-size: 18px;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease-in;
+          // width: 50%;
+          margin: 10px 0px;
+
+          &:hover {
+            background-color: $footer-text-color;
+            color: $white-color;
+          }
+        }
+
+        h2{
+          margin: 10px 0;
+        }
+
+        .li {
+          background-image: url("../img/TELECOMMUNICATIONS-HUB/dqsno.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          width: 100%;
+          height: 500px;
+          // background-color: rgba($blue-color, 0.8);
+          background-color: #0068B4;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          color: $white-color;
+        }
+
+        .tdr {
+          background-image: url("../img/TELECOMMUNICATIONS-HUB/lqvo.png");
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center center;
+          width: 100%;
+          height: 500px;
+          // background-color: rgba($orange-color, 0.8);
+          background-color: #eb5b3f;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          color: $white-color;
+        }
+      }
+      &-grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        row-gap: 70px;
+        background-image: url("../img/csm_Utimaco_Products_Background_2f1709eda5.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+
+        .box {
+          position: relative;
+          width: 70%;
+          height: 300px;
+          border: 1px solid rgba($black-color, 0.1);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          text-align: center;
+          // width: 50%;
+          margin: 50px 0;
+          padding: 16px;
+
+          a {
+            text-decoration: none;
+            padding: 10px;
+            outline: none;
+            border: none;
+            background: $orange-color;
+            color: $white-color;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in;
+            // width: 50%;
+            margin: 10px 0px;
+
+            &:hover {
+              background-color: $golden-color;
+            }
+          }
+
+          p {
+            margin: 10px 0;
+            font-size: 18px;
+          }
+          .box-inner {
+            background-color: $orange-color;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            border-radius: 50%;
+            padding: 16px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            position: absolute;
+            top: -15%;
+            left: 40%;
+            // transform: translate(-5%,-50%);
+          }
+        }
+      }
+    }
+  }
 }
 
 //CONTACT A SPECIALIST BUTTON

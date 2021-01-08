@@ -2225,6 +2225,126 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center; }
+  main.communications .container-communications {
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: url("../img/2.1.10 telecommunications.jpg"); }
+    main.communications .container-communications-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 13, 13, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff; }
+    main.communications .container-communications-heading {
+      width: 50%;
+      margin: 50px auto; }
+    main.communications .container-communications-grid2 {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center; }
+      main.communications .container-communications-grid2 a {
+        text-decoration: none;
+        padding: 10px;
+        outline: none;
+        border: none;
+        background: #eeeeee;
+        color: rgba(0, 0, 0, 0.9);
+        font-size: 18px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in;
+        margin: 10px 0px; }
+        main.communications .container-communications-grid2 a:hover {
+          background-color: #191919;
+          color: #ffffff; }
+      main.communications .container-communications-grid2 h2 {
+        margin: 10px 0; }
+      main.communications .container-communications-grid2 .li {
+        background-image: url("../img/TELECOMMUNICATIONS-HUB/dqsno.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 500px;
+        background-color: #0068B4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff; }
+      main.communications .container-communications-grid2 .tdr {
+        background-image: url("../img/TELECOMMUNICATIONS-HUB/lqvo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 500px;
+        background-color: #eb5b3f;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff; }
+    main.communications .container-communications-grid {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      row-gap: 70px;
+      background-image: url("../img/csm_Utimaco_Products_Background_2f1709eda5.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center; }
+      main.communications .container-communications-grid .box {
+        position: relative;
+        width: 70%;
+        height: 300px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        text-align: center;
+        margin: 50px 0;
+        padding: 16px; }
+        main.communications .container-communications-grid .box a {
+          text-decoration: none;
+          padding: 10px;
+          outline: none;
+          border: none;
+          background: #eb5b3f;
+          color: #ffffff;
+          font-size: 18px;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: background-color 0.3s ease-in;
+          margin: 10px 0px; }
+          main.communications .container-communications-grid .box a:hover {
+            background-color: #ffb710; }
+        main.communications .container-communications-grid .box p {
+          margin: 10px 0;
+          font-size: 18px; }
+        main.communications .container-communications-grid .box .box-inner {
+          background-color: #eb5b3f;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100px;
+          border-radius: 50%;
+          padding: 16px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          position: absolute;
+          top: -15%;
+          left: 40%; }
 
 .contact-specialist-btn {
   text-decoration: none;

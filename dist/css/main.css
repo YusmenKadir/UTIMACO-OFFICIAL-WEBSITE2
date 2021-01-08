@@ -457,6 +457,8 @@ main {
             height: 100%; }
         main.home .news-grid .box-content p {
           margin: 25px 0; }
+        main.home .news-grid .box-content h5 {
+          margin: 7px 0; }
   main.home .customer-stories {
     width: 100%;
     height: 80vh;
@@ -2225,6 +2227,91 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center; }
+  main.drssolution .container-drssolution {
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: url("../img/drs-showcase.jpg"); }
+    main.drssolution .container-drssolution-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 13, 13, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff; }
+    main.drssolution .container-drssolution-grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      padding: 3rem;
+      margin-top: 50px;
+      background-color: #eeeeee; }
+      main.drssolution .container-drssolution-grid2 .box-info p {
+        margin: 10px 0; }
+    main.drssolution .container-drssolution-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      padding: 3rem;
+      margin: 50px 0; }
+      main.drssolution .container-drssolution-grid .box-info {
+        width: 100%; }
+        main.drssolution .container-drssolution-grid .box-info p {
+          margin: 10px 0; }
+        main.drssolution .container-drssolution-grid .box-info ul {
+          list-style: none; }
+          main.drssolution .container-drssolution-grid .box-info ul li {
+            margin: 10px 0;
+            font-size: 18px; }
+      main.drssolution .container-drssolution-grid .box-img {
+        width: 80%;
+        height: 300px; }
+        main.drssolution .container-drssolution-grid .box-img img {
+          width: 100%;
+          height: 100%; }
+  main.limssolution .container-limssolution {
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: url("../img/lims-solution-showcase.jpg"); }
+    main.limssolution .container-limssolution-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 13, 13, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff; }
+    main.limssolution .container-limssolution-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      padding: 3rem;
+      margin: 50px 0; }
+      main.limssolution .container-limssolution-grid .box-info {
+        width: 100%; }
+        main.limssolution .container-limssolution-grid .box-info p {
+          margin: 10px 0; }
+        main.limssolution .container-limssolution-grid .box-info ul {
+          list-style: none; }
+          main.limssolution .container-limssolution-grid .box-info ul li {
+            margin: 10px 0;
+            font-size: 18px; }
+      main.limssolution .container-limssolution-grid .box-img {
+        width: 80%;
+        height: 300px; }
+        main.limssolution .container-limssolution-grid .box-img img {
+          width: 100%;
+          height: 100%; }
   main.communications .container-communications {
     width: 100%;
     height: 50vh;
@@ -2274,7 +2361,7 @@ main {
         background-position: center center;
         width: 100%;
         height: 500px;
-        background-color: #0068B4;
+        background-color: #0068b4;
         display: flex;
         flex-direction: column;
         align-items: center;

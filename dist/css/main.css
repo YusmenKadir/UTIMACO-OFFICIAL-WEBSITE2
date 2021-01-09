@@ -2227,6 +2227,72 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center; }
+  main.limsgateway .container-limsgateway {
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: url("../img/LIMS-PRODUCTS/lims-gateway-showcase.jpg"); }
+    main.limsgateway .container-limsgateway-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 13, 13, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff; }
+    main.limsgateway .container-limsgateway-grid3 {
+      margin: 50px 0;
+      text-align: center;
+      width: 100%; }
+      main.limsgateway .container-limsgateway-grid3 h1 {
+        margin: 10px 0; }
+      main.limsgateway .container-limsgateway-grid3 .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center; }
+        main.limsgateway .container-limsgateway-grid3 .grid .box-info {
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          padding: 5px;
+          width: 90%;
+          margin: 10px 0; }
+          main.limsgateway .container-limsgateway-grid3 .grid .box-info p {
+            margin: 5px 0; }
+            main.limsgateway .container-limsgateway-grid3 .grid .box-info p:before {
+              content: "•";
+              color: #eb5b3f;
+              position: relative;
+              display: inline-block;
+              width: 1em; }
+    main.limsgateway .container-limsgateway-grid2 {
+      background-color: #eeeeee; }
+    main.limsgateway .container-limsgateway-grid, main.limsgateway .container-limsgateway-grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      padding: 3rem;
+      margin: 50px 0; }
+      main.limsgateway .container-limsgateway-grid .box-info, main.limsgateway .container-limsgateway-grid2 .box-info {
+        width: 100%; }
+        main.limsgateway .container-limsgateway-grid .box-info p, main.limsgateway .container-limsgateway-grid2 .box-info p {
+          margin: 10px 0; }
+          main.limsgateway .container-limsgateway-grid .box-info p:before, main.limsgateway .container-limsgateway-grid2 .box-info p:before {
+            content: "•";
+            color: #eb5b3f;
+            position: relative;
+            display: inline-block;
+            width: 1em; }
+        main.limsgateway .container-limsgateway-grid .box-info h1, main.limsgateway .container-limsgateway-grid2 .box-info h1 {
+          margin: 5px 0; }
+      main.limsgateway .container-limsgateway-grid .box-img, main.limsgateway .container-limsgateway-grid2 .box-img {
+        width: 80%;
+        height: 300px; }
+        main.limsgateway .container-limsgateway-grid .box-img img, main.limsgateway .container-limsgateway-grid2 .box-img img {
+          width: 100%;
+          height: 100%; }
   main.drsproduct .container-drsproduct {
     width: 100%;
     height: 50vh;
@@ -2300,6 +2366,72 @@ main {
       main.drsproduct .container-drsproduct-video iframe {
         border: 1px solid rgba(0, 0, 0, 0.3);
         margin: 20px 0; }
+  main.limsaccesspoint .container-limsaccesspoint {
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: url("../img/LIMS-PRODUCTS/access-point-showcase.jpg"); }
+    main.limsaccesspoint .container-limsaccesspoint-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 13, 13, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff; }
+    main.limsaccesspoint .container-limsaccesspoint-grid2 {
+      background: #eeeeee; }
+    main.limsaccesspoint .container-limsaccesspoint-grid4 {
+      background: #eeeeee; }
+      main.limsaccesspoint .container-limsaccesspoint-grid4 p:before {
+        content: "•";
+        color: #eb5b3f;
+        position: relative;
+        display: inline-block;
+        width: 1em; }
+    main.limsaccesspoint .container-limsaccesspoint-grid, main.limsaccesspoint .container-limsaccesspoint-grid2, main.limsaccesspoint .container-limsaccesspoint-grid4 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      padding: 3rem;
+      margin: 50px 0; }
+      main.limsaccesspoint .container-limsaccesspoint-grid .box-info, main.limsaccesspoint .container-limsaccesspoint-grid2 .box-info, main.limsaccesspoint .container-limsaccesspoint-grid4 .box-info {
+        width: 100%; }
+        main.limsaccesspoint .container-limsaccesspoint-grid .box-info p, main.limsaccesspoint .container-limsaccesspoint-grid2 .box-info p, main.limsaccesspoint .container-limsaccesspoint-grid4 .box-info p {
+          margin: 10px 0; }
+      main.limsaccesspoint .container-limsaccesspoint-grid .box-img, main.limsaccesspoint .container-limsaccesspoint-grid2 .box-img, main.limsaccesspoint .container-limsaccesspoint-grid4 .box-img {
+        width: 80%;
+        height: 300px; }
+        main.limsaccesspoint .container-limsaccesspoint-grid .box-img img, main.limsaccesspoint .container-limsaccesspoint-grid2 .box-img img, main.limsaccesspoint .container-limsaccesspoint-grid4 .box-img img {
+          width: 100%;
+          height: 100%; }
+    main.limsaccesspoint .container-limsaccesspoint-grid3 {
+      margin: 50px 0;
+      text-align: center;
+      width: 100%; }
+      main.limsaccesspoint .container-limsaccesspoint-grid3 h1 {
+        margin: 10px 0; }
+      main.limsaccesspoint .container-limsaccesspoint-grid3 .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center; }
+        main.limsaccesspoint .container-limsaccesspoint-grid3 .grid .box-info {
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          padding: 5px;
+          width: 90%;
+          margin: 10px 0; }
+          main.limsaccesspoint .container-limsaccesspoint-grid3 .grid .box-info p {
+            margin: 5px 0; }
+            main.limsaccesspoint .container-limsaccesspoint-grid3 .grid .box-info p:before {
+              content: "•";
+              color: #eb5b3f;
+              position: relative;
+              display: inline-block;
+              width: 1em; }
   main.limsproduct .container-limsproduct {
     width: 100%;
     height: 50vh;

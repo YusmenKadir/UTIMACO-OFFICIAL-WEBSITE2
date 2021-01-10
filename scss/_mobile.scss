@@ -127,6 +127,263 @@
         }
       }
     }
+
+    //TERMS AND CONDITIONS PAGE
+
+    &.terms {
+      .container-terms {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+      }
+
+      .terms-heading {
+        padding: 5px;
+        width: 100%;
+        h1 {
+          font-size: 24px;
+        }
+      }
+
+      .terms-downloads {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    //legal page
+
+    &.legal {
+      .container-legal {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+      }
+
+      .container-legal-grid {
+        grid-template-columns: 1fr;
+
+        &-box {
+          font-size: 16px;
+          padding: 5px;
+        }
+      }
+    }
+
+    //Engagement and research page
+
+    &.engagement {
+      .container-engagement {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+      }
+
+      .engagement-research {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &-img {
+          padding: 5px;
+          img {
+            width: 95%;
+          }
+        }
+
+        &-info {
+          padding: 16px;
+          margin: 0;
+          h1 {
+            font-size: 24px;
+            text-align: center;
+          }
+
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+
+    //Business ethics page
+
+    &.business-ethics {
+      .container-ethics {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+      }
+
+      .ethics-principles {
+        flex-wrap: wrap;
+
+        &-img {
+          img {
+            width: 95%;
+          }
+        }
+      }
+
+      .ethics-downloads {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    //MANAGEMENT PAGE
+
+    &.management {
+      .container-management {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+          p {
+            display: none;
+          }
+          h3 {
+            display: none;
+          }
+        }
+      }
+
+      .container-ceos {
+        padding: 20px 0;
+        height: auto;
+        &-stefan {
+          grid-template-columns: 1fr;
+          &-img {
+            img {
+              width: 300px;
+            }
+          }
+        }
+      }
+
+      .container-ceos2 {
+        height: auto;
+        padding: 20px 0;
+
+        &-malte {
+          grid-template-columns: 1fr;
+          &-img {
+            img {
+              width: 300px;
+            }
+          }
+        }
+      }
+
+      .container-ceos3 {
+        height: auto;
+        padding: 20px 0;
+        &-martin {
+          grid-template-columns: 1fr;
+          &-img {
+            img {
+              width: 300px;
+            }
+          }
+        }
+      }
+
+      .container-ceos4 {
+        height: auto;
+        padding: 20px 0;
+        &-ansgar {
+          grid-template-columns: 1fr;
+          &-img {
+            img {
+              width: 300px;
+            }
+          }
+        }
+      }
+
+      .container-ceos5 {
+        height: auto;
+        padding: 20px 0;
+        &-stefan2 {
+          grid-template-columns: 1fr;
+          &-img {
+            img {
+              width: 300px;
+            }
+          }
+        }
+      }
+    }
+
+    //INVESTORS PAGE
+
+    &.investors {
+      .container-investors {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+        &-groups {
+          height: auto;
+          &-eqt,
+          &-bip,
+          &-pinova {
+            grid-template-columns: 1fr;
+          }
+        }
+      }
+    }
+
+    //EVENTS PAGE
+
+    &.events {
+      .container-events {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+
+    //NEWS PAGE
+    &.news {
+      .container-news {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-search {
+          input {
+            width: 80%;
+          }
+          &-grid {
+            grid-template-columns: 1fr;
+            .news-box {
+              p {
+                font-size: 16px;
+              }
+              a {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
     //CONTACT PAGE
     &.contact {
       .container-contact {
@@ -172,6 +429,80 @@
         &-flex {
           .box-location {
             margin-bottom: 10px;
+          }
+        }
+      }
+    }
+
+    //ABOUT US PAGE
+    &.aboutus {
+      .container-welcome {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+      }
+
+      .container-information {
+        flex-wrap: wrap;
+        padding: 5px;
+        &-iframe {
+          width: 100%;
+          iframe {
+            width: 100%;
+          }
+        }
+
+        &-text {
+          padding: 5px;
+          h1 {
+            font-size: 24px;
+          }
+        }
+      }
+
+      .container-timeline {
+        font-size: 16px;
+      }
+
+      .counters {
+        grid-template-columns: 1fr;
+        padding: 5px;
+        height: auto;
+        font-size: 16px;
+        div {
+          margin: 5px 0;
+        }
+      }
+    }
+
+    //STORIES PAGE
+    &.stories {
+      .container-stories {
+        &-overlay {
+          text-align: center;
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-filter {
+          .filter-links {
+            height: auto;
+            flex-direction: column;
+
+            a {
+              display: block;
+              margin: 5px 0;
+            }
+          }
+
+          .container-stories-grid {
+            grid-template-columns: 1fr;
+            .stories-box {
+              font-size: 16px;
+            }
           }
         }
       }
@@ -325,37 +656,408 @@
         }
       }
     }
-  }
 
+    //TERMS AND CONDITIONS PAGE
 
-
-
-
-
-
-
-
-    //MAIN FOOTER
-    .main-footer {
-      height: auto;
-      &-container {
-        .footer-grid {
-          grid-template-columns: 1fr;
+    &.terms {
+      .container-terms {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
         }
-  
-        .footer-privacy-links {
-          .privacy-boxes {
-            width: 100%;
-            flex-wrap: wrap;
-            .box {
-              border: 0;
+      }
+
+      .terms-heading {
+        padding: 5px;
+        width: 100%;
+        h1 {
+          font-size: 30px;
+        }
+      }
+
+      .terms-downloads {
+        grid-template-columns: 1fr;
+      }
+    }
+    //legal page
+
+    &.legal {
+      .container-legal {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+      }
+
+      .container-legal-grid {
+        grid-template-columns: 1fr;
+
+        &-box {
+          font-size: 18px;
+          padding: 5px;
+        }
+      }
+    }
+
+    //Engagement and research page
+
+    &.engagement {
+      .container-engagement {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+      }
+
+      .engagement-research {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &-img {
+          padding: 5px;
+          img {
+            width: 95%;
+          }
+        }
+
+        &-info {
+          padding: 16px;
+          margin: 0;
+          h1 {
+            font-size: 30px;
+            text-align: center;
+          }
+
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+
+    //MANAGEMENT PAGE
+
+    &.management {
+      .container-management {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+          p {
+            display: none;
+          }
+          h3 {
+            display: none;
+          }
+        }
+      }
+
+      .container-ceos {
+        padding: 20px 0;
+        height: auto;
+        &-stefan {
+          grid-template-columns: 1fr;
+          &-img {
+            img {
+              width: 450px;
+            }
+          }
+        }
+      }
+
+      .container-ceos2 {
+        height: auto;
+        padding: 20px 0;
+
+        &-malte {
+          grid-template-columns: 1fr;
+          &-img {
+            img {
+              width: 450px;
+            }
+          }
+        }
+      }
+
+      .container-ceos3 {
+        height: auto;
+        padding: 20px 0;
+        &-martin {
+          grid-template-columns: 1fr;
+          &-img {
+            img {
+              width: 450px;
+            }
+          }
+        }
+      }
+
+      .container-ceos4 {
+        height: auto;
+        padding: 20px 0;
+        &-ansgar {
+          grid-template-columns: 1fr;
+          &-img {
+            img {
+              width: 450px;
+            }
+          }
+        }
+      }
+
+      .container-ceos5 {
+        height: auto;
+        padding: 20px 0;
+        &-stefan2 {
+          grid-template-columns: 1fr;
+          &-img {
+            img {
+              width: 450px;
             }
           }
         }
       }
     }
-}
 
+    //Business ethics page
+
+    &.business-ethics {
+      .container-ethics {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+      }
+
+      .ethics-principles {
+        flex-wrap: wrap;
+
+        &-img {
+          img {
+            width: 95%;
+          }
+        }
+      }
+
+      .ethics-downloads {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    //INVESTORS PAGE
+
+    &.investors {
+      .container-investors {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+        &-groups {
+          height: auto;
+          &-eqt,
+          &-bip,
+          &-pinova {
+            grid-template-columns: 1fr;
+          }
+        }
+      }
+    }
+    //NEWS PAGE
+    &.news {
+      .container-news {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+
+        &-search {
+          input {
+            width: 80%;
+          }
+          &-grid {
+            grid-template-columns: 1fr;
+            .news-box {
+              p {
+                font-size: 18px;
+              }
+              a {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+    //events page
+    &.events {
+      .container-events {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+
+        &-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+
+    //CONTACT PAGE
+    &.contact {
+      .container-contact {
+        h1 {
+          font-size: 30px;
+        }
+      }
+      .form-container {
+        h1 {
+          font-size: 30px;
+        }
+        .bottom-line {
+          width: 4rem;
+        }
+
+        &-form {
+          form {
+            .text-fields {
+              grid-template-areas: "firstName" "lastName" "company" "email" "message";
+            }
+          }
+        }
+      }
+
+      .utimaco-portal {
+        &-contact {
+          width: 90%;
+          h1 {
+            font-size: 30px;
+          }
+        }
+      }
+
+      .offices {
+        height: auto;
+        h1 {
+          font-size: 30px;
+        }
+
+        .bottom-line {
+          width: 4rem;
+        }
+        &-flex {
+          .box-location {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+
+    //ABOUT US PAGE
+    &.aboutus {
+      .container-welcome {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+      }
+
+      .container-information {
+        flex-wrap: wrap;
+        padding: 5px;
+        &-iframe {
+          width: 100%;
+          iframe {
+            width: 100%;
+          }
+        }
+
+        &-text {
+          padding: 5px;
+          p {
+            font-size: 18px;
+          }
+          h1 {
+            font-size: 30px;
+          }
+        }
+      }
+
+      .container-timeline {
+        font-size: 18px;
+      }
+
+      .counters {
+        grid-template-columns: 1fr;
+        padding: 5px;
+        height: auto;
+        font-size: 18px;
+        div {
+          margin: 5px 0;
+        }
+      }
+    }
+
+    //STORIES PAGE
+    &.stories {
+      .container-stories {
+        &-overlay {
+          text-align: center;
+          h1 {
+            font-size: 30px;
+          }
+        }
+
+        &-filter {
+          .filter-links {
+            height: auto;
+            flex-direction: column;
+
+            a {
+              display: block;
+              margin: 5px 0;
+            }
+          }
+
+          .container-stories-grid {
+            grid-template-columns: 1fr;
+            .stories-box {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //MAIN FOOTER
+  .main-footer {
+    height: auto;
+    &-container {
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-privacy-links {
+        .privacy-boxes {
+          width: 100%;
+          flex-wrap: wrap;
+          .box {
+            border: 0;
+          }
+        }
+      }
+    }
+  }
+}
 
 //BIGGER SCREENS
 @media (min-device-width: 770px) and (max-device-width: 1200px) {
@@ -398,7 +1100,7 @@
           width: 5rem;
         }
         .news-grid {
-          grid-template-columns: repeat(2,1fr);
+          grid-template-columns: repeat(2, 1fr);
         }
       }
 
@@ -413,7 +1115,7 @@
         }
 
         .customer-stories-grid {
-          grid-template-columns: repeat(2,1fr);
+          grid-template-columns: repeat(2, 1fr);
         }
       }
 
@@ -432,7 +1134,7 @@
         }
 
         &-grid {
-          grid-template-columns: repeat(2,1fr);
+          grid-template-columns: repeat(2, 1fr);
           .box {
             margin-bottom: 20px;
           }
@@ -482,18 +1184,308 @@
           }
         }
       }
+
+      //TERMS AND CONDITIONS PAGE
+
+      &.terms {
+        .container-terms {
+          &-overlay {
+            h1 {
+              font-size: 35px;
+            }
+          }
+        }
+
+        .terms-heading {
+          padding: 5px;
+          width: 100%;
+
+          h1 {
+            font-size: 35px;
+          }
+        }
+
+        .terms-downloads {
+          grid-template-columns: repeat(4, 1fr);
+        }
+      }
+
+      //legal page
+
+      &.legal {
+        .container-legal {
+          &-overlay {
+            h1 {
+              font-size: 35px;
+            }
+          }
+        }
+
+        .container-legal-grid {
+          grid-template-columns: 1fr 1fr;
+
+          &-box {
+            font-size: 18px;
+            padding: 5px;
+          }
+        }
+      }
+
+      //NEWS PAGE
+      &.news {
+        .container-news {
+          &-overlay {
+            h1 {
+              font-size: 35px;
+            }
+          }
+
+          &-search {
+            input {
+              width: 80%;
+            }
+            &-grid {
+              grid-template-columns: repeat(2, 1fr);
+              .news-box {
+                p {
+                  font-size: 18px;
+                }
+                a {
+                  font-size: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      //Engagement and research page
+
+      &.engagement {
+        .container-engagement {
+          &-overlay {
+            h1 {
+              font-size: 35px;
+            }
+          }
+        }
+
+        .engagement-research {
+          width: 100%;
+          flex-wrap: wrap;
+          justify-content: center;
+
+          &-img {
+            padding: 5px;
+            img {
+              width: 95%;
+            }
+          }
+
+          &-info {
+            padding: 16px;
+            margin: 0;
+            h1 {
+              font-size: 35px;
+              text-align: center;
+            }
+
+            p {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+
+      //MANAGEMENT PAGE
+
+      &.management {
+        .container-management {
+          &-overlay {
+            h1 {
+              font-size: 35px;
+            }
+            p {
+              display: none;
+            }
+            h3 {
+              display: none;
+            }
+          }
+        }
+
+        .container-ceos {
+          padding: 20px 0;
+          height: auto;
+          &-stefan {
+            grid-template-columns: repeat(2, 1fr);
+            &-img {
+              img {
+                width: 400px;
+              }
+            }
+          }
+        }
+
+        .container-ceos2 {
+          height: auto;
+          padding: 20px 0;
+
+          &-malte {
+            grid-template-columns: repeat(2, 1fr);
+            &-img {
+              img {
+                width: 400px;
+              }
+            }
+          }
+        }
+
+        .container-ceos3 {
+          height: auto;
+          padding: 20px 0;
+          &-martin {
+            grid-template-columns: repeat(2, 1fr);
+            &-img {
+              img {
+                width: 400px;
+              }
+            }
+          }
+        }
+
+        .container-ceos4 {
+          height: auto;
+          padding: 20px 0;
+          &-ansgar {
+            grid-template-columns: repeat(2, 1fr);
+            &-img {
+              img {
+                width: 400px;
+              }
+            }
+          }
+        }
+
+        .container-ceos5 {
+          height: auto;
+          padding: 20px 0;
+          &-stefan2 {
+            grid-template-columns: repeat(2, 1fr);
+            &-img {
+              img {
+                width: 400px;
+              }
+            }
+          }
+        }
+      }
+
+      //INVESTORS PAGE
+
+      &.investors {
+        .container-investors {
+          &-overlay {
+            h1 {
+              font-size: 35px;
+            }
+          }
+          &-groups {
+            height: auto;
+            &-eqt,
+            &-bip,
+            &-pinova {
+              grid-template-columns: repeat(2, 1fr);
+            }
+          }
+        }
+      }
+
+      //events page
+      &.events {
+        .container-events {
+          &-overlay {
+            h1 {
+              font-size: 35px;
+            }
+          }
+
+          &-grid {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+      }
+      //ABOUT US PAGE
+      &.aboutus {
+        .container-welcome {
+          &-overlay {
+            h1 {
+              font-size: 35px;
+            }
+          }
+        }
+
+        .container-information {
+          flex-wrap: wrap;
+          padding: 5px;
+          &-iframe {
+            width: 100%;
+            iframe {
+              width: 100%;
+            }
+          }
+
+          &-text {
+            padding: 5px;
+            p {
+              font-size: 18px;
+            }
+            h1 {
+              font-size: 35px;
+            }
+          }
+        }
+      }
+
+      //STORIES PAGE
+      &.stories {
+        .container-stories {
+          &-overlay {
+            text-align: center;
+            h1 {
+              font-size: 35px;
+            }
+          }
+
+          &-filter {
+            .filter-links {
+              height: auto;
+              flex-direction: column;
+
+              a {
+                display: block;
+                margin: 5px 0;
+              }
+            }
+
+            .container-stories-grid {
+              grid-template-columns: repeat(2, 1fr);
+              .stories-box {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
     }
   }
 
-
-
-
-   //MAIN FOOTER
-   .main-footer {
+  //MAIN FOOTER
+  .main-footer {
     height: auto;
     &-container {
       .footer-grid {
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(4, 1fr);
       }
 
       .footer-privacy-links {
@@ -507,5 +1499,4 @@
       }
     }
   }
-
 }

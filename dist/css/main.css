@@ -895,6 +895,8 @@ main {
       border: 1px solid #c5c5c6; }
     main.aboutus .container-information-text {
       padding: 16px; }
+      main.aboutus .container-information-text p {
+        font-size: 18px; }
       main.aboutus .container-information-text h1 {
         margin-bottom: 10px;
         text-align: center; }
@@ -3039,6 +3041,109 @@ main {
     justify-content: space-between; }
     main.home .partners .swiper-container .swiper-slide img {
       width: 100px; }
+  main.terms .container-terms-overlay h1 {
+    font-size: 24px; }
+  main.terms .terms-heading {
+    padding: 5px;
+    width: 100%; }
+    main.terms .terms-heading h1 {
+      font-size: 24px; }
+  main.terms .terms-downloads {
+    grid-template-columns: 1fr; }
+  main.legal .container-legal-overlay h1 {
+    font-size: 24px; }
+  main.legal .container-legal-grid {
+    grid-template-columns: 1fr; }
+    main.legal .container-legal-grid-box {
+      font-size: 16px;
+      padding: 5px; }
+  main.engagement .container-engagement-overlay h1 {
+    font-size: 24px; }
+  main.engagement .engagement-research {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center; }
+    main.engagement .engagement-research-img {
+      padding: 5px; }
+      main.engagement .engagement-research-img img {
+        width: 95%; }
+    main.engagement .engagement-research-info {
+      padding: 16px;
+      margin: 0; }
+      main.engagement .engagement-research-info h1 {
+        font-size: 24px;
+        text-align: center; }
+      main.engagement .engagement-research-info p {
+        font-size: 16px; }
+  main.business-ethics .container-ethics-overlay h1 {
+    font-size: 24px; }
+  main.business-ethics .ethics-principles {
+    flex-wrap: wrap; }
+    main.business-ethics .ethics-principles-img img {
+      width: 95%; }
+  main.business-ethics .ethics-downloads {
+    grid-template-columns: 1fr; }
+  main.management .container-management-overlay h1 {
+    font-size: 24px; }
+  main.management .container-management-overlay p {
+    display: none; }
+  main.management .container-management-overlay h3 {
+    display: none; }
+  main.management .container-ceos {
+    padding: 20px 0;
+    height: auto; }
+    main.management .container-ceos-stefan {
+      grid-template-columns: 1fr; }
+      main.management .container-ceos-stefan-img img {
+        width: 300px; }
+  main.management .container-ceos2 {
+    height: auto;
+    padding: 20px 0; }
+    main.management .container-ceos2-malte {
+      grid-template-columns: 1fr; }
+      main.management .container-ceos2-malte-img img {
+        width: 300px; }
+  main.management .container-ceos3 {
+    height: auto;
+    padding: 20px 0; }
+    main.management .container-ceos3-martin {
+      grid-template-columns: 1fr; }
+      main.management .container-ceos3-martin-img img {
+        width: 300px; }
+  main.management .container-ceos4 {
+    height: auto;
+    padding: 20px 0; }
+    main.management .container-ceos4-ansgar {
+      grid-template-columns: 1fr; }
+      main.management .container-ceos4-ansgar-img img {
+        width: 300px; }
+  main.management .container-ceos5 {
+    height: auto;
+    padding: 20px 0; }
+    main.management .container-ceos5-stefan2 {
+      grid-template-columns: 1fr; }
+      main.management .container-ceos5-stefan2-img img {
+        width: 300px; }
+  main.investors .container-investors-overlay h1 {
+    font-size: 24px; }
+  main.investors .container-investors-groups {
+    height: auto; }
+    main.investors .container-investors-groups-eqt, main.investors .container-investors-groups-bip, main.investors .container-investors-groups-pinova {
+      grid-template-columns: 1fr; }
+  main.events .container-events-overlay h1 {
+    font-size: 24px; }
+  main.events .container-events-grid {
+    grid-template-columns: 1fr; }
+  main.news .container-news-overlay h1 {
+    font-size: 24px; }
+  main.news .container-news-search input {
+    width: 80%; }
+  main.news .container-news-search-grid {
+    grid-template-columns: 1fr; }
+    main.news .container-news-search-grid .news-box p {
+      font-size: 16px; }
+    main.news .container-news-search-grid .news-box a {
+      font-size: 16px; }
   main.contact .container-contact h1 {
     font-size: 24px; }
   main.contact .form-container h1 {
@@ -3059,6 +3164,42 @@ main {
       width: 4rem; }
     main.contact .offices-flex .box-location {
       margin-bottom: 10px; }
+  main.aboutus .container-welcome-overlay h1 {
+    font-size: 24px; }
+  main.aboutus .container-information {
+    flex-wrap: wrap;
+    padding: 5px; }
+    main.aboutus .container-information-iframe {
+      width: 100%; }
+      main.aboutus .container-information-iframe iframe {
+        width: 100%; }
+    main.aboutus .container-information-text {
+      padding: 5px; }
+      main.aboutus .container-information-text h1 {
+        font-size: 24px; }
+  main.aboutus .container-timeline {
+    font-size: 16px; }
+  main.aboutus .counters {
+    grid-template-columns: 1fr;
+    padding: 5px;
+    height: auto;
+    font-size: 16px; }
+    main.aboutus .counters div {
+      margin: 5px 0; }
+  main.stories .container-stories-overlay {
+    text-align: center; }
+    main.stories .container-stories-overlay h1 {
+      font-size: 24px; }
+  main.stories .container-stories-filter .filter-links {
+    height: auto;
+    flex-direction: column; }
+    main.stories .container-stories-filter .filter-links a {
+      display: block;
+      margin: 5px 0; }
+  main.stories .container-stories-filter .container-stories-grid {
+    grid-template-columns: 1fr; }
+    main.stories .container-stories-filter .container-stories-grid .stories-box {
+      font-size: 16px; }
   .main-footer {
     height: auto; }
     .main-footer-container .footer-grid {
@@ -3136,6 +3277,167 @@ main {
     justify-content: space-between; }
     main.home .partners .swiper-container .swiper-slide img {
       width: 100px; }
+  main.terms .container-terms-overlay h1 {
+    font-size: 30px; }
+  main.terms .terms-heading {
+    padding: 5px;
+    width: 100%; }
+    main.terms .terms-heading h1 {
+      font-size: 30px; }
+  main.terms .terms-downloads {
+    grid-template-columns: 1fr; }
+  main.legal .container-legal-overlay h1 {
+    font-size: 30px; }
+  main.legal .container-legal-grid {
+    grid-template-columns: 1fr; }
+    main.legal .container-legal-grid-box {
+      font-size: 18px;
+      padding: 5px; }
+  main.engagement .container-engagement-overlay h1 {
+    font-size: 30px; }
+  main.engagement .engagement-research {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center; }
+    main.engagement .engagement-research-img {
+      padding: 5px; }
+      main.engagement .engagement-research-img img {
+        width: 95%; }
+    main.engagement .engagement-research-info {
+      padding: 16px;
+      margin: 0; }
+      main.engagement .engagement-research-info h1 {
+        font-size: 30px;
+        text-align: center; }
+      main.engagement .engagement-research-info p {
+        font-size: 18px; }
+  main.management .container-management-overlay h1 {
+    font-size: 30px; }
+  main.management .container-management-overlay p {
+    display: none; }
+  main.management .container-management-overlay h3 {
+    display: none; }
+  main.management .container-ceos {
+    padding: 20px 0;
+    height: auto; }
+    main.management .container-ceos-stefan {
+      grid-template-columns: 1fr; }
+      main.management .container-ceos-stefan-img img {
+        width: 450px; }
+  main.management .container-ceos2 {
+    height: auto;
+    padding: 20px 0; }
+    main.management .container-ceos2-malte {
+      grid-template-columns: 1fr; }
+      main.management .container-ceos2-malte-img img {
+        width: 450px; }
+  main.management .container-ceos3 {
+    height: auto;
+    padding: 20px 0; }
+    main.management .container-ceos3-martin {
+      grid-template-columns: 1fr; }
+      main.management .container-ceos3-martin-img img {
+        width: 450px; }
+  main.management .container-ceos4 {
+    height: auto;
+    padding: 20px 0; }
+    main.management .container-ceos4-ansgar {
+      grid-template-columns: 1fr; }
+      main.management .container-ceos4-ansgar-img img {
+        width: 450px; }
+  main.management .container-ceos5 {
+    height: auto;
+    padding: 20px 0; }
+    main.management .container-ceos5-stefan2 {
+      grid-template-columns: 1fr; }
+      main.management .container-ceos5-stefan2-img img {
+        width: 450px; }
+  main.business-ethics .container-ethics-overlay h1 {
+    font-size: 30px; }
+  main.business-ethics .ethics-principles {
+    flex-wrap: wrap; }
+    main.business-ethics .ethics-principles-img img {
+      width: 95%; }
+  main.business-ethics .ethics-downloads {
+    grid-template-columns: 1fr; }
+  main.investors .container-investors-overlay h1 {
+    font-size: 30px; }
+  main.investors .container-investors-groups {
+    height: auto; }
+    main.investors .container-investors-groups-eqt, main.investors .container-investors-groups-bip, main.investors .container-investors-groups-pinova {
+      grid-template-columns: 1fr; }
+  main.news .container-news-overlay h1 {
+    font-size: 30px; }
+  main.news .container-news-search input {
+    width: 80%; }
+  main.news .container-news-search-grid {
+    grid-template-columns: 1fr; }
+    main.news .container-news-search-grid .news-box p {
+      font-size: 18px; }
+    main.news .container-news-search-grid .news-box a {
+      font-size: 18px; }
+  main.events .container-events-overlay h1 {
+    font-size: 30px; }
+  main.events .container-events-grid {
+    grid-template-columns: 1fr; }
+  main.contact .container-contact h1 {
+    font-size: 30px; }
+  main.contact .form-container h1 {
+    font-size: 30px; }
+  main.contact .form-container .bottom-line {
+    width: 4rem; }
+  main.contact .form-container-form form .text-fields {
+    grid-template-areas: "firstName" "lastName" "company" "email" "message"; }
+  main.contact .utimaco-portal-contact {
+    width: 90%; }
+    main.contact .utimaco-portal-contact h1 {
+      font-size: 30px; }
+  main.contact .offices {
+    height: auto; }
+    main.contact .offices h1 {
+      font-size: 30px; }
+    main.contact .offices .bottom-line {
+      width: 4rem; }
+    main.contact .offices-flex .box-location {
+      margin-bottom: 10px; }
+  main.aboutus .container-welcome-overlay h1 {
+    font-size: 30px; }
+  main.aboutus .container-information {
+    flex-wrap: wrap;
+    padding: 5px; }
+    main.aboutus .container-information-iframe {
+      width: 100%; }
+      main.aboutus .container-information-iframe iframe {
+        width: 100%; }
+    main.aboutus .container-information-text {
+      padding: 5px; }
+      main.aboutus .container-information-text p {
+        font-size: 18px; }
+      main.aboutus .container-information-text h1 {
+        font-size: 30px; }
+  main.aboutus .container-timeline {
+    font-size: 18px; }
+  main.aboutus .counters {
+    grid-template-columns: 1fr;
+    padding: 5px;
+    height: auto;
+    font-size: 18px; }
+    main.aboutus .counters div {
+      margin: 5px 0; }
+  main.stories .container-stories-overlay {
+    text-align: center; }
+    main.stories .container-stories-overlay h1 {
+      font-size: 30px; }
+  main.stories .container-stories-filter .filter-links {
+    height: auto;
+    flex-direction: column; }
+    main.stories .container-stories-filter .filter-links a {
+      display: block;
+      margin: 5px 0; }
+  main.stories .container-stories-filter .container-stories-grid {
+    grid-template-columns: 1fr; }
+    main.stories .container-stories-filter .container-stories-grid .stories-box {
+      font-size: 18px; }
   .main-footer {
     height: auto; }
     .main-footer-container .footer-grid {
@@ -3213,6 +3515,130 @@ main {
     justify-content: space-between; }
     main.home .partners .swiper-container .swiper-slide img {
       width: 100px; }
+  main.home.terms .container-terms-overlay h1 {
+    font-size: 35px; }
+  main.home.terms .terms-heading {
+    padding: 5px;
+    width: 100%; }
+    main.home.terms .terms-heading h1 {
+      font-size: 35px; }
+  main.home.terms .terms-downloads {
+    grid-template-columns: repeat(4, 1fr); }
+  main.home.legal .container-legal-overlay h1 {
+    font-size: 35px; }
+  main.home.legal .container-legal-grid {
+    grid-template-columns: 1fr 1fr; }
+    main.home.legal .container-legal-grid-box {
+      font-size: 18px;
+      padding: 5px; }
+  main.home.news .container-news-overlay h1 {
+    font-size: 35px; }
+  main.home.news .container-news-search input {
+    width: 80%; }
+  main.home.news .container-news-search-grid {
+    grid-template-columns: repeat(2, 1fr); }
+    main.home.news .container-news-search-grid .news-box p {
+      font-size: 18px; }
+    main.home.news .container-news-search-grid .news-box a {
+      font-size: 18px; }
+  main.home.engagement .container-engagement-overlay h1 {
+    font-size: 35px; }
+  main.home.engagement .engagement-research {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center; }
+    main.home.engagement .engagement-research-img {
+      padding: 5px; }
+      main.home.engagement .engagement-research-img img {
+        width: 95%; }
+    main.home.engagement .engagement-research-info {
+      padding: 16px;
+      margin: 0; }
+      main.home.engagement .engagement-research-info h1 {
+        font-size: 35px;
+        text-align: center; }
+      main.home.engagement .engagement-research-info p {
+        font-size: 18px; }
+  main.home.management .container-management-overlay h1 {
+    font-size: 35px; }
+  main.home.management .container-management-overlay p {
+    display: none; }
+  main.home.management .container-management-overlay h3 {
+    display: none; }
+  main.home.management .container-ceos {
+    padding: 20px 0;
+    height: auto; }
+    main.home.management .container-ceos-stefan {
+      grid-template-columns: repeat(2, 1fr); }
+      main.home.management .container-ceos-stefan-img img {
+        width: 400px; }
+  main.home.management .container-ceos2 {
+    height: auto;
+    padding: 20px 0; }
+    main.home.management .container-ceos2-malte {
+      grid-template-columns: repeat(2, 1fr); }
+      main.home.management .container-ceos2-malte-img img {
+        width: 400px; }
+  main.home.management .container-ceos3 {
+    height: auto;
+    padding: 20px 0; }
+    main.home.management .container-ceos3-martin {
+      grid-template-columns: repeat(2, 1fr); }
+      main.home.management .container-ceos3-martin-img img {
+        width: 400px; }
+  main.home.management .container-ceos4 {
+    height: auto;
+    padding: 20px 0; }
+    main.home.management .container-ceos4-ansgar {
+      grid-template-columns: repeat(2, 1fr); }
+      main.home.management .container-ceos4-ansgar-img img {
+        width: 400px; }
+  main.home.management .container-ceos5 {
+    height: auto;
+    padding: 20px 0; }
+    main.home.management .container-ceos5-stefan2 {
+      grid-template-columns: repeat(2, 1fr); }
+      main.home.management .container-ceos5-stefan2-img img {
+        width: 400px; }
+  main.home.investors .container-investors-overlay h1 {
+    font-size: 35px; }
+  main.home.investors .container-investors-groups {
+    height: auto; }
+    main.home.investors .container-investors-groups-eqt, main.home.investors .container-investors-groups-bip, main.home.investors .container-investors-groups-pinova {
+      grid-template-columns: repeat(2, 1fr); }
+  main.home.events .container-events-overlay h1 {
+    font-size: 35px; }
+  main.home.events .container-events-grid {
+    grid-template-columns: repeat(2, 1fr); }
+  main.home.aboutus .container-welcome-overlay h1 {
+    font-size: 35px; }
+  main.home.aboutus .container-information {
+    flex-wrap: wrap;
+    padding: 5px; }
+    main.home.aboutus .container-information-iframe {
+      width: 100%; }
+      main.home.aboutus .container-information-iframe iframe {
+        width: 100%; }
+    main.home.aboutus .container-information-text {
+      padding: 5px; }
+      main.home.aboutus .container-information-text p {
+        font-size: 18px; }
+      main.home.aboutus .container-information-text h1 {
+        font-size: 35px; }
+  main.home.stories .container-stories-overlay {
+    text-align: center; }
+    main.home.stories .container-stories-overlay h1 {
+      font-size: 35px; }
+  main.home.stories .container-stories-filter .filter-links {
+    height: auto;
+    flex-direction: column; }
+    main.home.stories .container-stories-filter .filter-links a {
+      display: block;
+      margin: 5px 0; }
+  main.home.stories .container-stories-filter .container-stories-grid {
+    grid-template-columns: repeat(2, 1fr); }
+    main.home.stories .container-stories-filter .container-stories-grid .stories-box {
+      font-size: 18px; }
   .main-footer {
     height: auto; }
     .main-footer-container .footer-grid {

@@ -17,28 +17,43 @@ expandBtn.forEach((btn) => {
   });
 });
 
-const counters = document.querySelectorAll(".counter");
-const countersDiv = document.querySelector(".counters");
-const speed = 500;
+//COOKIES 
+const cookieStorage = {
+  getItem: (item) => {
+      const cookies = document.cookie
+          .split(';')
+          .map(cookie => cookie.split('='))
+          .reduce((acc, [key, value]) => ({ ...acc, [key.trim()]: value }), {});
+      return cookies[item];
+  },
+  setItem: (item, value) => {
+      document.cookie = `${item}=${value};`
+  }
+}
 
-countersDiv.addEventListener("mouseover", () => {
-  counters.forEach((counter) => {
-    const updateCount = () => {
-      const target = +counter.getAttribute("data-target");
-      const count = +counter.innerText;
-      const increment = target / speed;
+const storageType = cookieStorage;
+const consentPropertyName = '_ga';
+const shouldShowPopup = () => !storageType.getItem(consentPropertyName);
+const saveToStorage = () => storageType.setItem(consentPropertyName, true);
 
-      if (count < target) {
-        counter.innerText = Math.ceil(count + increment);
-        setTimeout(updateCount, 1);
-      } else {
-        count.innerText = target;
-      }
-    };
+window.onload = () => {
 
-    updateCount();
-  });
-});
+  const acceptFn = event => {
+      saveToStorage(storageType);
+      consentPopup.classList.add('hidden');
+      console.log('clicked')
+  }
+  const consentPopup = document.getElementById('consent-popup');
+  const acceptBtn = document.getElementById('accept');
+  acceptBtn.addEventListener('click', acceptFn);
+
+  if (shouldShowPopup(storageType)) {
+      setTimeout(() => {
+          consentPopup.classList.remove('hidden');
+      }, 2000);
+  }
+
+};
 
 
 

@@ -3515,6 +3515,56 @@ main {
     }
   }
 
+  //success message page
+
+  &.successpage{
+    .container-success-showcase{
+      width: 100%;
+      height: 50vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      background-image: url("../img/handshake.jpg");
+
+      &-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(lighten($color: $black-color, $amount: 5), 0.3);
+      }
+    }
+    .container-success{
+      width: 100%;
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // background: $cool-grey-color;
+      flex-direction: column;
+
+      a {
+        text-decoration: none;
+        padding: 10px;
+        outline: none;
+        border: none;
+        background: $orange-color;
+        color: $white-color;
+        font-size: 18px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in;
+        // width: 50%;
+        margin: 10px 0px;
+
+        &:hover {
+          background-color: $golden-color;
+        }
+      }
+    }
+  }
+ 
+  //site map page
   &.sitemap {
     .sitemap {
       width: 100%;

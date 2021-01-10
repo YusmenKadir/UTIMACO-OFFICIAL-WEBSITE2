@@ -2797,6 +2797,40 @@ main {
           position: absolute;
           top: -15%;
           left: 40%; }
+  main.successpage .container-success-showcase {
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-image: url("../img/handshake.jpg"); }
+    main.successpage .container-success-showcase-overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(13, 13, 13, 0.3); }
+  main.successpage .container-success {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    main.successpage .container-success a {
+      text-decoration: none;
+      padding: 10px;
+      outline: none;
+      border: none;
+      background: #eb5b3f;
+      color: #ffffff;
+      font-size: 18px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in;
+      margin: 10px 0px; }
+      main.successpage .container-success a:hover {
+        background-color: #ffb710; }
   main.sitemap .sitemap {
     width: 100%;
     height: 100%;

@@ -2797,6 +2797,30 @@ main {
           position: absolute;
           top: -15%;
           left: 40%; }
+  main.sitemap .sitemap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 100px 0;
+    padding: 3rem;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif; }
+    main.sitemap .sitemap ul {
+      list-style: none; }
+    main.sitemap .sitemap ul > ul li a {
+      margin-left: 15px; }
+    main.sitemap .sitemap ul li {
+      margin: 5px 0; }
+    main.sitemap .sitemap a {
+      text-decoration: none; }
+      main.sitemap .sitemap a:before {
+        content: "•";
+        color: #eb5b3f;
+        position: relative;
+        display: inline-block;
+        width: 1em; }
 
 .contact-specialist-btn {
   text-decoration: none;

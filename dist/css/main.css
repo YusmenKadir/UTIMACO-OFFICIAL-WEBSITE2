@@ -3041,6 +3041,90 @@ main {
     justify-content: space-between; }
     main.home .partners .swiper-container .swiper-slide img {
       width: 100px; }
+  main.newsletter .container-newsletter-overlay h1 {
+    font-size: 24px; }
+  main.newsletter .form-container-heading h1 {
+    font-size: 20px; }
+  main.newsletter .form-container-heading .bottom-line {
+    width: 3rem; }
+  main.newsletter .form-container-form {
+    width: 100%; }
+    main.newsletter .form-container-form .text-fields {
+      padding: 5px; }
+  main.successpage .container-success {
+    padding: 16px;
+    text-align: center; }
+    main.successpage .container-success a {
+      font-size: 16px; }
+  main.pqc .container-pqc-overlay h1 {
+    font-size: 24px; }
+  main.pqc .container-pqc-heading h1 {
+    font-size: 20px; }
+  main.pqc .container-pqc-downloads {
+    grid-template-columns: 1fr; }
+  main.blogs .container-blogs-overlay h1 {
+    font-size: 24px; }
+  main.blogs .container-blogs-search h1 {
+    font-size: 20px; }
+  main.blogs .container-blogs-search input {
+    width: 75%;
+    font-size: 16px; }
+  main.blogs .container-blogs-search-grid {
+    grid-template-columns: 1fr; }
+    main.blogs .container-blogs-search-grid p {
+      font-size: 16px; }
+    main.blogs .container-blogs-search-grid a {
+      font-size: 16px; }
+  main.webinars .container-webinars-overlay h1 {
+    font-size: 24px; }
+  main.webinars .container-webinars-heading h1 {
+    font-size: 20px; }
+  main.webinars .container-webinars-downloads {
+    grid-template-columns: 1fr; }
+  main.papers .container-papers-overlay h1 {
+    font-size: 24px; }
+  main.papers .container-papers-heading h1 {
+    font-size: 20px; }
+  main.papers .container-papers-downloads {
+    grid-template-columns: 1fr; }
+  main.studies .container-studies-overlay h1 {
+    font-size: 24px; }
+  main.studies .container-studies-heading h1 {
+    font-size: 20px; }
+  main.studies .container-studies-downloads {
+    grid-template-columns: 1fr; }
+  main.sheets .container-sheets-overlay h1 {
+    font-size: 24px; }
+  main.sheets .container-sheets-heading h1 {
+    font-size: 20px; }
+  main.sheets .container-sheets-downloads {
+    grid-template-columns: 1fr; }
+  main.brochures .container-brochures-overlay h1 {
+    font-size: 24px; }
+  main.brochures .container-brochures-heading h1 {
+    font-size: 20px; }
+  main.brochures .container-brochures-downloads {
+    grid-template-columns: 1fr; }
+  main.downloads .container-downloads-overlay h1 {
+    font-size: 24px; }
+  main.downloads .container-downloads-grid {
+    grid-template-columns: 1fr; }
+    main.downloads .container-downloads-grid p {
+      font-size: 16px; }
+    main.downloads .container-downloads-grid a {
+      font-size: 16px; }
+  main.privacy .container-privacy-overlay h1, main.cookie-policy .container-privacy-overlay h1 {
+    font-size: 24px; }
+  main.privacy .container-privacy .privacy-heading, main.cookie-policy .container-privacy .privacy-heading {
+    width: 100%; }
+    main.privacy .container-privacy .privacy-heading h1, main.cookie-policy .container-privacy .privacy-heading h1 {
+      font-size: 24px; }
+    main.privacy .container-privacy .privacy-heading p, main.cookie-policy .container-privacy .privacy-heading p {
+      font-size: 16px; }
+  main.privacy .container-privacy .privacy-notes, main.cookie-policy .container-privacy .privacy-notes {
+    width: 100%; }
+    main.privacy .container-privacy .privacy-notes-box, main.cookie-policy .container-privacy .privacy-notes-box {
+      width: 95%; }
   main.terms .container-terms-overlay h1 {
     font-size: 24px; }
   main.terms .terms-heading {
@@ -3277,6 +3361,84 @@ main {
     justify-content: space-between; }
     main.home .partners .swiper-container .swiper-slide img {
       width: 100px; }
+  main.newsletter .container-newsletter-overlay h1 {
+    font-size: 30px; }
+  main.newsletter .form-container-heading h1 {
+    font-size: 24px; }
+  main.newsletter .form-container-heading .bottom-line {
+    width: 4rem; }
+  main.newsletter .form-container-form {
+    width: 100%; }
+    main.newsletter .form-container-form .text-fields {
+      padding: 5px; }
+  main.successpage .container-success {
+    padding: 16px;
+    text-align: center; }
+    main.successpage .container-success a {
+      font-size: 18px; }
+  main.blogs .container-blogs-overlay h1 {
+    font-size: 30px; }
+  main.blogs .container-blogs-search h1 {
+    font-size: 24px; }
+  main.blogs .container-blogs-search input {
+    width: 75%;
+    font-size: 18px; }
+  main.blogs .container-blogs-search-grid {
+    grid-template-columns: 1fr; }
+    main.blogs .container-blogs-search-grid p {
+      font-size: 18px; }
+    main.blogs .container-blogs-search-grid a {
+      font-size: 18px; }
+  main.webinars .container-webinars-overlay h1 {
+    font-size: 30px; }
+  main.webinars .container-webinars-heading h1 {
+    font-size: 24px; }
+  main.webinars .container-webinars-downloads {
+    grid-template-columns: 1fr; }
+  main.papers .container-papers-overlay h1 {
+    font-size: 30px; }
+  main.papers .container-papers-heading h1 {
+    font-size: 24px; }
+  main.papers .container-papers-downloads {
+    grid-template-columns: 1fr; }
+  main.studies .container-studies-overlay h1 {
+    font-size: 30px; }
+  main.studies .container-studies-heading h1 {
+    font-size: 24px; }
+  main.studies .container-studies-downloads {
+    grid-template-columns: 1fr; }
+  main.sheets .container-sheets-overlay h1 {
+    font-size: 30px; }
+  main.sheets .container-sheets-heading h1 {
+    font-size: 24px; }
+  main.sheets .container-sheets-downloads {
+    grid-template-columns: 1fr; }
+  main.brochures .container-brochures-overlay h1 {
+    font-size: 30px; }
+  main.brochures .container-brochures-heading h1 {
+    font-size: 24px; }
+  main.brochures .container-brochures-downloads {
+    grid-template-columns: 1fr; }
+  main.downloads .container-downloads-overlay h1 {
+    font-size: 30px; }
+  main.downloads .container-downloads-grid {
+    grid-template-columns: 1fr; }
+    main.downloads .container-downloads-grid p {
+      font-size: 18px; }
+    main.downloads .container-downloads-grid a {
+      font-size: 18px; }
+  main.privacy .container-privacy-overlay h1, main.cookie-policy .container-privacy-overlay h1 {
+    font-size: 30px; }
+  main.privacy .container-privacy .privacy-heading, main.cookie-policy .container-privacy .privacy-heading {
+    width: 100%; }
+    main.privacy .container-privacy .privacy-heading h1, main.cookie-policy .container-privacy .privacy-heading h1 {
+      font-size: 30px; }
+    main.privacy .container-privacy .privacy-heading p, main.cookie-policy .container-privacy .privacy-heading p {
+      font-size: 18px; }
+  main.privacy .container-privacy .privacy-notes, main.cookie-policy .container-privacy .privacy-notes {
+    width: 100%; }
+    main.privacy .container-privacy .privacy-notes-box, main.cookie-policy .container-privacy .privacy-notes-box {
+      width: 95%; }
   main.terms .container-terms-overlay h1 {
     font-size: 30px; }
   main.terms .terms-heading {
@@ -3515,6 +3677,61 @@ main {
     justify-content: space-between; }
     main.home .partners .swiper-container .swiper-slide img {
       width: 100px; }
+  main.home.blogs .container-blogs-overlay h1 {
+    font-size: 35px; }
+  main.home.blogs .container-blogs-search h1 {
+    font-size: 24px; }
+  main.home.blogs .container-blogs-search input {
+    width: 75%;
+    font-size: 24px; }
+  main.home.blogs .container-blogs-search-grid {
+    grid-template-columns: repeat(2, 1fr); }
+    main.home.blogs .container-blogs-search-grid p {
+      font-size: 18px; }
+    main.home.blogs .container-blogs-search-grid a {
+      font-size: 18px; }
+  main.home.webinars .container-webinars-overlay h1 {
+    font-size: 35px; }
+  main.home.webinars .container-webinars-heading h1 {
+    font-size: 24px; }
+  main.home.webinars .container-webinars-downloads {
+    grid-template-columns: repeat(2, 1fr); }
+  main.home.papers .container-papers-overlay h1 {
+    font-size: 35px; }
+  main.home.papers .container-papers-heading h1 {
+    font-size: 24px; }
+  main.home.papers .container-papers-downloads {
+    grid-template-columns: repeat(2, 1fr); }
+  main.home.studies .container-studies-overlay h1 {
+    font-size: 35px; }
+  main.home.studies .container-studies-heading h1 {
+    font-size: 24px; }
+  main.home.studies .container-studies-downloads {
+    grid-template-columns: repeat(2, 1fr); }
+  main.home.sheets .container-sheets-overlay h1 {
+    font-size: 35px; }
+  main.home.sheets .container-sheets-heading h1 {
+    font-size: 30px; }
+  main.home.sheets .container-sheets-downloads {
+    grid-template-columns: repeat(2, 1fr); }
+  main.home.downloads .container-downloads-overlay h1 {
+    font-size: 35px; }
+  main.home.downloads .container-downloads-grid p {
+    font-size: 18px; }
+  main.home.downloads .container-downloads-grid a {
+    font-size: 18px; }
+  main.home.privacy .container-privacy-overlay h1, main.home.cookie-policy .container-privacy-overlay h1 {
+    font-size: 35px; }
+  main.home.privacy .container-privacy .privacy-heading, main.home.cookie-policy .container-privacy .privacy-heading {
+    width: 100%; }
+    main.home.privacy .container-privacy .privacy-heading h1, main.home.cookie-policy .container-privacy .privacy-heading h1 {
+      font-size: 35px; }
+    main.home.privacy .container-privacy .privacy-heading p, main.home.cookie-policy .container-privacy .privacy-heading p {
+      font-size: 18px; }
+  main.home.privacy .container-privacy .privacy-notes, main.home.cookie-policy .container-privacy .privacy-notes {
+    width: 100%; }
+    main.home.privacy .container-privacy .privacy-notes-box, main.home.cookie-policy .container-privacy .privacy-notes-box {
+      width: 95%; }
   main.home.terms .container-terms-overlay h1 {
     font-size: 35px; }
   main.home.terms .terms-heading {

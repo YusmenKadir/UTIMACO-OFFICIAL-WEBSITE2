@@ -128,6 +128,256 @@
       }
     }
 
+    //NEWSLETTER PAGE
+
+    &.newsletter {
+      .container-newsletter {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+      }
+
+      .form-container {
+        &-heading {
+          h1 {
+            font-size: 20px;
+          }
+
+          .bottom-line {
+            width: 3rem;
+          }
+        }
+        &-form {
+          width: 100%;
+          .text-fields {
+            padding: 5px;
+          }
+        }
+      }
+    }
+    //SUCCESS MESSAGE PAGE
+    &.successpage {
+      .container-success {
+        padding: 16px;
+        text-align: center;
+
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+
+    //PQC FOR DUMMIES BOOK PAGE
+
+    &.pqc {
+      .container-pqc {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-heading {
+          h1 {
+            font-size: 20px;
+          }
+        }
+
+        &-downloads {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+
+    //BLOGS PAGE
+
+    &.blogs {
+      .container-blogs {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-search {
+          h1 {
+            font-size: 20px;
+          }
+          input {
+            width: 75%;
+            font-size: 16px;
+          }
+          &-grid {
+            grid-template-columns: 1fr;
+            p {
+              font-size: 16px;
+            }
+            a {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+
+    //WEBINARS
+    &.webinars {
+      .container-webinars {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-heading {
+          h1 {
+            font-size: 20px;
+          }
+        }
+
+        &-downloads {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+
+    //WHITE PAPERS PAGE
+    &.papers {
+      .container-papers {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-heading {
+          h1 {
+            font-size: 20px;
+          }
+        }
+
+        &-downloads {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+
+    //CASE STUDIES PAGE
+
+    &.studies {
+      .container-studies {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-heading {
+          h1 {
+            font-size: 20px;
+          }
+        }
+
+        &-downloads {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+
+    //DATA SHEETS PAGE
+
+    &.sheets {
+      .container-sheets {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+        &-heading {
+          h1 {
+            font-size: 20px;
+          }
+        }
+
+        &-downloads {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+
+    //BROCHURES PAGE
+
+    &.brochures {
+      .container-brochures {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+        &-heading {
+          h1 {
+            font-size: 20px;
+          }
+        }
+        &-downloads {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+
+    //ALL DOWNLOADS PAGE
+    &.downloads {
+      .container-downloads {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-grid {
+          grid-template-columns: 1fr;
+          p {
+            font-size: 16px;
+          }
+          a {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+
+    //Privacy + Cookie policy page
+
+    &.privacy,
+    &.cookie-policy {
+      .container-privacy {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        .privacy-heading {
+          width: 100%;
+          h1 {
+            font-size: 24px;
+          }
+          p {
+            font-size: 16px;
+          }
+        }
+
+        .privacy-notes {
+          width: 100%;
+          &-box {
+            width: 95%;
+          }
+        }
+      }
+    }
+
     //TERMS AND CONDITIONS PAGE
 
     &.terms {
@@ -657,6 +907,234 @@
       }
     }
 
+      //NEWSLETTER PAGE
+
+      &.newsletter {
+        .container-newsletter {
+          &-overlay {
+            h1 {
+              font-size: 30px;
+            }
+          }
+        }
+  
+        .form-container {
+          &-heading {
+            h1 {
+              font-size: 24px;
+            }
+  
+            .bottom-line {
+              width: 4rem;
+            }
+          }
+          &-form {
+            width: 100%;
+            .text-fields {
+              padding: 5px;
+            }
+          }
+        }
+      }
+
+    //SUCCESS MESSAGE PAGE
+    &.successpage {
+      .container-success {
+        padding: 16px;
+        text-align: center;
+
+        a {
+          font-size: 18px;
+        }
+      }
+    }
+
+    //BLOGS PAGE
+
+    &.blogs {
+      .container-blogs {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+
+        &-search {
+          h1 {
+            font-size: 24px;
+          }
+          input {
+            width: 75%;
+            font-size: 18px;
+          }
+          &-grid {
+            grid-template-columns: 1fr;
+            p {
+              font-size: 18px;
+            }
+            a {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+
+    //WEBINARS
+    &.webinars {
+      .container-webinars {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+
+        &-heading {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-downloads {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+
+    //WHITE PAPERS PAGE
+    &.papers {
+      .container-papers {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+
+        &-heading {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-downloads {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+
+    //CASE STUDIES PAGE
+
+    &.studies {
+      .container-studies {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+
+        &-heading {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-downloads {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+
+    //DATA SHEETS PAGE
+
+    &.sheets {
+      .container-sheets {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+        &-heading {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-downloads {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+
+    //BROCHURES PAGE
+
+    &.brochures {
+      .container-brochures {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+        &-heading {
+          h1 {
+            font-size: 24px;
+          }
+        }
+        &-downloads {
+          grid-template-columns: 1fr;
+        }
+      }
+    }
+
+    //ALL DOWNLOADS PAGE
+    &.downloads {
+      .container-downloads {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+
+        &-grid {
+          grid-template-columns: 1fr;
+          p {
+            font-size: 18px;
+          }
+          a {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+    //Privacy + Cookie policy page
+
+    &.privacy,
+    &.cookie-policy {
+      .container-privacy {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+
+        .privacy-heading {
+          width: 100%;
+          h1 {
+            font-size: 30px;
+          }
+          p {
+            font-size: 18px;
+          }
+        }
+
+        .privacy-notes {
+          width: 100%;
+          &-box {
+            width: 95%;
+          }
+        }
+      }
+    }
+
     //TERMS AND CONDITIONS PAGE
 
     &.terms {
@@ -1180,6 +1658,172 @@
             justify-content: space-between;
             img {
               width: 100px;
+            }
+          }
+        }
+      }
+      //BLOGS PAGE
+
+      &.blogs {
+        .container-blogs {
+          &-overlay {
+            h1 {
+              font-size: 35px;
+            }
+          }
+
+          &-search {
+            h1 {
+              font-size: 24px;
+            }
+            input {
+              width: 75%;
+              font-size: 24px;
+            }
+            &-grid {
+              grid-template-columns: repeat(2, 1fr);
+              p {
+                font-size: 18px;
+              }
+              a {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+
+      //WEBINARS
+      &.webinars {
+        .container-webinars {
+          &-overlay {
+            h1 {
+              font-size: 35px;
+            }
+          }
+
+          &-heading {
+            h1 {
+              font-size: 24px;
+            }
+          }
+
+          &-downloads {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+      }
+
+      //WHITE PAPERS PAGE
+      &.papers {
+        .container-papers {
+          &-overlay {
+            h1 {
+              font-size: 35px;
+            }
+          }
+
+          &-heading {
+            h1 {
+              font-size: 24px;
+            }
+          }
+
+          &-downloads {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+      }
+
+      //CASE STUDIES PAGE
+
+      &.studies {
+        .container-studies {
+          &-overlay {
+            h1 {
+              font-size: 35px;
+            }
+          }
+
+          &-heading {
+            h1 {
+              font-size: 24px;
+            }
+          }
+
+          &-downloads {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+      }
+
+      //DATA SHEETS PAGE
+
+      &.sheets {
+        .container-sheets {
+          &-overlay {
+            h1 {
+              font-size: 35px;
+            }
+          }
+          &-heading {
+            h1 {
+              font-size: 30px;
+            }
+          }
+
+          &-downloads {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+      }
+
+      //ALL DOWNLOADS PAGE
+      &.downloads {
+        .container-downloads {
+          &-overlay {
+            h1 {
+              font-size: 35px;
+            }
+          }
+
+          &-grid {
+            // grid-template-columns: 1fr;
+            p {
+              font-size: 18px;
+            }
+            a {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+
+      //Privacy + Cookie policy page
+
+      &.privacy,
+      &.cookie-policy {
+        .container-privacy {
+          &-overlay {
+            h1 {
+              font-size: 35px;
+            }
+          }
+
+          .privacy-heading {
+            width: 100%;
+            h1 {
+              font-size: 35px;
+            }
+            p {
+              font-size: 18px;
+            }
+          }
+
+          .privacy-notes {
+            width: 100%;
+            &-box {
+              width: 95%;
             }
           }
         }

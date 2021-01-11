@@ -3,6 +3,11 @@
 
 //SMALL DEVICES
 @media only screen and(max-width:450px) {
+  //cookies pop up
+  .cookies-popup {
+    top: 300px;
+    left: 70px;
+  }
   main {
     &.home {
       .swiper-container {
@@ -123,6 +128,393 @@
             img {
               width: 100px;
             }
+          }
+        }
+      }
+    }
+
+    //LIMS GATEWAY PAGE 
+    &.limsgateway{
+      .container-limsgateway{
+         &-overlay{
+           h1{
+             font-size: 24px;
+           }
+         }
+
+         &-grid3{
+           h1{
+             font-size: 20px;
+           }
+           .grid{
+             grid-template-columns: 1fr;
+             .box-info{
+               p{
+                 font-size: 16px;
+               }
+             }
+           }
+         }
+
+         &-grid,
+         &-grid2{
+           grid-template-columns: 1fr;
+           padding:5px;
+
+           .box-info{
+             p{
+               font-size: 16px;
+             }
+
+             h1{
+               font-size: 20px;
+             }
+           }
+         }
+      }
+    }
+
+    //LIMS ACCESS POINT
+    &.limsaccesspoint {
+      .container-limsaccesspoint {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-grid,
+        &-grid2,
+        &-grid4 {
+          grid-template-columns: 1fr;
+          .box-info {
+            width: 95%;
+            p {
+              font-size: 16px;
+            }
+            h1{
+              font-size: 20px;
+            }
+          }
+        }
+
+        &-grid3 {
+          h1 {
+            font-size: 20px;
+          }
+          .grid {
+            grid-template-columns: 1fr;
+
+            .box-info {
+              h4{
+                font-size: 18px;
+              }
+              p {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    //LIMS PRODUCT PAGE
+
+    &.limsproduct {
+      .container-limsproduct {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-grid {
+          grid-template-columns: 1fr;
+          .box-info {
+            p {
+              font-size: 16px;
+            }
+            h1 {
+              font-size: 20px;
+            }
+          }
+        }
+
+        &-video {
+          h1 {
+            font-size: 20px;
+          }
+          iframe {
+            width: 95%;
+          }
+        }
+
+        &-grid5 {
+          h1 {
+            font-size: 20px;
+          }
+
+          .grid {
+            grid-template-columns: 1fr;
+            .box-info {
+              img {
+                width: 200px;
+              }
+              p {
+                font-size: 16px;
+              }
+              h1 {
+                font-size: 20px;
+              }
+            }
+          }
+        }
+
+        &-grid4 {
+          h1 {
+            font-size: 20px;
+          }
+          .grid {
+            grid-template-columns: 1fr;
+            .box-info {
+              p {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+
+        &-grid2,
+        &-grid3,
+        &-grid6,
+        &-grid7 {
+          grid-template-columns: 1fr;
+          .box-info {
+            h1 {
+              font-size: 20px;
+            }
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+
+    //DRS PRODUCT PAGE
+
+    &.drsproduct {
+      .container-drsproduct {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+        &-grid2,
+        &-grid3,
+        &-grid7 {
+          grid-template-columns: 1fr;
+          padding: 16px;
+
+          .box-info {
+            p {
+              font-size: 16px;
+            }
+            h1 {
+              font-size: 20px;
+              text-align: center;
+            }
+          }
+        }
+
+        &-grid {
+          grid-template-columns: 1fr;
+          padding: 16px;
+
+          .box-info {
+            h1 {
+              font-size: 20px;
+              text-align: center;
+            }
+
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+
+        &-video {
+          width: 100%;
+          padding: 5px;
+          h1 {
+            font-size: 20px;
+          }
+          iframe {
+            width: 95%;
+          }
+        }
+      }
+    }
+
+    //LIMS SOLUTION PAGE
+    &.limssolution {
+      .container-limssolution {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-grid {
+          grid-template-columns: 1fr;
+          padding: 5px;
+
+          .box-info {
+            h1 {
+              font-size: 20px;
+            }
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+
+    //DRS SOLUTION PAGE
+
+    &.drssolution {
+      .container-drssolution {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-grid2 {
+          grid-template-columns: 1fr;
+          padding: 5px;
+
+          .box-info {
+            p {
+              font-size: 16px;
+            }
+            h1 {
+              font-size: 20px;
+            }
+          }
+        }
+
+        &-grid {
+          grid-template-columns: 1fr;
+          padding: 5px;
+          .box-info {
+            h1 {
+              font-size: 20px;
+            }
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+
+    //LIMS HUB PAGE
+
+    &.communications {
+      .container-communications {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-heading2 {
+          h1 {
+            font-size: 20px;
+          }
+          .bottom-line {
+            width: 4rem;
+          }
+        }
+
+        &-heading {
+          width: 80%;
+          padding: 5px;
+          h1 {
+            font-size: 20px;
+          }
+          p {
+            font-size: 16px;
+          }
+          .bottom-line {
+            width: 4rem;
+          }
+        }
+        &-grid {
+          grid-template-columns: 1fr;
+          .box {
+            a {
+              font-size: 16px;
+            }
+            p {
+              font-size: 16px;
+            }
+            h2 {
+              margin-top: 25px;
+              font-size: 20px;
+            }
+            .box-inner {
+              width: 80px;
+            }
+          }
+        }
+        &-grid2 {
+          grid-template-columns: 1fr;
+
+          a {
+            font-size: 16px;
+          }
+          h1 {
+            font-size: 24px;
+          }
+          h2 {
+            font-size: 20px;
+            display: none;
+          }
+        }
+      }
+    }
+
+    //NASK STORY PAGE
+    &.nask {
+      .container-nask {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-grid {
+          grid-template-columns: 1fr;
+          .info {
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+
+        &-button {
+          a {
+            font-size: 16px;
+          }
+        }
+
+        &-explanation {
+          grid-template-columns: 1fr;
+          p {
+            font-size: 16px;
           }
         }
       }
@@ -782,6 +1174,11 @@
 
 //MEDIUM SCREENS
 @media (min-device-width: 450px) and (max-device-width: 769px) {
+  //cookies pop up
+  .cookies-popup {
+    top: 300px;
+    left: 90px;
+  }
   main {
     &.home {
       .swiper-container {
@@ -907,35 +1304,421 @@
       }
     }
 
-      //NEWSLETTER PAGE
+      //LIMS GATEWAY PAGE 
+      &.limsgateway{
+        .container-limsgateway{
+           &-overlay{
+             h1{
+               font-size: 30px;
+             }
+           }
+  
+           &-grid3{
+             h1{
+               font-size: 24px;
+             }
+             .grid{
+               grid-template-columns: 1fr;
+               .box-info{
+                 p{
+                   font-size: 18px;
+                 }
+               }
+             }
+           }
+  
+           &-grid,
+           &-grid2{
+             grid-template-columns: 1fr;
+             padding:5px;
+  
+             .box-info{
+               p{
+                 font-size: 18px;
+               }
+  
+               h1{
+                 font-size: 24px;
+               }
+             }
+           }
+        }
+      }
 
-      &.newsletter {
-        .container-newsletter {
+      //LIMS ACCESS POINT
+      &.limsaccesspoint {
+        .container-limsaccesspoint {
           &-overlay {
             h1 {
               font-size: 30px;
             }
           }
-        }
   
-        .form-container {
-          &-heading {
+          &-grid,
+          &-grid2,
+          &-grid4 {
+            grid-template-columns: 1fr;
+            .box-info {
+              width: 95%;
+              p {
+                font-size: 18px;
+              }
+              h1{
+                font-size: 24px;
+              }
+            }
+          }
+  
+          &-grid3 {
             h1 {
               font-size: 24px;
             }
+            .grid {
+              grid-template-columns: 1fr;
   
-            .bottom-line {
-              width: 4rem;
-            }
-          }
-          &-form {
-            width: 100%;
-            .text-fields {
-              padding: 5px;
+              .box-info {
+                h4{
+                  font-size: 20px;
+                }
+                p {
+                  font-size: 18px;
+                }
+              }
             }
           }
         }
       }
+
+    //LIMS PRODUCT PAGE
+
+    &.limsproduct {
+      .container-limsproduct {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+
+        &-grid {
+          grid-template-columns: 1fr;
+          .box-info {
+            p {
+              font-size: 18px;
+            }
+            h1 {
+              font-size: 24px;
+            }
+          }
+        }
+
+        &-video {
+          h1 {
+            font-size: 24px;
+          }
+          iframe {
+            width: 95%;
+          }
+        }
+
+        &-grid5 {
+          h1 {
+            font-size: 24px;
+          }
+
+          .grid {
+            grid-template-columns: 1fr;
+            .box-info {
+              p {
+                font-size: 18px;
+              }
+              h1 {
+                font-size: 24px;
+              }
+            }
+          }
+        }
+
+        &-grid4 {
+          h1 {
+            font-size: 24px;
+          }
+          .grid {
+            grid-template-columns: 1fr;
+            .box-info {
+              width: 90%;
+              p {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+
+        &-grid2,
+        &-grid3,
+        &-grid6,
+        &-grid7 {
+          grid-template-columns: 1fr;
+          padding: 5px;
+          .box-info {
+            h1 {
+              font-size: 24px;
+            }
+            p {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+
+    //DRS PRODUCT PAGE
+
+    &.drsproduct {
+      .container-drsproduct {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+        &-grid2,
+        &-grid3,
+        &-grid7 {
+          grid-template-columns: 1fr;
+          padding: 16px;
+
+          .box-info {
+            p {
+              font-size: 18px;
+            }
+            h1 {
+              font-size: 24px;
+              text-align: center;
+            }
+          }
+        }
+
+        &-grid {
+          grid-template-columns: 1fr;
+          padding: 16px;
+
+          .box-info {
+            h1 {
+              font-size: 24px;
+              text-align: center;
+            }
+
+            p {
+              font-size: 18px;
+            }
+          }
+        }
+
+        &-video {
+          width: 100%;
+          padding: 5px;
+          h1 {
+            font-size: 24px;
+          }
+          iframe {
+            width: 95%;
+          }
+        }
+      }
+    }
+
+    //LIMS SOLUTION PAGE
+    &.limssolution {
+      .container-limssolution {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+
+        &-grid {
+          grid-template-columns: 1fr;
+          padding: 5px;
+
+          .box-info {
+            h1 {
+              font-size: 24px;
+            }
+            p {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+
+    //DRS SOLUTION PAGE
+
+    &.drssolution {
+      .container-drssolution {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+
+        &-grid2 {
+          grid-template-columns: 1fr;
+          padding: 5px;
+
+          .box-info {
+            p {
+              font-size: 18px;
+            }
+            h1 {
+              font-size: 24px;
+            }
+          }
+        }
+
+        &-grid {
+          grid-template-columns: 1fr;
+          padding: 5px;
+          .box-info {
+            h1 {
+              font-size: 24px;
+            }
+            p {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+
+    //LIMS HUB PAGE
+
+    &.communications {
+      .container-communications {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+
+        &-heading2 {
+          h1 {
+            font-size: 25px;
+          }
+          .bottom-line {
+            width: 4rem;
+          }
+        }
+
+        &-heading {
+          width: 80%;
+          padding: 5px;
+          h1 {
+            font-size: 20px;
+          }
+          p {
+            font-size: 18px;
+          }
+          .bottom-line {
+            width: 4rem;
+          }
+        }
+        &-grid {
+          grid-template-columns: 1fr;
+          .box {
+            a {
+              font-size: 18px;
+            }
+            p {
+              font-size: 18px;
+            }
+            h2 {
+              margin-top: 25px;
+              font-size: 20px;
+            }
+            .box-inner {
+              width: 80px;
+            }
+          }
+        }
+        &-grid2 {
+          grid-template-columns: 1fr;
+
+          a {
+            font-size: 18px;
+          }
+          h1 {
+            font-size: 30px;
+          }
+          h2 {
+            font-size: 20px;
+            // display: none;
+          }
+        }
+      }
+    }
+
+    //NASK STORY PAGE
+    &.nask {
+      .container-nask {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+
+        &-grid {
+          grid-template-columns: 1fr;
+          .info {
+            p {
+              font-size: 18px;
+            }
+          }
+        }
+
+        &-button {
+          a {
+            font-size: 18px;
+          }
+        }
+
+        &-explanation {
+          grid-template-columns: 1fr;
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+
+    //NEWSLETTER PAGE
+
+    &.newsletter {
+      .container-newsletter {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+      }
+
+      .form-container {
+        &-heading {
+          h1 {
+            font-size: 24px;
+          }
+
+          .bottom-line {
+            width: 4rem;
+          }
+        }
+        &-form {
+          width: 100%;
+          .text-fields {
+            padding: 5px;
+          }
+        }
+      }
+    }
 
     //SUCCESS MESSAGE PAGE
     &.successpage {
@@ -1658,6 +2441,246 @@
             justify-content: space-between;
             img {
               width: 100px;
+            }
+          }
+        }
+      }
+
+        //LIMS GATEWAY PAGE 
+    &.limsgateway{
+      .container-limsgateway{
+         &-overlay{
+           h1{
+             font-size: 35px;
+           }
+         }
+
+         &-grid3{
+           h1{
+             font-size: 24px;
+           }
+           .grid{
+            //  grid-template-columns: 1fr;
+             .box-info{
+               p{
+                 font-size: 18px;
+               }
+             }
+           }
+         }
+
+         &-grid,
+         &-grid2{
+           grid-template-columns: repeat(2,1fr);
+           padding:5px;
+
+           .box-info{
+             p{
+               font-size: 18px;
+             }
+
+             h1{
+               font-size: 24px;
+             }
+           }
+         }
+      }
+    }
+
+        //LIMS ACCESS POINT
+    &.limsaccesspoint {
+      .container-limsaccesspoint {
+        &-overlay {
+          h1 {
+            font-size: 35px;
+          }
+        }
+
+        &-grid,
+        &-grid2,
+        &-grid4 {
+          // grid-template-columns: 1fr;
+          .box-info {
+            width: 95%;
+            p {
+              font-size: 18px;
+            }
+            h1{
+              font-size: 24px;
+            }
+          }
+        }
+
+        &-grid3 {
+          h1 {
+            font-size: 24px;
+          }
+          .grid {
+            grid-template-columns: repeat(3,1fr);
+
+            .box-info {
+              h4{
+                font-size: 22px;
+              }
+              p {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+      //LIMS PRODUCT PAGE
+
+      &.limsproduct {
+        .container-limsproduct {
+          &-overlay {
+            h1 {
+              font-size: 35px;
+            }
+          }
+
+          &-grid {
+            grid-template-columns: repeat(2, 1fr);
+            .box-info {
+              p {
+                font-size: 18px;
+              }
+              h1 {
+                font-size: 24px;
+              }
+            }
+          }
+
+          &-video {
+            h1 {
+              font-size: 24px;
+            }
+            iframe {
+              width: 95%;
+            }
+          }
+
+          &-grid5 {
+            h1 {
+              font-size: 24px;
+            }
+
+            .grid {
+              grid-template-columns: repeat(3, 1fr);
+              .box-info {
+                img {
+                  width: 200px;
+                }
+                p {
+                  font-size: 18px;
+                }
+                h1 {
+                  font-size: 24px;
+                }
+              }
+            }
+          }
+
+          &-grid4 {
+            h1 {
+              font-size: 24px;
+            }
+            .grid {
+              grid-template-columns: repeat(2, 1fr);
+              .box-info {
+                p {
+                  font-size: 18px;
+                }
+              }
+            }
+          }
+
+          &-grid2,
+          &-grid3,
+          &-grid6,
+          &-grid7 {
+            grid-template-columns: repeat(2, 1fr);
+            .box-info {
+              h1 {
+                font-size: 24px;
+              }
+              p {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+
+      //DRS SOLUTION PAGE
+
+      &.drssolution {
+        .container-drssolution {
+          &-overlay {
+            h1 {
+              font-size: 30px;
+            }
+          }
+
+          &-grid2 {
+            grid-template-columns: 1fr;
+            padding: 5px;
+
+            .box-info {
+              p {
+                font-size: 18px;
+              }
+              h1 {
+                font-size: 24px;
+              }
+            }
+          }
+
+          &-grid {
+            grid-template-columns: 1fr;
+            padding: 5px;
+            .box-info {
+              h1 {
+                font-size: 24px;
+              }
+              p {
+                font-size: 18 px;
+              }
+            }
+          }
+        }
+      }
+
+      //NASK STORY PAGE
+      &.nask {
+        .container-nask {
+          &-overlay {
+            h1 {
+              font-size: 35px;
+            }
+          }
+
+          &-grid {
+            grid-template-columns: 1fr;
+            .info {
+              p {
+                font-size: 18px;
+              }
+            }
+          }
+
+          &-button {
+            a {
+              font-size: 18px;
+            }
+          }
+
+          &-explanation {
+            // grid-template-columns: 1fr;
+            p {
+              font-size: 18px;
             }
           }
         }

@@ -2264,12 +2264,6 @@ main {
         main.pqc .container-pqc-downloads .link i {
           color: #000000;
           margin: 10px 0; }
-  main.kebridge-poy .container-poy {
-    height: 60vh;
-    border: 1px solid black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center; }
   main.limsgateway .container-limsgateway {
     width: 100%;
     height: 50vh;
@@ -2972,6 +2966,9 @@ main {
   margin: 0 auto 20px auto; }
 
 @media only screen and (max-width: 450px) {
+  .cookies-popup {
+    top: 300px;
+    left: 70px; }
   main.home .swiper-container {
     justify-content: center;
     align-items: center; }
@@ -3041,6 +3038,170 @@ main {
     justify-content: space-between; }
     main.home .partners .swiper-container .swiper-slide img {
       width: 100px; }
+  main.limsgateway .container-limsgateway-overlay h1 {
+    font-size: 24px; }
+  main.limsgateway .container-limsgateway-grid3 h1 {
+    font-size: 20px; }
+  main.limsgateway .container-limsgateway-grid3 .grid {
+    grid-template-columns: 1fr; }
+    main.limsgateway .container-limsgateway-grid3 .grid .box-info p {
+      font-size: 16px; }
+  main.limsgateway .container-limsgateway-grid, main.limsgateway .container-limsgateway-grid2 {
+    grid-template-columns: 1fr;
+    padding: 5px; }
+    main.limsgateway .container-limsgateway-grid .box-info p, main.limsgateway .container-limsgateway-grid2 .box-info p {
+      font-size: 16px; }
+    main.limsgateway .container-limsgateway-grid .box-info h1, main.limsgateway .container-limsgateway-grid2 .box-info h1 {
+      font-size: 20px; }
+  main.limsaccesspoint .container-limsaccesspoint-overlay h1 {
+    font-size: 24px; }
+  main.limsaccesspoint .container-limsaccesspoint-grid, main.limsaccesspoint .container-limsaccesspoint-grid2, main.limsaccesspoint .container-limsaccesspoint-grid4 {
+    grid-template-columns: 1fr; }
+    main.limsaccesspoint .container-limsaccesspoint-grid .box-info, main.limsaccesspoint .container-limsaccesspoint-grid2 .box-info, main.limsaccesspoint .container-limsaccesspoint-grid4 .box-info {
+      width: 95%; }
+      main.limsaccesspoint .container-limsaccesspoint-grid .box-info p, main.limsaccesspoint .container-limsaccesspoint-grid2 .box-info p, main.limsaccesspoint .container-limsaccesspoint-grid4 .box-info p {
+        font-size: 16px; }
+      main.limsaccesspoint .container-limsaccesspoint-grid .box-info h1, main.limsaccesspoint .container-limsaccesspoint-grid2 .box-info h1, main.limsaccesspoint .container-limsaccesspoint-grid4 .box-info h1 {
+        font-size: 20px; }
+  main.limsaccesspoint .container-limsaccesspoint-grid3 h1 {
+    font-size: 20px; }
+  main.limsaccesspoint .container-limsaccesspoint-grid3 .grid {
+    grid-template-columns: 1fr; }
+    main.limsaccesspoint .container-limsaccesspoint-grid3 .grid .box-info h4 {
+      font-size: 18px; }
+    main.limsaccesspoint .container-limsaccesspoint-grid3 .grid .box-info p {
+      font-size: 16px; }
+  main.limsproduct .container-limsproduct-overlay h1 {
+    font-size: 24px; }
+  main.limsproduct .container-limsproduct-grid {
+    grid-template-columns: 1fr; }
+    main.limsproduct .container-limsproduct-grid .box-info p {
+      font-size: 16px; }
+    main.limsproduct .container-limsproduct-grid .box-info h1 {
+      font-size: 20px; }
+  main.limsproduct .container-limsproduct-video h1 {
+    font-size: 20px; }
+  main.limsproduct .container-limsproduct-video iframe {
+    width: 95%; }
+  main.limsproduct .container-limsproduct-grid5 h1 {
+    font-size: 20px; }
+  main.limsproduct .container-limsproduct-grid5 .grid {
+    grid-template-columns: 1fr; }
+    main.limsproduct .container-limsproduct-grid5 .grid .box-info img {
+      width: 200px; }
+    main.limsproduct .container-limsproduct-grid5 .grid .box-info p {
+      font-size: 16px; }
+    main.limsproduct .container-limsproduct-grid5 .grid .box-info h1 {
+      font-size: 20px; }
+  main.limsproduct .container-limsproduct-grid4 h1 {
+    font-size: 20px; }
+  main.limsproduct .container-limsproduct-grid4 .grid {
+    grid-template-columns: 1fr; }
+    main.limsproduct .container-limsproduct-grid4 .grid .box-info p {
+      font-size: 16px; }
+  main.limsproduct .container-limsproduct-grid2, main.limsproduct .container-limsproduct-grid3, main.limsproduct .container-limsproduct-grid6, main.limsproduct .container-limsproduct-grid7 {
+    grid-template-columns: 1fr; }
+    main.limsproduct .container-limsproduct-grid2 .box-info h1, main.limsproduct .container-limsproduct-grid3 .box-info h1, main.limsproduct .container-limsproduct-grid6 .box-info h1, main.limsproduct .container-limsproduct-grid7 .box-info h1 {
+      font-size: 20px; }
+    main.limsproduct .container-limsproduct-grid2 .box-info p, main.limsproduct .container-limsproduct-grid3 .box-info p, main.limsproduct .container-limsproduct-grid6 .box-info p, main.limsproduct .container-limsproduct-grid7 .box-info p {
+      font-size: 16px; }
+  main.drsproduct .container-drsproduct-overlay h1 {
+    font-size: 24px; }
+  main.drsproduct .container-drsproduct-grid2, main.drsproduct .container-drsproduct-grid3, main.drsproduct .container-drsproduct-grid7 {
+    grid-template-columns: 1fr;
+    padding: 16px; }
+    main.drsproduct .container-drsproduct-grid2 .box-info p, main.drsproduct .container-drsproduct-grid3 .box-info p, main.drsproduct .container-drsproduct-grid7 .box-info p {
+      font-size: 16px; }
+    main.drsproduct .container-drsproduct-grid2 .box-info h1, main.drsproduct .container-drsproduct-grid3 .box-info h1, main.drsproduct .container-drsproduct-grid7 .box-info h1 {
+      font-size: 20px;
+      text-align: center; }
+  main.drsproduct .container-drsproduct-grid {
+    grid-template-columns: 1fr;
+    padding: 16px; }
+    main.drsproduct .container-drsproduct-grid .box-info h1 {
+      font-size: 20px;
+      text-align: center; }
+    main.drsproduct .container-drsproduct-grid .box-info p {
+      font-size: 16px; }
+  main.drsproduct .container-drsproduct-video {
+    width: 100%;
+    padding: 5px; }
+    main.drsproduct .container-drsproduct-video h1 {
+      font-size: 20px; }
+    main.drsproduct .container-drsproduct-video iframe {
+      width: 95%; }
+  main.limssolution .container-limssolution-overlay h1 {
+    font-size: 24px; }
+  main.limssolution .container-limssolution-grid {
+    grid-template-columns: 1fr;
+    padding: 5px; }
+    main.limssolution .container-limssolution-grid .box-info h1 {
+      font-size: 20px; }
+    main.limssolution .container-limssolution-grid .box-info p {
+      font-size: 16px; }
+  main.drssolution .container-drssolution-overlay h1 {
+    font-size: 24px; }
+  main.drssolution .container-drssolution-grid2 {
+    grid-template-columns: 1fr;
+    padding: 5px; }
+    main.drssolution .container-drssolution-grid2 .box-info p {
+      font-size: 16px; }
+    main.drssolution .container-drssolution-grid2 .box-info h1 {
+      font-size: 20px; }
+  main.drssolution .container-drssolution-grid {
+    grid-template-columns: 1fr;
+    padding: 5px; }
+    main.drssolution .container-drssolution-grid .box-info h1 {
+      font-size: 20px; }
+    main.drssolution .container-drssolution-grid .box-info p {
+      font-size: 16px; }
+  main.communications .container-communications-overlay h1 {
+    font-size: 24px; }
+  main.communications .container-communications-heading2 h1 {
+    font-size: 20px; }
+  main.communications .container-communications-heading2 .bottom-line {
+    width: 4rem; }
+  main.communications .container-communications-heading {
+    width: 80%;
+    padding: 5px; }
+    main.communications .container-communications-heading h1 {
+      font-size: 20px; }
+    main.communications .container-communications-heading p {
+      font-size: 16px; }
+    main.communications .container-communications-heading .bottom-line {
+      width: 4rem; }
+  main.communications .container-communications-grid {
+    grid-template-columns: 1fr; }
+    main.communications .container-communications-grid .box a {
+      font-size: 16px; }
+    main.communications .container-communications-grid .box p {
+      font-size: 16px; }
+    main.communications .container-communications-grid .box h2 {
+      margin-top: 25px;
+      font-size: 20px; }
+    main.communications .container-communications-grid .box .box-inner {
+      width: 80px; }
+  main.communications .container-communications-grid2 {
+    grid-template-columns: 1fr; }
+    main.communications .container-communications-grid2 a {
+      font-size: 16px; }
+    main.communications .container-communications-grid2 h1 {
+      font-size: 24px; }
+    main.communications .container-communications-grid2 h2 {
+      font-size: 20px;
+      display: none; }
+  main.nask .container-nask-overlay h1 {
+    font-size: 24px; }
+  main.nask .container-nask-grid {
+    grid-template-columns: 1fr; }
+    main.nask .container-nask-grid .info p {
+      font-size: 16px; }
+  main.nask .container-nask-button a {
+    font-size: 16px; }
+  main.nask .container-nask-explanation {
+    grid-template-columns: 1fr; }
+    main.nask .container-nask-explanation p {
+      font-size: 16px; }
   main.newsletter .container-newsletter-overlay h1 {
     font-size: 24px; }
   main.newsletter .form-container-heading h1 {
@@ -3295,6 +3456,9 @@ main {
         border: 0; } }
 
 @media (min-device-width: 450px) and (max-device-width: 769px) {
+  .cookies-popup {
+    top: 300px;
+    left: 90px; }
   main.home .swiper-container {
     justify-content: center;
     align-items: center; }
@@ -3361,6 +3525,170 @@ main {
     justify-content: space-between; }
     main.home .partners .swiper-container .swiper-slide img {
       width: 100px; }
+  main.limsgateway .container-limsgateway-overlay h1 {
+    font-size: 30px; }
+  main.limsgateway .container-limsgateway-grid3 h1 {
+    font-size: 24px; }
+  main.limsgateway .container-limsgateway-grid3 .grid {
+    grid-template-columns: 1fr; }
+    main.limsgateway .container-limsgateway-grid3 .grid .box-info p {
+      font-size: 18px; }
+  main.limsgateway .container-limsgateway-grid, main.limsgateway .container-limsgateway-grid2 {
+    grid-template-columns: 1fr;
+    padding: 5px; }
+    main.limsgateway .container-limsgateway-grid .box-info p, main.limsgateway .container-limsgateway-grid2 .box-info p {
+      font-size: 18px; }
+    main.limsgateway .container-limsgateway-grid .box-info h1, main.limsgateway .container-limsgateway-grid2 .box-info h1 {
+      font-size: 24px; }
+  main.limsaccesspoint .container-limsaccesspoint-overlay h1 {
+    font-size: 30px; }
+  main.limsaccesspoint .container-limsaccesspoint-grid, main.limsaccesspoint .container-limsaccesspoint-grid2, main.limsaccesspoint .container-limsaccesspoint-grid4 {
+    grid-template-columns: 1fr; }
+    main.limsaccesspoint .container-limsaccesspoint-grid .box-info, main.limsaccesspoint .container-limsaccesspoint-grid2 .box-info, main.limsaccesspoint .container-limsaccesspoint-grid4 .box-info {
+      width: 95%; }
+      main.limsaccesspoint .container-limsaccesspoint-grid .box-info p, main.limsaccesspoint .container-limsaccesspoint-grid2 .box-info p, main.limsaccesspoint .container-limsaccesspoint-grid4 .box-info p {
+        font-size: 18px; }
+      main.limsaccesspoint .container-limsaccesspoint-grid .box-info h1, main.limsaccesspoint .container-limsaccesspoint-grid2 .box-info h1, main.limsaccesspoint .container-limsaccesspoint-grid4 .box-info h1 {
+        font-size: 24px; }
+  main.limsaccesspoint .container-limsaccesspoint-grid3 h1 {
+    font-size: 24px; }
+  main.limsaccesspoint .container-limsaccesspoint-grid3 .grid {
+    grid-template-columns: 1fr; }
+    main.limsaccesspoint .container-limsaccesspoint-grid3 .grid .box-info h4 {
+      font-size: 20px; }
+    main.limsaccesspoint .container-limsaccesspoint-grid3 .grid .box-info p {
+      font-size: 18px; }
+  main.limsproduct .container-limsproduct-overlay h1 {
+    font-size: 30px; }
+  main.limsproduct .container-limsproduct-grid {
+    grid-template-columns: 1fr; }
+    main.limsproduct .container-limsproduct-grid .box-info p {
+      font-size: 18px; }
+    main.limsproduct .container-limsproduct-grid .box-info h1 {
+      font-size: 24px; }
+  main.limsproduct .container-limsproduct-video h1 {
+    font-size: 24px; }
+  main.limsproduct .container-limsproduct-video iframe {
+    width: 95%; }
+  main.limsproduct .container-limsproduct-grid5 h1 {
+    font-size: 24px; }
+  main.limsproduct .container-limsproduct-grid5 .grid {
+    grid-template-columns: 1fr; }
+    main.limsproduct .container-limsproduct-grid5 .grid .box-info p {
+      font-size: 18px; }
+    main.limsproduct .container-limsproduct-grid5 .grid .box-info h1 {
+      font-size: 24px; }
+  main.limsproduct .container-limsproduct-grid4 h1 {
+    font-size: 24px; }
+  main.limsproduct .container-limsproduct-grid4 .grid {
+    grid-template-columns: 1fr; }
+    main.limsproduct .container-limsproduct-grid4 .grid .box-info {
+      width: 90%; }
+      main.limsproduct .container-limsproduct-grid4 .grid .box-info p {
+        font-size: 18px; }
+  main.limsproduct .container-limsproduct-grid2, main.limsproduct .container-limsproduct-grid3, main.limsproduct .container-limsproduct-grid6, main.limsproduct .container-limsproduct-grid7 {
+    grid-template-columns: 1fr;
+    padding: 5px; }
+    main.limsproduct .container-limsproduct-grid2 .box-info h1, main.limsproduct .container-limsproduct-grid3 .box-info h1, main.limsproduct .container-limsproduct-grid6 .box-info h1, main.limsproduct .container-limsproduct-grid7 .box-info h1 {
+      font-size: 24px; }
+    main.limsproduct .container-limsproduct-grid2 .box-info p, main.limsproduct .container-limsproduct-grid3 .box-info p, main.limsproduct .container-limsproduct-grid6 .box-info p, main.limsproduct .container-limsproduct-grid7 .box-info p {
+      font-size: 18px; }
+  main.drsproduct .container-drsproduct-overlay h1 {
+    font-size: 30px; }
+  main.drsproduct .container-drsproduct-grid2, main.drsproduct .container-drsproduct-grid3, main.drsproduct .container-drsproduct-grid7 {
+    grid-template-columns: 1fr;
+    padding: 16px; }
+    main.drsproduct .container-drsproduct-grid2 .box-info p, main.drsproduct .container-drsproduct-grid3 .box-info p, main.drsproduct .container-drsproduct-grid7 .box-info p {
+      font-size: 18px; }
+    main.drsproduct .container-drsproduct-grid2 .box-info h1, main.drsproduct .container-drsproduct-grid3 .box-info h1, main.drsproduct .container-drsproduct-grid7 .box-info h1 {
+      font-size: 24px;
+      text-align: center; }
+  main.drsproduct .container-drsproduct-grid {
+    grid-template-columns: 1fr;
+    padding: 16px; }
+    main.drsproduct .container-drsproduct-grid .box-info h1 {
+      font-size: 24px;
+      text-align: center; }
+    main.drsproduct .container-drsproduct-grid .box-info p {
+      font-size: 18px; }
+  main.drsproduct .container-drsproduct-video {
+    width: 100%;
+    padding: 5px; }
+    main.drsproduct .container-drsproduct-video h1 {
+      font-size: 24px; }
+    main.drsproduct .container-drsproduct-video iframe {
+      width: 95%; }
+  main.limssolution .container-limssolution-overlay h1 {
+    font-size: 30px; }
+  main.limssolution .container-limssolution-grid {
+    grid-template-columns: 1fr;
+    padding: 5px; }
+    main.limssolution .container-limssolution-grid .box-info h1 {
+      font-size: 24px; }
+    main.limssolution .container-limssolution-grid .box-info p {
+      font-size: 18px; }
+  main.drssolution .container-drssolution-overlay h1 {
+    font-size: 30px; }
+  main.drssolution .container-drssolution-grid2 {
+    grid-template-columns: 1fr;
+    padding: 5px; }
+    main.drssolution .container-drssolution-grid2 .box-info p {
+      font-size: 18px; }
+    main.drssolution .container-drssolution-grid2 .box-info h1 {
+      font-size: 24px; }
+  main.drssolution .container-drssolution-grid {
+    grid-template-columns: 1fr;
+    padding: 5px; }
+    main.drssolution .container-drssolution-grid .box-info h1 {
+      font-size: 24px; }
+    main.drssolution .container-drssolution-grid .box-info p {
+      font-size: 18px; }
+  main.communications .container-communications-overlay h1 {
+    font-size: 30px; }
+  main.communications .container-communications-heading2 h1 {
+    font-size: 25px; }
+  main.communications .container-communications-heading2 .bottom-line {
+    width: 4rem; }
+  main.communications .container-communications-heading {
+    width: 80%;
+    padding: 5px; }
+    main.communications .container-communications-heading h1 {
+      font-size: 20px; }
+    main.communications .container-communications-heading p {
+      font-size: 18px; }
+    main.communications .container-communications-heading .bottom-line {
+      width: 4rem; }
+  main.communications .container-communications-grid {
+    grid-template-columns: 1fr; }
+    main.communications .container-communications-grid .box a {
+      font-size: 18px; }
+    main.communications .container-communications-grid .box p {
+      font-size: 18px; }
+    main.communications .container-communications-grid .box h2 {
+      margin-top: 25px;
+      font-size: 20px; }
+    main.communications .container-communications-grid .box .box-inner {
+      width: 80px; }
+  main.communications .container-communications-grid2 {
+    grid-template-columns: 1fr; }
+    main.communications .container-communications-grid2 a {
+      font-size: 18px; }
+    main.communications .container-communications-grid2 h1 {
+      font-size: 30px; }
+    main.communications .container-communications-grid2 h2 {
+      font-size: 20px; }
+  main.nask .container-nask-overlay h1 {
+    font-size: 30px; }
+  main.nask .container-nask-grid {
+    grid-template-columns: 1fr; }
+    main.nask .container-nask-grid .info p {
+      font-size: 18px; }
+  main.nask .container-nask-button a {
+    font-size: 18px; }
+  main.nask .container-nask-explanation {
+    grid-template-columns: 1fr; }
+    main.nask .container-nask-explanation p {
+      font-size: 18px; }
   main.newsletter .container-newsletter-overlay h1 {
     font-size: 30px; }
   main.newsletter .form-container-heading h1 {
@@ -3677,6 +4005,95 @@ main {
     justify-content: space-between; }
     main.home .partners .swiper-container .swiper-slide img {
       width: 100px; }
+  main.home.limsgateway .container-limsgateway-overlay h1 {
+    font-size: 35px; }
+  main.home.limsgateway .container-limsgateway-grid3 h1 {
+    font-size: 24px; }
+  main.home.limsgateway .container-limsgateway-grid3 .grid .box-info p {
+    font-size: 18px; }
+  main.home.limsgateway .container-limsgateway-grid, main.home.limsgateway .container-limsgateway-grid2 {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5px; }
+    main.home.limsgateway .container-limsgateway-grid .box-info p, main.home.limsgateway .container-limsgateway-grid2 .box-info p {
+      font-size: 18px; }
+    main.home.limsgateway .container-limsgateway-grid .box-info h1, main.home.limsgateway .container-limsgateway-grid2 .box-info h1 {
+      font-size: 24px; }
+  main.home.limsaccesspoint .container-limsaccesspoint-overlay h1 {
+    font-size: 35px; }
+  main.home.limsaccesspoint .container-limsaccesspoint-grid .box-info, main.home.limsaccesspoint .container-limsaccesspoint-grid2 .box-info, main.home.limsaccesspoint .container-limsaccesspoint-grid4 .box-info {
+    width: 95%; }
+    main.home.limsaccesspoint .container-limsaccesspoint-grid .box-info p, main.home.limsaccesspoint .container-limsaccesspoint-grid2 .box-info p, main.home.limsaccesspoint .container-limsaccesspoint-grid4 .box-info p {
+      font-size: 18px; }
+    main.home.limsaccesspoint .container-limsaccesspoint-grid .box-info h1, main.home.limsaccesspoint .container-limsaccesspoint-grid2 .box-info h1, main.home.limsaccesspoint .container-limsaccesspoint-grid4 .box-info h1 {
+      font-size: 24px; }
+  main.home.limsaccesspoint .container-limsaccesspoint-grid3 h1 {
+    font-size: 24px; }
+  main.home.limsaccesspoint .container-limsaccesspoint-grid3 .grid {
+    grid-template-columns: repeat(3, 1fr); }
+    main.home.limsaccesspoint .container-limsaccesspoint-grid3 .grid .box-info h4 {
+      font-size: 22px; }
+    main.home.limsaccesspoint .container-limsaccesspoint-grid3 .grid .box-info p {
+      font-size: 18px; }
+  main.home.limsproduct .container-limsproduct-overlay h1 {
+    font-size: 35px; }
+  main.home.limsproduct .container-limsproduct-grid {
+    grid-template-columns: repeat(2, 1fr); }
+    main.home.limsproduct .container-limsproduct-grid .box-info p {
+      font-size: 18px; }
+    main.home.limsproduct .container-limsproduct-grid .box-info h1 {
+      font-size: 24px; }
+  main.home.limsproduct .container-limsproduct-video h1 {
+    font-size: 24px; }
+  main.home.limsproduct .container-limsproduct-video iframe {
+    width: 95%; }
+  main.home.limsproduct .container-limsproduct-grid5 h1 {
+    font-size: 24px; }
+  main.home.limsproduct .container-limsproduct-grid5 .grid {
+    grid-template-columns: repeat(3, 1fr); }
+    main.home.limsproduct .container-limsproduct-grid5 .grid .box-info img {
+      width: 200px; }
+    main.home.limsproduct .container-limsproduct-grid5 .grid .box-info p {
+      font-size: 18px; }
+    main.home.limsproduct .container-limsproduct-grid5 .grid .box-info h1 {
+      font-size: 24px; }
+  main.home.limsproduct .container-limsproduct-grid4 h1 {
+    font-size: 24px; }
+  main.home.limsproduct .container-limsproduct-grid4 .grid {
+    grid-template-columns: repeat(2, 1fr); }
+    main.home.limsproduct .container-limsproduct-grid4 .grid .box-info p {
+      font-size: 18px; }
+  main.home.limsproduct .container-limsproduct-grid2, main.home.limsproduct .container-limsproduct-grid3, main.home.limsproduct .container-limsproduct-grid6, main.home.limsproduct .container-limsproduct-grid7 {
+    grid-template-columns: repeat(2, 1fr); }
+    main.home.limsproduct .container-limsproduct-grid2 .box-info h1, main.home.limsproduct .container-limsproduct-grid3 .box-info h1, main.home.limsproduct .container-limsproduct-grid6 .box-info h1, main.home.limsproduct .container-limsproduct-grid7 .box-info h1 {
+      font-size: 24px; }
+    main.home.limsproduct .container-limsproduct-grid2 .box-info p, main.home.limsproduct .container-limsproduct-grid3 .box-info p, main.home.limsproduct .container-limsproduct-grid6 .box-info p, main.home.limsproduct .container-limsproduct-grid7 .box-info p {
+      font-size: 18px; }
+  main.home.drssolution .container-drssolution-overlay h1 {
+    font-size: 30px; }
+  main.home.drssolution .container-drssolution-grid2 {
+    grid-template-columns: 1fr;
+    padding: 5px; }
+    main.home.drssolution .container-drssolution-grid2 .box-info p {
+      font-size: 18px; }
+    main.home.drssolution .container-drssolution-grid2 .box-info h1 {
+      font-size: 24px; }
+  main.home.drssolution .container-drssolution-grid {
+    grid-template-columns: 1fr;
+    padding: 5px; }
+    main.home.drssolution .container-drssolution-grid .box-info h1 {
+      font-size: 24px; }
+    main.home.drssolution .container-drssolution-grid .box-info p {
+      font-size: 18 px; }
+  main.home.nask .container-nask-overlay h1 {
+    font-size: 35px; }
+  main.home.nask .container-nask-grid {
+    grid-template-columns: 1fr; }
+    main.home.nask .container-nask-grid .info p {
+      font-size: 18px; }
+  main.home.nask .container-nask-button a {
+    font-size: 18px; }
+  main.home.nask .container-nask-explanation p {
+    font-size: 18px; }
   main.home.blogs .container-blogs-overlay h1 {
     font-size: 35px; }
   main.home.blogs .container-blogs-search h1 {

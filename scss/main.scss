@@ -800,7 +800,7 @@ main {
 
       &-text {
         padding: 16px;
-        p{
+        p {
           font-size: 18px;
         }
         h1 {
@@ -2740,8 +2740,6 @@ main {
     }
   }
 
- 
-
   //LIMS GATEWAY PRODUCT PAGE
 
   &.limsgateway {
@@ -3511,8 +3509,8 @@ main {
 
   //success message page
 
-  &.successpage{
-    .container-success-showcase{
+  &.successpage {
+    .container-success-showcase {
       width: 100%;
       height: 50vh;
       background-repeat: no-repeat;
@@ -3528,7 +3526,7 @@ main {
         background: rgba(lighten($color: $black-color, $amount: 5), 0.3);
       }
     }
-    .container-success{
+    .container-success {
       width: 100%;
       height: 50vh;
       display: flex;
@@ -3557,7 +3555,7 @@ main {
       }
     }
   }
- 
+
   //site map page
   &.sitemap {
     .sitemap {
@@ -3569,7 +3567,7 @@ main {
       margin: 100px 0;
       padding: 3rem;
       font-size: 18px;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
       ul {
         list-style: none;
       }
@@ -3593,6 +3591,2866 @@ main {
           width: 1em;
         }
       }
+    }
+  }
+
+  // BEGIN OF PRAKASAS PAGES CSSS
+  // Kebridge-poy page
+  &.keybridge-poy {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // .transfer {
+      //   color: $white-color;
+      //   background: $orange-color;
+      //   padding: 10px;
+      //   border-radius: 10px;
+      //   border: none;
+      //   outline: none;
+      //   font-size: 18px;
+      //   cursor: pointer;
+      //   transition: background-color 0.3s ease-in;
+      //   margin: 10px 0;
+      //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+    .container-keybridge-POI {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .container-keybridge-POI-features {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        text-align: left;
+      }
+      li {
+        text-decoration: none;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    }
+    .container-Dual {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        text-align: left;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .container-Unique {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        text-align: left;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+  }
+
+  // Kebridge-RKD page
+  &.keybridge-RKD {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // .transfer {
+      //   color: $white-color;
+      //   background: $orange-color;
+      //   padding: 10px;
+      //   border-radius: 10px;
+      //   border: none;
+      //   outline: none;
+      //   font-size: 18px;
+      //   cursor: pointer;
+      //   transition: background-color 0.3s ease-in;
+      //   margin: 10px 0;
+      //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+    .container-keybridge-RKD {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .container-keybridge-RKD-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      img {
+        background-position: center center;
+        // border: 1px solid $black-color;
+        margin-left: 195px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  // Kebridge-eKMS page
+  &.keybridge-eKMS {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+    .container-keybridge-eKMS {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .container-keybridge-eKMS-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  // TokenBRIDGE™ page
+  &.TokenBRIDGE {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+    .container-TokenBRIDGE {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .container-TokenBRIDGE-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  // KeyBridge page
+  &.KeyBRIDGE {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+    .container-KeyBRIDGE {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .container-KeyBRIDGE-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  // LAN-Applaiance page
+  &.LANapplaiance {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-LANapplaiance {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 550px;
+        margin-left: 50px;
+      }
+    }
+    .container-LANapplaiance-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  // PCIe-card page
+  &.PCIecard {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-PCIecard {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 425px;
+        height: auto;
+        margin-left: 50px;
+      }
+    }
+    .container-PCIecard-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  // Cloud, “HSM as a Service” page
+  &.cloud {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+    .container-cloud {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .container-cloud-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  // KeyManagement page
+  &.KeyManagement {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $white-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+    .container-KeyManagement {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .container-KeyManagement-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      img {
+        margin-left: 325px;
+      }
+      .button {
+        color: $white-color;
+        background: $orange-color;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color 0.3s ease-in;
+        margin: 10px 0;
+        margin-left: 620px;
+
+        &:hover {
+          background-color: $golden-color;
+        }
+      }
+    }
+  }
+
+  // CryptoServer SDK Page
+  &.CryptoServer {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-CryptoServer {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 425px;
+        height: auto;
+        margin-left: 50px;
+      }
+    }
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+    }
+
+    .grid4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
+    }
+
+    .container-CryptoServer-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  // CryptoScript SDK Page
+  &.CryptoScript {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-CryptoScript {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 425px;
+        height: auto;
+        margin-left: 50px;
+      }
+    }
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+    }
+
+    .grid4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
+    }
+
+    .container-CryptoScript-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  // General Purpose HSM Page
+  &.GeneralpurposeHSM1 {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-GeneralpurposeHSM1 {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 325px;
+        height: auto;
+        margin-left: 50px;
+      }
+    }
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+      p {
+        margin-left: 135px;
+      }
+    }
+
+    .container-GeneralpurposeHSM1-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  // SecurityServer Se Gen2 Page
+  &.GeneralpurposeHSM2 {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-GeneralpurposeHSM2 {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 325px;
+        height: auto;
+        margin-left: 50px;
+      }
+    }
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+      p {
+        margin-left: 135px;
+      }
+    }
+
+    .container-GeneralpurposeHSM2-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  // SecurityServer CSe Page
+  &.securityserver {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-securityserver {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 425px;
+        height: auto;
+        margin-left: 50px;
+      }
+    }
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+      p {
+        margin-left: 135px;
+      }
+    }
+
+    .container-securityserver-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .grid4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
+    }
+  }
+
+  // Block-safe Page
+  &.blocksafe {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-blocksafe {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 425px;
+        height: auto;
+        margin-left: 50px;
+      }
+    }
+
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+      p {
+        margin-left: 135px;
+      }
+    }
+
+    .container-blocksafe-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .grid3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
+    }
+  }
+
+  // CryptoServer CP5 (eIDAS & CC) Page
+  &.CryptoServerCP5 {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-CryptoServerCP5 {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 425px;
+        height: auto;
+        margin-left: 50px;
+      }
+    }
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+      p {
+        margin-left: 135px;
+      }
+    }
+
+    .container-CryptoServerCP5-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .grid4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
+    }
+  }
+
+  // CryptoServer Cloud Page
+  &.cryptoservercloud {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-cryptoservercloud {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 325px;
+        height: auto;
+        margin-left: 300px;
+        align-items: center;
+        justify-items: center;
+      }
+    }
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+      p {
+        margin-left: 250px;
+      }
+    }
+
+    .container-cryptoservercloud-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .grid4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
+    }
+  }
+
+  // TimestampServer Page
+  &.GeneralpurposeHSM {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-GeneralpurposeHSM {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 325px;
+        height: auto;
+        margin-left: 300px;
+        align-items: center;
+        justify-items: center;
+      }
+    }
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+      p {
+        margin-left: 250px;
+      }
+    }
+
+    .container-GeneralpurposeHSM-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .grid4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
+    }
+  }
+
+  // Q-safe Page
+  &.GeneralpurposeHSM {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-GeneralpurposeHSM {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 150px;
+        height: auto;
+        margin-left: 300px;
+        align-items: center;
+        justify-items: center;
+      }
+    }
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+      p {
+        margin-left: 250px;
+      }
+    }
+
+    .container-GeneralpurposeHSM-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+
+  // Atalla AT1000 Page
+  &.PaymentHSM {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-PaymentHSM {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 325px;
+        height: auto;
+        margin-left: 300px;
+        align-items: center;
+        justify-items: center;
+      }
+    }
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+      p {
+        margin-left: 250px;
+      }
+    }
+
+    .container-PaymentHSM-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .grid4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
+    }
+  }
+
+  // PaymentServer Se Gen2 Page
+  &.PaymentServerSeGen2 {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-PaymentServerSeGen2 {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 425px;
+        height: auto;
+
+        align-items: center;
+        justify-items: center;
+      }
+    }
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+      p {
+        margin-left: 250px;
+      }
+    }
+
+    .container-PaymentServerSeGen2-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .grid4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
+    }
+  }
+
+  // PaymentServer CSe Page
+  &.Paymentservercse {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-Paymentservercse {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+      p {
+        margin-left: 250px;
+      }
+    }
+
+    .container-Paymentservercse-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    }
+
+    .grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 50px;
+
+      img {
+        width: 425px;
+        height: auto;
+
+        align-items: center;
+        justify-items: center;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .grid4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
+    }
+  }
+
+  // Secure Configuration Assistant (SCA) Page
+  &.PaymentHSM {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-PaymentHSM {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 325px;
+        height: auto;
+        margin-left: 300px;
+        align-items: center;
+        justify-items: center;
+      }
+    }
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+      p {
+        margin-left: 250px;
+      }
+    }
+
+    .container-PaymentHSM-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .grid4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
+    }
+  }
+
+  // QuickStart Services Page
+  &.PaymentHSM {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-PaymentHSM {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid2 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 325px;
+        height: auto;
+        margin-left: 300px;
+        align-items: center;
+        justify-items: center;
+      }
+    }
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+      p {
+        margin-left: 250px;
+      }
+    }
+
+    .container-PaymentHSM-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .grid4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
+    }
+  }
+
+  // u.trust 360 Page
+  &.PaymentHSM {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-PaymentHSM {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 325px;
+        height: auto;
+        margin-left: 300px;
+        align-items: center;
+        justify-items: center;
+      }
+    }
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+      p {
+        margin-left: 250px;
+      }
+    }
+
+    .container-PaymentHSM-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .grid4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
+    }
+  }
+
+  // u.cloud – Atalla PaymentHSM Page
+  &.PaymentHSM {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-PaymentHSM {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 325px;
+        height: auto;
+        margin-left: 300px;
+        align-items: center;
+        justify-items: center;
+      }
+    }
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+      p {
+        margin-left: 250px;
+      }
+    }
+
+    .container-PaymentHSM-features {
+      height: auto;
+      margin: 50px;
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .grid4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
+    }
+  }
+
+  // Block-safe HSM simulator Page
+  &.Blocksafesimulator {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-Blocksafesimulator {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 325px;
+        height: auto;
+        margin-left: 300px;
+        align-items: center;
+        justify-items: center;
+      }
+    }
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+      p {
+        margin-left: 250px;
+      }
+    }
+
+    .container-Blocksafesimulator-features {
+      height: auto;
+      margin: 50px;
+
+      img {
+        width: 900px;
+        height: 400px;
+        margin-left: 275px;
+        justify-items: center;
+      }
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .grid4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
+    }
+  }
+
+  // CryptoServer CP5 simulator (eIDAS & CC) Page
+  &.cryptoserversimulator {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-cryptoserversimulator {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 325px;
+        height: auto;
+        margin-left: 300px;
+        align-items: center;
+        justify-items: center;
+      }
+    }
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+      p {
+        margin-left: 250px;
+      }
+    }
+
+    .container-cryptoserversimulator-features {
+      height: auto;
+      margin: 50px;
+
+      img {
+        width: 900px;
+        height: 400px;
+        margin-left: 275px;
+        justify-items: center;
+      }
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .grid4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
+    }
+  }
+
+  // SecurityServer simulator Page
+  &.PaymentHSM {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-PaymentHSM {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 325px;
+        height: auto;
+        margin-left: 300px;
+        align-items: center;
+        justify-items: center;
+      }
+    }
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+      p {
+        margin-left: 250px;
+      }
+    }
+
+    .container-PaymentHSM-features {
+      height: auto;
+      margin: 50px;
+
+      img {
+        width: 900px;
+        height: 400px;
+        margin-left: 275px;
+        justify-items: center;
+      }
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .grid4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
+    }
+  }
+
+  // Q-safe HSM simulator Page
+  &.PaymentHSM {
+    .container-product {
+      height: 80vh;
+      // border: 1px solid $black-color;
+      // background: darken($color:$dark-grey-color, $amount: 20)
+      // background: rgba(lighten($color: $dark-grey-color, $amount: 5),0.7);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      h1 {
+        color: $black-color;
+      }
+      p {
+        color: $black-color;
+        margin: 50px;
+        font-size: 18px;
+      }
+
+      // // .transfer {
+      // //   color: $white-color;
+      // //   background: $orange-color;
+      // //   padding: 10px;
+      // //   border-radius: 10px;
+      // //   border: none;
+      // //   outline: none;
+      // //   font-size: 18px;
+      // //   cursor: pointer;
+      // //   transition: background-color 0.3s ease-in;
+      // //   margin: 10px 0;
+      // //   text-decoration: none;
+
+      //   &:hover {
+      //     background-color: $golden-color;
+      //   }
+      // }
+    }
+
+    .container-PaymentHSM {
+      height: auto;
+      margin: 50px;
+
+      h1 {
+        color: $black-color;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 18px;
+      }
+    }
+    .grid3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 325px;
+        height: auto;
+        margin-left: 300px;
+        align-items: center;
+        justify-items: center;
+      }
+    }
+    .img {
+      justify-content: center;
+      align-items: center;
+      margin-left: 200px;
+
+      img {
+        margin-top: 20px;
+        width: 925px;
+      }
+      p {
+        margin-left: 250px;
+      }
+    }
+
+    .container-PaymentHSM-features {
+      height: auto;
+      margin: 50px;
+
+      img {
+        width: 900px;
+        height: 400px;
+        margin-left: 275px;
+        justify-items: center;
+      }
+
+      li {
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .grid4 {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 10px;
+      justify-content: center;
+      align-items: center;
+      margin: 25px;
     }
   }
 }

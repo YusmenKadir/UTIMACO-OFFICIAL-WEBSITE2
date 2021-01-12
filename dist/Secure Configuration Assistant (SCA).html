@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>keybridge-POI</title>
+    <title>Secure Configuration Assistant (SCA)</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -244,47 +244,63 @@
     </div>
 
   <!-- Contact A Specialist floating button -->
-  <a href="contact.html" class="btn contact-specialist-btn btn-primary"><i class="far fa-envelope fa-2x"></i></a>
+    <div class="contact-specialist">
+      <a href="contact.html" class="btn contact-specialist-btn btn-primary"><i class="far fa-envelope fa-2x"></i></a>
+    </div>
 
-    <main class="home keybridge-poy">
-       <div class="container-product" style="background-image: url('img/geobridge_keybridge_4100-1649x857.png');">
+    <main class="home PaymentHSM">
+     <div class="container-product" style="background-image: url('img/HSM-Utimaco-bankingandfinancial2-1649x857.jpg');">
         <h1 class="heading-primary"></h1>
-       
-       
+   
+        
         <!-- <a href="#" class="btn transfer">Transfer me to ...</a> -->
        </div>
-       <div class="container-keybridge-POI">
-         <h1 class="heading-primary">KeyBRIDGE POI</h1>
+    
+       <div class="container-PaymentHSM">    
+         <h1 class="heading-primary">Secure Configuration Assistant (SCA)</h1>
          <div class="bottom-line"></div>
-         <p class="body-text-font">The KeyBRIDGE Point of Interaction (POI) platform is a vendor agnostic solution that performs both DUKPT and MK/SK key injection for payment terminals and peripheral devices.</p>
-         <p class="body-text-font">Full support for all key types, including but not limited to DUKPT (PIN, MAC, or Data), standard E2E keys, KEKs, Master Session methods as well as alternative derivation techniques. The platform streamlines key injection operational efficiency while automatically capturing all relevant audit log details that can be exported and validated with ease, further reducing overhead associated with audit cycles. KeyBRIDGE is now deployed to support key injection for both TDES DUKPT as well as AES DUKPT.</p>
-       </div>
-       <div class="container-keybridge-POI-features">
-        <h1 class="heading-primary-smaller">Product Features</h1>
-        <div class="body-text-font">
-         <li>Centralized and secure key storage</li>
-         <li>Detailed key inventory</li>
-         <li>Manages unlimited Key Encryption Keys (KEKs)</li>
-         <li>Single & double length Master/Session keys</li>
-         <li>Ability to update the SMK for periodic key rotation</li>
-         <li>POS key erasure functionality to clear production keys from POS devices prior to transporting</li>
-         <li>Supported keys include:</li>
-         <li>Double & triple-length TDES keys</li>
-         <li>128, 192 & 256-bit AES keys</li>
-         <li>DUKPT for PIN</li>
-         <li>DUKPT for PAN/Data</li>
-         <li>DUKPT for MAC</li>
-        </div>
-      </div>
-        <div class="container-Dual">
-          <h1 class="heading-primary-smaller">Dual Control and Split Knowledge</h1>
-          <p class="body-text-font">With POI, keys are delivered from KeyBRIDGE over a connected interface such as USB, Serial, or Ethernet to a target device. In some instances, a clear key may traverse this interface because of the additional policies and procedures that govern the operation of the secure room where this activity is performed. The KeyBRIDGE appliance augments these policies and procedures by enforcing the concepts of dual control and split knowledge, with extensive audit logging to capture each action that is performed. All activities can be reliably traced to at least two unique personnel, while system managers have greater granular flexibility to assign unique role based access controls.</p>
-        </div>
+         <p class="body-text-font">The Atalla Secure Configuration Assistant (SCA) is a versatile remote management solution for Atalla HSMs on an easy-to-read Microsoft Windows platform. <br><br>
+            The SCA enables security administrators to easily configure commands, define parameters, calculate cryptograms, and inject cryptographic keys into Atalla Hardware Security Modules (HSMs) in a trusted manner. SCA implements an easy-to-use GUI with natural event and decision flow in the most convenient way to navigate improving security administrator user experience and productivity reducing risks of errors. <br><br>
 
-        <div class="container-Unique">
-          <h1 class="heading-primary-smaller">Unique Protocols Custom Developed</h1>
-          <p class="body-text-font">The KeyBRIDGE appliance supports the majority of PED manufacturers in the marketplace with over 300 certified POI devices today. These devices with unique protocols are custom developed to ensure that every key delivered can be traced to a manufacturer, unique model, device serial number, and additionally configurable meta-data elements. The KeyBRIDGE appliance allows for the concurrent connection of sixteen unique devices. Injection profiles are configurable that allow a user to inject upwards of thirty keys to a single device in as few as four mouse-clicks.</p>
-        </div>
+            The Atalla SCA supports AES 128, 246-bit keys along with legacy single-length DES, 2-key and 3-key triple DES, public key cryptography Atalla Key Block key management, and legacy variant key management.
+
+         </p><br><br>
+            <h2 class="heading-primary-smaller">Atalla Secure Keypad (ASK)
+                
+                </h2><br>
+            <p class="body-text-font">Atalla Secure Keypad is a secure cryptographic device (SCD) used to manually enter key components and smart card PINs. The Atalla Secure Keypad has a built-in smart card reader, keypad and LCD display. <br><br>
+
+                Atalla Secure Keypad is designed to meet the increased security requirements of PCI, x9.24 part 1, and other financial standards covering the manual entry of key components. All key components and smart card PINs are entered directly into the Atalla Secure Keypad and communicated securely to the smart card, isolating all security relevant data items from the SCA or any other components in between. <br><br>
+                 </p>
+
+                 <h3 class="heading-primary-smaller">Smart Card Authentication
+                
+                </h3><br>
+                <p class="body-text-font">Atalla SCA smart cards are personalized to individual cardholders, such as security administrators, IT managers, or executives. An organization defines its own security policy by setting the minimum number of cardholders required to approve each type of security action. Atalla SCA uses public key cryptography to establish an encrypted channel with the Atalla HSM. All subsequent communication between these devices is symmetrically encrypted. Security associations are formed between the SCA smart cards and the Atalla HSM products they configure and manage. <br><br>
+
+                    Atalla SCA security administrator smart cards enforce “M of N” quorum control to perform user authentication and support multiple controls for Atalla HSM configuration. Atalla SCA Backup Operator Smart Cards are used for quickly replicating and restoring Atalla HSM configurations on new or restored HSM.</p>
+
+              
+           
+     </div>
+
+         <div class="container-PaymentHSM-features">
+             <div class="body-text-font">
+               
+           
+        
+    
+
+       
+
+     
+    </div>
+          
+             </div>
+       
+
+      </div>
+        
 
 
 

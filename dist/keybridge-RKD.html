@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>keybridge-POI</title>
+    <title>keybridge-RKD</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -244,47 +244,46 @@
     </div>
 
   <!-- Contact A Specialist floating button -->
-  <a href="contact.html" class="btn contact-specialist-btn btn-primary"><i class="far fa-envelope fa-2x"></i></a>
+    <div class="contact-specialist">
+      <a href="contact.html" class="btn contact-specialist-btn btn-primary"><i class="far fa-envelope fa-2x"></i></a>
+    </div>
 
-    <main class="home keybridge-poy">
-       <div class="container-product" style="background-image: url('img/geobridge_keybridge_4100-1649x857.png');">
+    <main class="home keybridge-RKD">
+        <div class="container-product" style="background-image: url('img/geobridge_keybridge_4100-1649x857.png');">
         <h1 class="heading-primary"></h1>
-       
-       
+    
+        
         <!-- <a href="#" class="btn transfer">Transfer me to ...</a> -->
        </div>
-       <div class="container-keybridge-POI">
-         <h1 class="heading-primary">KeyBRIDGE POI</h1>
+    </div>
+       <div class="container-keybridge-RKD">
+         <h1 class="heading-primary">KeyBRIDGE RKD</h1>
          <div class="bottom-line"></div>
-         <p class="body-text-font">The KeyBRIDGE Point of Interaction (POI) platform is a vendor agnostic solution that performs both DUKPT and MK/SK key injection for payment terminals and peripheral devices.</p>
-         <p class="body-text-font">Full support for all key types, including but not limited to DUKPT (PIN, MAC, or Data), standard E2E keys, KEKs, Master Session methods as well as alternative derivation techniques. The platform streamlines key injection operational efficiency while automatically capturing all relevant audit log details that can be exported and validated with ease, further reducing overhead associated with audit cycles. KeyBRIDGE is now deployed to support key injection for both TDES DUKPT as well as AES DUKPT.</p>
+         <p class="body-text-font">KeyBRIDGE Remote Key Delivery (RKD) supports the remote distribution of keys to deployed (POI) terminals. By enabling remote key delivery, organizations save valuable time and resources by securely automating the delivery of keys to remote terminals.</p>
+         <p class="body-text-font">More and more, the industry is demanding the ability to implement remote symmetric key distribution without relying on the physical security, policies procedures and personnel associated with physical Key Injection Facilities (KIF). Moreover, in order to maintain a competitive advantage in the growing virtual marketplace, it is imperative to utilize solutions that allow for the reduction of operational delays and high costs associated with shipping devices to KIFs simply to receive new cryptographic keys. <br><br>
+
+            Organizations are better equipped to perform periodic key rotations and contend with a suspected or known key compromise by quickly and efficiently replacing terminal keys in the field. KeyBRIDGE RKD supports numerous APIs, including support for communicating and connecting with client-defined terminal management systems. KeyBRIDGE RKD leverages TR-34 for terminal payload generation, assuring secure, compliant and interoperable key transfer. Through the use of TLS 1.2, communications to and from the KeyBRIDGE RKD appliance are maintained and secured. As a licensed feature, KeyBRIDGE can fully support the requirements of Verifone Remote Key (VRK). This feature allows customers with their own Terminal Management Systems to build a remote keying facility, fully compatible with the latest Verfone terminal requirements.
+            <br><br>
+            KeyBRIDGE can also form the core of a system to remotely deploy PKI trust to terminals. In this role, it receives requests for key pairs; it generates the keys, forms CSRs and sends them to a CA, then gets the certificates and forms terminal payloads to be returned to the requesting Terminal Management System. This system functionally mirrors our standard RKD offering, but is focused on delivering terminal trust anchors. <br><br>
+            
+            The KeyBRIDGE RKD server is the core component in a cost-effective, compliant RKD solution.</p>
        </div>
-       <div class="container-keybridge-POI-features">
-        <h1 class="heading-primary-smaller">Product Features</h1>
+       <div class="container-keybridge-RKD-features">
+        <img src="img/geobridge_keybridge_rkd_graph.jpg" alt="">
         <div class="body-text-font">
-         <li>Centralized and secure key storage</li>
-         <li>Detailed key inventory</li>
-         <li>Manages unlimited Key Encryption Keys (KEKs)</li>
-         <li>Single & double length Master/Session keys</li>
-         <li>Ability to update the SMK for periodic key rotation</li>
-         <li>POS key erasure functionality to clear production keys from POS devices prior to transporting</li>
-         <li>Supported keys include:</li>
-         <li>Double & triple-length TDES keys</li>
-         <li>128, 192 & 256-bit AES keys</li>
-         <li>DUKPT for PIN</li>
-         <li>DUKPT for PAN/Data</li>
-         <li>DUKPT for MAC</li>
+            <p>The KeyBRIDGE platform is designed with compliance in mind, and supports the requirements of:</p><br><br>
+         <li>ASC X9.24, parts 1, 2 and 3</li>
+         <li>ASC X9 TR-31 Interoperable Secure Key Exchange Key Block Specification</li>
+         <li>ASC X9 TR-34 Interoperable Method for Distribution of Symmetric Keys using Asymmetric Techniques</li>
+         <li>PCI PIN and PCI P2PE key management</li><br><br>
+         <p>Also supported are methods that are similar but not conforming perfectly to the standard. Additionally, GEOBRIDGE has implemented symmetric key distribution protocols supported by many device manufacturers, and similar secret key distribution techniques employed by other manufacturers are supported as well. <br><br>
+
+            Lastly, the KeyBRIDGE appliance supports a simple JSON Schema RESTful API that can also be leveraged for remote key distribution techniques. This API may be accessible from a self managed KeyBRIDGE appliance, or available in a service model maintained by the GEOBRIDGE KEES™ Team <br><br>
+            
+            Find out more about <a href="#">GEOBRIDGE KEES™</a> GEOBRIDGE KEES™ on our website.</p>
         </div>
       </div>
-        <div class="container-Dual">
-          <h1 class="heading-primary-smaller">Dual Control and Split Knowledge</h1>
-          <p class="body-text-font">With POI, keys are delivered from KeyBRIDGE over a connected interface such as USB, Serial, or Ethernet to a target device. In some instances, a clear key may traverse this interface because of the additional policies and procedures that govern the operation of the secure room where this activity is performed. The KeyBRIDGE appliance augments these policies and procedures by enforcing the concepts of dual control and split knowledge, with extensive audit logging to capture each action that is performed. All activities can be reliably traced to at least two unique personnel, while system managers have greater granular flexibility to assign unique role based access controls.</p>
-        </div>
-
-        <div class="container-Unique">
-          <h1 class="heading-primary-smaller">Unique Protocols Custom Developed</h1>
-          <p class="body-text-font">The KeyBRIDGE appliance supports the majority of PED manufacturers in the marketplace with over 300 certified POI devices today. These devices with unique protocols are custom developed to ensure that every key delivered can be traced to a manufacturer, unique model, device serial number, and additionally configurable meta-data elements. The KeyBRIDGE appliance allows for the concurrent connection of sixteen unique devices. Injection profiles are configurable that allow a user to inject upwards of thirty keys to a single device in as few as four mouse-clicks.</p>
-        </div>
+        
 
 
 

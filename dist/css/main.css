@@ -304,7 +304,13 @@
   .dropdown {
     width: 100%; }
   .dropdown:hover .dropdown-menu {
-    width: 100%; } }
+    width: 100%; }
+  #searchbox {
+    display: none; }
+  .menu-items .link-lang-en,
+  .menu-items .link-lang-de,
+  .menu-items .fas.fa-search {
+    display: none; } }
 
 .heading-primary {
   font-family: 'Roboto Condensed', sans-serif;
@@ -3038,6 +3044,24 @@ main {
     justify-content: space-between; }
     main.home .partners .swiper-container .swiper-slide img {
       width: 100px; }
+  main.careers .container-careers-overlay h1 {
+    font-size: 24px; }
+  main.careers .container-careers-heading h1 {
+    font-size: 20px; }
+  main.careers .container-careers-heading .bottom-line {
+    width: 4rem; }
+  main.careers #app .careers-dropdowns {
+    flex-direction: column;
+    width: 90%; }
+    main.careers #app .careers-dropdowns-box {
+      text-align: center; }
+      main.careers #app .careers-dropdowns-box select {
+        width: 90%;
+        font-size: 16px; }
+  main.careers .app .dropdown-table {
+    flex-direction: column; }
+    main.careers .app .dropdown-table .div {
+      font-size: 16px; }
   main.limsgateway .container-limsgateway-overlay h1 {
     font-size: 24px; }
   main.limsgateway .container-limsgateway-grid3 h1 {
@@ -3525,6 +3549,24 @@ main {
     justify-content: space-between; }
     main.home .partners .swiper-container .swiper-slide img {
       width: 100px; }
+  main.careers .container-careers-overlay h1 {
+    font-size: 30px; }
+  main.careers .container-careers-heading h1 {
+    font-size: 24px; }
+  main.careers .container-careers-heading .bottom-line {
+    width: 4rem; }
+  main.careers #app .careers-dropdowns {
+    flex-direction: column;
+    width: 90%; }
+    main.careers #app .careers-dropdowns-box {
+      text-align: center; }
+      main.careers #app .careers-dropdowns-box select {
+        width: 90%;
+        font-size: 18px; }
+  main.careers .app .dropdown-table {
+    flex-direction: column; }
+    main.careers .app .dropdown-table .div {
+      font-size: 18px; }
   main.limsgateway .container-limsgateway-overlay h1 {
     font-size: 30px; }
   main.limsgateway .container-limsgateway-grid3 h1 {
@@ -4005,6 +4047,24 @@ main {
     justify-content: space-between; }
     main.home .partners .swiper-container .swiper-slide img {
       width: 100px; }
+  main.home.careers .container-careers-overlay h1 {
+    font-size: 35px; }
+  main.home.careers .container-careers-heading h1 {
+    font-size: 24px; }
+  main.home.careers .container-careers-heading .bottom-line {
+    width: 5rem; }
+  main.home.careers #app .careers-dropdowns {
+    flex-direction: column;
+    width: 90%; }
+    main.home.careers #app .careers-dropdowns-box {
+      text-align: center; }
+      main.home.careers #app .careers-dropdowns-box select {
+        width: 90%;
+        font-size: 18px; }
+  main.home.careers .app .dropdown-table {
+    flex-direction: column; }
+    main.home.careers .app .dropdown-table .div {
+      font-size: 18px; }
   main.home.limsgateway .container-limsgateway-overlay h1 {
     font-size: 35px; }
   main.home.limsgateway .container-limsgateway-grid3 h1 {

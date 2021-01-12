@@ -133,44 +133,87 @@
       }
     }
 
-    //LIMS GATEWAY PAGE 
-    &.limsgateway{
-      .container-limsgateway{
-         &-overlay{
-           h1{
-             font-size: 24px;
-           }
-         }
+    //CAREERS PAGE
+    &.careers {
+      .container-careers {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
 
-         &-grid3{
-           h1{
-             font-size: 20px;
-           }
-           .grid{
-             grid-template-columns: 1fr;
-             .box-info{
-               p{
-                 font-size: 16px;
-               }
-             }
-           }
-         }
+        &-heading {
+          h1 {
+            font-size: 20px;
+          }
+          .bottom-line {
+            width: 4rem;
+          }
+        }
+      }
 
-         &-grid,
-         &-grid2{
-           grid-template-columns: 1fr;
-           padding:5px;
+      #app {
+        .careers-dropdowns {
+          flex-direction: column;
+          width: 90%;
+          &-box {
+            text-align: center;
+            select {
+              width: 90%;
+              font-size: 16px;
+            }
+          }
+        }
+      }
 
-           .box-info{
-             p{
-               font-size: 16px;
-             }
+      .app {
+        .dropdown-table {
+          flex-direction: column;
+          .div {
+            font-size: 16px;
+          }
+        }
+      }
+    }
 
-             h1{
-               font-size: 20px;
-             }
-           }
-         }
+    //LIMS GATEWAY PAGE
+    &.limsgateway {
+      .container-limsgateway {
+        &-overlay {
+          h1 {
+            font-size: 24px;
+          }
+        }
+
+        &-grid3 {
+          h1 {
+            font-size: 20px;
+          }
+          .grid {
+            grid-template-columns: 1fr;
+            .box-info {
+              p {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+
+        &-grid,
+        &-grid2 {
+          grid-template-columns: 1fr;
+          padding: 5px;
+
+          .box-info {
+            p {
+              font-size: 16px;
+            }
+
+            h1 {
+              font-size: 20px;
+            }
+          }
+        }
       }
     }
 
@@ -192,7 +235,7 @@
             p {
               font-size: 16px;
             }
-            h1{
+            h1 {
               font-size: 20px;
             }
           }
@@ -206,7 +249,7 @@
             grid-template-columns: 1fr;
 
             .box-info {
-              h4{
+              h4 {
                 font-size: 18px;
               }
               p {
@@ -1304,90 +1347,133 @@
       }
     }
 
-      //LIMS GATEWAY PAGE 
-      &.limsgateway{
-        .container-limsgateway{
-           &-overlay{
-             h1{
-               font-size: 30px;
-             }
-           }
-  
-           &-grid3{
-             h1{
-               font-size: 24px;
-             }
-             .grid{
-               grid-template-columns: 1fr;
-               .box-info{
-                 p{
-                   font-size: 18px;
-                 }
-               }
-             }
-           }
-  
-           &-grid,
-           &-grid2{
-             grid-template-columns: 1fr;
-             padding:5px;
-  
-             .box-info{
-               p{
-                 font-size: 18px;
-               }
-  
-               h1{
-                 font-size: 24px;
-               }
-             }
-           }
+    //CAREERS PAGE
+    &.careers {
+      .container-careers {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+
+        &-heading {
+          h1 {
+            font-size: 24px;
+          }
+          .bottom-line {
+            width: 4rem;
+          }
         }
       }
 
-      //LIMS ACCESS POINT
-      &.limsaccesspoint {
-        .container-limsaccesspoint {
-          &-overlay {
-            h1 {
-              font-size: 30px;
+      #app {
+        .careers-dropdowns {
+          flex-direction: column;
+          width: 90%;
+          &-box {
+            text-align: center;
+            select {
+              width: 90%;
+              font-size: 18px;
             }
           }
-  
-          &-grid,
-          &-grid2,
-          &-grid4 {
+        }
+      }
+
+      .app {
+        .dropdown-table {
+          flex-direction: column;
+          .div {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+
+    //LIMS GATEWAY PAGE
+    &.limsgateway {
+      .container-limsgateway {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+
+        &-grid3 {
+          h1 {
+            font-size: 24px;
+          }
+          .grid {
             grid-template-columns: 1fr;
             .box-info {
-              width: 95%;
               p {
                 font-size: 18px;
               }
-              h1{
-                font-size: 24px;
-              }
             }
           }
-  
-          &-grid3 {
+        }
+
+        &-grid,
+        &-grid2 {
+          grid-template-columns: 1fr;
+          padding: 5px;
+
+          .box-info {
+            p {
+              font-size: 18px;
+            }
+
             h1 {
               font-size: 24px;
             }
-            .grid {
-              grid-template-columns: 1fr;
-  
-              .box-info {
-                h4{
-                  font-size: 20px;
-                }
-                p {
-                  font-size: 18px;
-                }
+          }
+        }
+      }
+    }
+
+    //LIMS ACCESS POINT
+    &.limsaccesspoint {
+      .container-limsaccesspoint {
+        &-overlay {
+          h1 {
+            font-size: 30px;
+          }
+        }
+
+        &-grid,
+        &-grid2,
+        &-grid4 {
+          grid-template-columns: 1fr;
+          .box-info {
+            width: 95%;
+            p {
+              font-size: 18px;
+            }
+            h1 {
+              font-size: 24px;
+            }
+          }
+        }
+
+        &-grid3 {
+          h1 {
+            font-size: 24px;
+          }
+          .grid {
+            grid-template-columns: 1fr;
+
+            .box-info {
+              h4 {
+                font-size: 20px;
+              }
+              p {
+                font-size: 18px;
               }
             }
           }
         }
       }
+    }
 
     //LIMS PRODUCT PAGE
 
@@ -2446,90 +2532,133 @@
         }
       }
 
-        //LIMS GATEWAY PAGE 
-    &.limsgateway{
-      .container-limsgateway{
-         &-overlay{
-           h1{
-             font-size: 35px;
-           }
-         }
-
-         &-grid3{
-           h1{
-             font-size: 24px;
-           }
-           .grid{
-            //  grid-template-columns: 1fr;
-             .box-info{
-               p{
-                 font-size: 18px;
-               }
-             }
-           }
-         }
-
-         &-grid,
-         &-grid2{
-           grid-template-columns: repeat(2,1fr);
-           padding:5px;
-
-           .box-info{
-             p{
-               font-size: 18px;
-             }
-
-             h1{
-               font-size: 24px;
-             }
-           }
-         }
-      }
-    }
-
-        //LIMS ACCESS POINT
-    &.limsaccesspoint {
-      .container-limsaccesspoint {
-        &-overlay {
-          h1 {
-            font-size: 35px;
-          }
-        }
-
-        &-grid,
-        &-grid2,
-        &-grid4 {
-          // grid-template-columns: 1fr;
-          .box-info {
-            width: 95%;
-            p {
-              font-size: 18px;
+      //CAREERS PAGE
+      &.careers {
+        .container-careers {
+          &-overlay {
+            h1 {
+              font-size: 35px;
             }
-            h1{
+          }
+
+          &-heading {
+            h1 {
               font-size: 24px;
             }
+            .bottom-line {
+              width: 5rem;
+            }
           }
         }
 
-        &-grid3 {
-          h1 {
-            font-size: 24px;
-          }
-          .grid {
-            grid-template-columns: repeat(3,1fr);
-
-            .box-info {
-              h4{
-                font-size: 22px;
-              }
-              p {
+        #app {
+          .careers-dropdowns {
+            flex-direction: column;
+            width: 90%;
+            &-box {
+              text-align: center;
+              select {
+                width: 90%;
                 font-size: 18px;
               }
             }
           }
         }
+
+        .app {
+          .dropdown-table {
+            flex-direction: column;
+            .div {
+              font-size: 18px;
+            }
+          }
+        }
       }
-    }
+
+      //LIMS GATEWAY PAGE
+      &.limsgateway {
+        .container-limsgateway {
+          &-overlay {
+            h1 {
+              font-size: 35px;
+            }
+          }
+
+          &-grid3 {
+            h1 {
+              font-size: 24px;
+            }
+            .grid {
+              //  grid-template-columns: 1fr;
+              .box-info {
+                p {
+                  font-size: 18px;
+                }
+              }
+            }
+          }
+
+          &-grid,
+          &-grid2 {
+            grid-template-columns: repeat(2, 1fr);
+            padding: 5px;
+
+            .box-info {
+              p {
+                font-size: 18px;
+              }
+
+              h1 {
+                font-size: 24px;
+              }
+            }
+          }
+        }
+      }
+
+      //LIMS ACCESS POINT
+      &.limsaccesspoint {
+        .container-limsaccesspoint {
+          &-overlay {
+            h1 {
+              font-size: 35px;
+            }
+          }
+
+          &-grid,
+          &-grid2,
+          &-grid4 {
+            // grid-template-columns: 1fr;
+            .box-info {
+              width: 95%;
+              p {
+                font-size: 18px;
+              }
+              h1 {
+                font-size: 24px;
+              }
+            }
+          }
+
+          &-grid3 {
+            h1 {
+              font-size: 24px;
+            }
+            .grid {
+              grid-template-columns: repeat(3, 1fr);
+
+              .box-info {
+                h4 {
+                  font-size: 22px;
+                }
+                p {
+                  font-size: 18px;
+                }
+              }
+            }
+          }
+        }
+      }
 
       //LIMS PRODUCT PAGE
 

@@ -426,4 +426,15 @@
   .dropdown:hover .dropdown-menu {
     width: 100%;
   }
+
+  #searchbox{
+    display: none;
+  }
+
+  .menu-items .link-lang-en,
+  .menu-items .link-lang-de,
+  .menu-items .fas.fa-search{
+    display: none;
+  }
+ 
 }

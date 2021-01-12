@@ -6,7 +6,7 @@ const expandBtn = document.querySelectorAll(".expand-btn");
 menuBtn.addEventListener("click", () => {
   menuBtn.classList.toggle("open");
   menuItems.classList.toggle("open");
-  console.log("clicked");
+  // console.log("clicked");
 });
 
 // mobile menu expand
@@ -41,7 +41,7 @@ window.onload = () => {
   const acceptFn = event => {
       saveToStorage(storageType);
       consentPopup.classList.add('hidden');
-      console.log('clicked')
+      // console.log('clicked')
   }
   const consentPopup = document.getElementById('consent-popup');
   const acceptBtn = document.getElementById('accept');
